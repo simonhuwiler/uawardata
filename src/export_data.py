@@ -1,14 +1,11 @@
-# %%
 # Export data
 
-# %%
 import pandas as pd
 from pathlib import Path
 import json
 import os
 from decouple import config
 
-# %%
 # Load env Vars
 sheet_troops = os.getenv("SHEET_TROOPS", None)
 if not sheet_troops:
@@ -21,13 +18,10 @@ if not sheet_assessments:
 print(len(sheet_troops))
 print(len(sheet_assessments))
 
-# %%
-export_folder = Path('../../ukraine_troops_map/public/geo/')
+export_folder = Path('../ukraine_troops_map/public/geo/')
 
-# %%
 df = pd.read_csv(sheet_troops)
 
-# %%
 data = {
         "type": "FeatureCollection",
         "features": []
@@ -74,13 +68,9 @@ for i, row in df.iterrows():
 with open(export_folder / Path('./data.json'), 'w', encoding='UTF-8') as f:
     json.dump(data, f, ensure_ascii=False)
 
-
-
-# %%
 # Download Assessments
 df = pd.read_csv(sheet_assessments)
 
-# %%
 data = []
 for i, row in df.iterrows():
     data.append({
@@ -92,7 +82,6 @@ for i, row in df.iterrows():
 with open(export_folder / Path('./assessments.json'), 'w', encoding='UTF-8') as f:
     json.dump(data, f)
 
-# %%
 
 
 
