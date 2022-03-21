@@ -18,7 +18,7 @@ if not sheet_assessments:
 print(len(sheet_troops))
 print(len(sheet_assessments))
 
-export_folder = Path('../ukraine_troops_map/public/geo/')
+export_folder = Path('./data/')
 
 df = pd.read_csv(sheet_troops)
 
