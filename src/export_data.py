@@ -8,6 +8,7 @@ from decouple import config
 
 # Load env Vars
 sheet_troops = os.getenv("SHEET_TROOPS", None)
+print(sheet_troops)
 if not sheet_troops:
     sheet_troops = config("SHEET_TROOPS")
 
