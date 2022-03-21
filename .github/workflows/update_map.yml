@@ -38,15 +38,15 @@ jobs:
         with:
           node-version: "10"
 
-    - name: FTP Deploy to WP Engine (Production)
-      # Doku: https://github.com/SamKirkland/FTP-Deploy-Action/tree/3.1.1
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
-      with:
-        ftp-server:  ${{ secrets.FTP_HOST }}
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: data
-        git-ftp-args: --insecure          
+      - name: FTP Deploy to WP Engine (Production)
+        # Doku: https://github.com/SamKirkland/FTP-Deploy-Action/tree/3.1.1
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server:  ${{ secrets.FTP_HOST }}
+          ftp-username: ${{ secrets.FTP_USERNAME }}
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: data
+          git-ftp-args: --insecure          
         
       #- name: Log failure to slack
       #  if: always()
