@@ -1,0 +1,9 @@
+*.gpkg-shm
+*.gpkg-wal
+.ipynb_checkpoints/
+*.gqm
+env
+__pycache__
+.vscode
+credentials.py
+.env
