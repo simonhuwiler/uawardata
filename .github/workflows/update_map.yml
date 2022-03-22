@@ -1,4 +1,4 @@
-name: Sheets to Website
+name: Update Websites
 
 on:
   # Schedule makes this bot run in regular intervals, without any interventions
@@ -49,11 +49,22 @@ jobs:
           node-version: "10"
 
       - name: FTP Deploy to WP Engine (Production)
-        # Doku: https://github.com/SamKirkland/FTP-Deploy-Action/tree/3.1.1
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
           ftp-server:  ${{ secrets.FTP_HOST }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
           local-dir: data
-          git-ftp-args: --insecure          
+          git-ftp-args: --insecure   
+
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Autoupdate" -- ./data
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GIT_TOKEN }}
+          #branch: ${{ github.ref }}                 
