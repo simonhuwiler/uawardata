@@ -8,16 +8,13 @@ from decouple import config
 
 # Load env Vars
 sheet_troops = os.getenv("SHEET_TROOPS", None)
-print(sheet_troops)
+
 if not sheet_troops:
     sheet_troops = config("SHEET_TROOPS")
 
 sheet_assessments = os.getenv("SHEET_ASSESSMENTS", None)
 if not sheet_assessments:
     sheet_assessments = config("SHEET_ASSESSMENTS")
-
-print(len(sheet_troops))
-print(len(sheet_assessments))
 
 export_folder = Path('./data/')
 
