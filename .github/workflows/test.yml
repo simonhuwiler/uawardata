@@ -1,0 +1,30 @@
+name: TEST
+
+on:
+  # Schedule makes this bot run in regular intervals, without any interventions
+  #schedule:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+      - name: Get pip cache dir
+        id: pip-cache
+        run: |
+          echo "::set-output name=dir::$(pip cache dir)"
+      - name: Run python scripts
+        run: |
+          python ./src/test.py
+      - name: Setup Node.js
+        env: 
+          SHEET_TROOPS: ${{ secrets.SHEET_TROOPS }}
+          SHEET_ASSESSMENTS: ${{ secrets.SHEET_ASSESSMENTS }}  
