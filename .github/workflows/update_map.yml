@@ -49,12 +49,14 @@ jobs:
           node-version: "10"
     
       - name: Commit files
+        continue-on-error: true
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -m "Autoupdate" -- ./data
 
       - name: Push changes
+        continue-on-error: true
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GIT_TOKEN }}
