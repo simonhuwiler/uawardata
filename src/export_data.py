@@ -41,6 +41,7 @@ for i, row in df.iterrows():
 
         data['features'].append({
             "type": "Feature",
+            "id": i,
             "properties": {
                 "date": row['date'].strftime('%Y-%m-%d'),
                 "type": row['type'],
