@@ -74,7 +74,7 @@ data = []
 for i, row in df.iterrows():
     data.append({
         'date': row['date'],
-        'date_visible': row['date_visible'],
+        # 'date_visible': row['date_visible'],
         'text': row['text']
     })
 
