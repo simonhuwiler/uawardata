@@ -63,7 +63,8 @@ jobs:
           github_token: ${{ secrets.GIT_TOKEN }}
           
       - name: FTP Deploy to WP Engine (Production)
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        # uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0
         #uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           # server: ${{ secrets.FTP_HOST }}
