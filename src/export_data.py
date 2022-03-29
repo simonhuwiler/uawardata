@@ -1,5 +1,6 @@
 # Export data
 
+from logging import raiseExceptions
 import pandas as pd
 from pathlib import Path
 import json
@@ -37,12 +38,18 @@ data = {
         "features": []
     }
 
+# Convert date
 try:
     df['date'] = pd.to_datetime(df['date'])
 except:
-    print("🤬 Field 'date' could not be converted to DateTime. Please check Date column")
-    print("")
-    pass
+    raise ValueError("🤬 Field 'date' could not be converted to DateTime. Please check Date column")
+
+# Convert Lat Lng
+try:
+    df['lat'] = df['location'].apply(lambda x: x.replace(' ', '').split(',')[0])
+    df['lng'] = df['location'].apply(lambda x: x.replace(' ', '').split(',')[1])
+except:
+    raise ValueError("🤬 Could not convert 'Location? into Lat Lng. Probably empty or invalid input")
 
 for i, row in df.iterrows():
     try:
@@ -56,14 +63,13 @@ for i, row in df.iterrows():
             "id": i,
             "properties": {
                 "date": row['date'].strftime('%Y-%m-%d'),
-                "type": row['type'],
                 "icon": row['icon'],
-                "number": row['number'] if pd.notna(row['number']) else None,
+                "type": row['type'],
                 "strength": row['strength'].strip(),
                 "strength_in_btg": row['strength_in_btg'],
                 "unit": row['unit'].strip(),
+                "number": row['number'] if pd.notna(row['number']) else None,
                 "subordinate_to": row['subordinate_to'].strip(),
-                "direction": row['direction'],
             },
             "geometry": {
                 "type": "Point",
@@ -77,8 +83,9 @@ for i, row in df.iterrows():
         pass
         break
     
-json.dump(data, open(export_folder / Path('./units.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
+json.dump(data, open(export_folder / Path('./units.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
 json.dump(data, open(export_folder_website / Path('./units.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
+df[['lat', 'lng', 'date', 'icon', 'type', 'strength', 'strength_in_btg', 'unit', 'number', 'subordinate_to']].to_csv(export_folder / './units.csv', index=False)
 
 # ----- Download BTGs
 df = pd.read_csv(sheet_btg)
@@ -91,9 +98,15 @@ data = {
 try:
     df['date'] = pd.to_datetime(df['date'])
 except:
-    print("🤬 Field 'date' could not be converted to DateTime. Please check Date column")
-    print("")
-    pass
+    raise ValueError("🤬 Field 'date' could not be converted to DateTime. Please check Date column")
+
+# Convert Lat Lng
+try:
+    df['lat'] = df['location'].apply(lambda x: x.replace(' ', '').split(',')[0])
+    df['lng'] = df['location'].apply(lambda x: x.replace(' ', '').split(',')[1])
+except:
+    raise ValueError("🤬 Could not convert 'Location? into Lat Lng. Probably empty or invalid input")
+
 
 for i, row in df.iterrows():
     try:
@@ -122,8 +135,9 @@ for i, row in df.iterrows():
         pass
         break
     
-json.dump(data, open(export_folder / Path('./btgs.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
+json.dump(data, open(export_folder / Path('./btgs.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
 json.dump(data, open(export_folder_website / Path('./btgs.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
+df[['date', 'lat', 'lng', 'unit', 'type_of_btg']].to_csv(export_folder / './btgs.csv', index=False)
 
 # ----- Download Assessments
 df = pd.read_csv(sheet_assessments)
