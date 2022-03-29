@@ -5,6 +5,7 @@ from pathlib import Path
 import json
 import os
 from decouple import config
+import shutil
 
 # Load env Vars
 sheet_troops = os.getenv("SHEET_TROOPS", None)
@@ -20,7 +21,13 @@ if not sheet_btg:
     sheet_btg = config("SHEET_BTG")
 
 export_folder = Path('./data/')
+export_folder_website = Path('./website_tmp')
 
+# Create TMP Folder
+if export_folder_website.exists():
+    shutil.rmtree(export_folder_website)
+
+os.mkdir(export_folder_website, )
 
 # ----- Download Units
 df = pd.read_csv(sheet_troops)
@@ -70,8 +77,8 @@ for i, row in df.iterrows():
         pass
         break
     
-with open(export_folder / Path('./units.json'), 'w', encoding='UTF-8') as f:
-    json.dump(data, f, ensure_ascii=False)
+json.dump(data, open(export_folder / Path('./units.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
+json.dump(data, open(export_folder_website / Path('./units.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
 
 # ----- Download BTGs
 df = pd.read_csv(sheet_btg)
@@ -115,8 +122,8 @@ for i, row in df.iterrows():
         pass
         break
     
-with open(export_folder / Path('./btgs.json'), 'w', encoding='UTF-8') as f:
-    json.dump(data, f, ensure_ascii=False)
+json.dump(data, open(export_folder / Path('./btgs.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
+json.dump(data, open(export_folder_website / Path('./btgs.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
 
 # ----- Download Assessments
 df = pd.read_csv(sheet_assessments)
@@ -129,7 +136,7 @@ for i, row in df.iterrows():
         'text': row['text']
     })
 
-with open(export_folder / Path('./assessments.json'), 'w', encoding='UTF-8') as f:
+with open(export_folder_website / Path('./assessments.json'), 'w', encoding='UTF-8') as f:
     json.dump(data, f)
 
 
