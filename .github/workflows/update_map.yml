@@ -74,4 +74,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./website_tmp/
-          git-ftp-args: --insecure   
+          security: loose
+          #git-ftp-args: --insecure   
