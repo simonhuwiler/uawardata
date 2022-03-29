@@ -72,9 +72,9 @@ jobs:
           # local_dir: ./website_tmp/
           #protocol: ftp
           # security: loose
-          log-level: verbose
+          # log-level: verbose
           ftp-server:  ${{ secrets.FTP_HOST }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
           local-dir: website_tmp
-          git-ftp-args: --all--insecure
+          git-ftp-args: --all
