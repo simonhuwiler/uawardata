@@ -64,8 +64,7 @@ jobs:
           
       - name: FTP Deploy to WP Engine (Production)
         # uses: SamKirkland/FTP-Deploy-Action@3.1.1
-        uses: SamKirkland/FTP-Deploy-Action@2.0.0
-        #uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           # server: ${{ secrets.FTP_HOST }}
           # username: ${{ secrets.FTP_USERNAME }}
@@ -77,5 +76,5 @@ jobs:
           ftp-server:  ${{ secrets.FTP_HOST }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          git-ftp-args: --all --insecure
+          git-ftp-args: --insecure
           local-dir: website_tmp
