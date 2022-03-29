@@ -64,13 +64,13 @@ jobs:
           
       - name: FTP Deploy to WP Engine (Production)
         # uses: SamKirkland/FTP-Deploy-Action@3.1.1
-        uses: airvzxf/ftp-deployment-action@latest
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: ${{ secrets.FTP_HOST }}
-          user: ${{ secrets.FTP_USERNAME }}
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local_dir: "./website_tmp"
-          delete: "false"
+          protocol: ftp
           # ftp-server:  ${{ secrets.FTP_HOST }}
           # ftp-username: ${{ secrets.FTP_USERNAME }}
           # ftp-password: ${{ secrets.FTP_PASSWORD }}
