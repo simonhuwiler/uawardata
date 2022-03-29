@@ -63,10 +63,16 @@ jobs:
           github_token: ${{ secrets.GIT_TOKEN }}
           
       - name: FTP Deploy to WP Engine (Production)
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        # uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses: airvzxf/ftp-deployment-action@latest
         with:
-          ftp-server:  ${{ secrets.FTP_HOST }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: website_tmp
-          git-ftp-args: --all --insecure
+          server: ${{ secrets.FTP_HOST }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local_dir: "./website_tmp"
+          delete: "false"
+          # ftp-server:  ${{ secrets.FTP_HOST }}
+          # ftp-username: ${{ secrets.FTP_USERNAME }}
+          # ftp-password: ${{ secrets.FTP_PASSWORD }}
+          # local-dir: website_tmp
+          # git-ftp-args: --all --insecure
