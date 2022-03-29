@@ -72,6 +72,7 @@ jobs:
           local_dir: ./website_tmp/
           protocol: ftps-legacy
           security: loose
+          log-level: verbose
           # ftp-server:  ${{ secrets.FTP_HOST }}
           # ftp-username: ${{ secrets.FTP_USERNAME }}
           # ftp-password: ${{ secrets.FTP_PASSWORD }}
