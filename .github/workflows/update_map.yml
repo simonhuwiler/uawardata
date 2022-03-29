@@ -66,15 +66,8 @@ jobs:
         # uses: SamKirkland/FTP-Deploy-Action@3.1.1
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          # server: ${{ secrets.FTP_HOST }}
-          # username: ${{ secrets.FTP_USERNAME }}
-          # password: ${{ secrets.FTP_PASSWORD }}
-          # local_dir: ./website_tmp/
-          #protocol: ftp
-          # security: loose
-          # log-level: verbose
-          ftp-server:  ${{ secrets.FTP_HOST }}
+          ftp-server: ${{ secrets.FTP_HOST }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          git-ftp-args: --insecure
           local-dir: website_tmp
+          git-ftp-args: --insecure
