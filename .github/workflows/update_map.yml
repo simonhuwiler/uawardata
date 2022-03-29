@@ -40,6 +40,7 @@ jobs:
         env: 
           SHEET_TROOPS: ${{ secrets.SHEET_TROOPS }}
           SHEET_ASSESSMENTS: ${{ secrets.SHEET_ASSESSMENTS }}
+          SHEET_BTG: ${{ secrets.SHEET_BTG }}
         run: |
           python ./src/export_data.py
 
