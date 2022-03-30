@@ -13,36 +13,36 @@ All data is stored in the folder [`/data`](./data) as a [csv](./data/csv) and [g
 
 ### Units
 Files:
-* `units_all.geojson` and `units_all.csv`: The complete data
+* `units_all.geojson` and `units_all.csv`: All data points
 * `units_current.geojson`and `units_current.csv`: Only the most current day
 
-This file contains the units and where approximately their headquarters might be. Each unit in turn consists of different battalions (more about this later). The columns/properties of the file:
+The **Unit**-files contains the units and where approximately their headquarters might be. Each unit in turn consists of different battalions (more about this later). The columns/properties of the files:
 
 | Property | Type | Description |
 |----------|------|-------------|
-|date|*str*|At which date a unit was there|
+|date|*str*|At which date a unit was there (`%Y-%m-%d`)|
 |lat|*float*|Latitude, only in CSV|
-|lon|*float*|Longitude, only in CSV|
+|lng|*float*|Longitude, only in CSV|
 |icon|*str*|Nato symbol (MIL-STD-2525C).|
 |type|*str*|Type of units (eg *Mechanized Infantry*)|
 |strength|*str*|Strength of units (eg *Battalion*)|
-|strength_in_btg|*str*|Approx. Strength in Batallion Tactical Groups|
+|strength_in_btg|*number*|Approx. Strength in Batallion Tactical Groups|
 |unit|*str*|Name of the unit|
 |number|*number*|Name of the unit as a number|
 |subordinate_to|*str*|Subordinates to which unit|
 
 ### BTGs
 Files:
-* `btgs_all.geojson` and `btgs_all.csv`: The complete data
+* `btgs_all.geojson` and `btgs_all.csv`: All data points
 * `btgs_current.geojson`and `btgs_current.csv`: Only the most current day
 
-In this file the positions of the individual units (brigades, divisions, etc.) are stored. This file is the most accurate representation of the war.
+The **BTGs**-files contains the position of each individual unit (brigades, divisions, etc.). This file is the most accurate representation of the military presence.
 
 | Property | Type | Description |
 |----------|------|-------------|
-|date|*str*|At which date a unit was there|
+|date|*str*|At which date a unit was there (`%Y-%m-%d`)|
 |lat|*float*|Latitude, only in CSV|
-|lon|*float*|Longitude, only in CSV|
+|lng|*float*|Longitude, only in CSV|
 |unit|*str*|Name of the unit|
 |type_of_btg|*enum*|Type of unit. One of these: `motor_rifle`, `vdv` (Russian Airborne Forces), `tank`|
 
