@@ -32,6 +32,7 @@ os.mkdir(export_folder_website, )
 
 # ----- Download Units
 df = pd.read_csv(sheet_troops)
+df = df.sort_values('date')
 
 data = {
         "type": "FeatureCollection",
@@ -94,6 +95,7 @@ json.dump(data, open(export_folder / Path('./geojson/units_current.geojson'), 'w
 
 # ----- Download BTGs
 df = pd.read_csv(sheet_btg)
+df = df.sort_values('date')
 
 data = {
         "type": "FeatureCollection",
@@ -152,6 +154,7 @@ json.dump(data, open(export_folder / Path('./geojson/btgs_current.geojson'), 'w'
 
 # ----- Download Assessments
 df = pd.read_csv(sheet_assessments)
+df = df.sort_values('date')
 
 data = []
 for i, row in df.iterrows():

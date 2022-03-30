@@ -1,4 +1,5 @@
 date,lat,lng,unit,type_of_btg
+2022-03-26,46.796962,32.271940,33rd Guards Motorized Rifle Regiment,motor_rifle
 2022-03-26,51.134688,31.860681,90th Guards Tank Division,tank
 2022-03-26,50.234012,34.331867,4th Guards Tank Division,tank
 2022-03-26,50.607144,32.562896,2nd Guards Motorized Rifle Division,motor_rifle
@@ -7,5 +8,4 @@ date,lat,lng,unit,type_of_btg
 2022-03-26,47.187246,37.537471,68th Tank Regiment,tank
 2022-03-26,47.604656,37.484696,163rd Tank Regiment,tank
 2022-03-26,46.736885,32.211150,255th Guards Motorized Rifle Regiment,motor_rifle
-2022-03-26,46.796962,32.271940,33rd Guards Motorized Rifle Regiment,motor_rifle
 2022-03-26,46.808397,32.452657,56th Guards Air Assault Regiment,vdv
