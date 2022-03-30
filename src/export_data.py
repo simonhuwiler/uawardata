@@ -51,13 +51,10 @@ try:
 except:
     raise ValueError("🤬 Could not convert 'Location? into Lat Lng. Probably empty or invalid input")
 
+df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg', 'unit', 'number', 'subordinate_to']]
+
 for i, row in df.iterrows():
     try:
-        coords = row['location'].replace(' ', '').split(',')
-
-        if len(coords) < 2:
-            raise ValueError('Wrong coordinates: %s' % list(row))
-
         data['features'].append({
             "type": "Feature",
             "id": i,
@@ -73,7 +70,7 @@ for i, row in df.iterrows():
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [float(coords[1]), float(coords[0])]
+                "coordinates": [float(row['lng']), float(row['lat'])]
             }
         })
     except Exception as e:
@@ -83,9 +80,17 @@ for i, row in df.iterrows():
         pass
         break
     
-json.dump(data, open(export_folder / Path('./units.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
+# Export website
 json.dump(data, open(export_folder_website / Path('./units.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
-df[['lat', 'lng', 'date', 'icon', 'type', 'strength', 'strength_in_btg', 'unit', 'number', 'subordinate_to']].to_csv(export_folder / './units.csv', index=False)
+
+# Export Repo All
+json.dump(data, open(export_folder / Path('./geojson/units_all.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
+df.to_csv(export_folder / './csv/units_all.csv', index=False)
+
+# Export Repo Current
+df[df.date == df.date.max()].to_csv(export_folder / './csv/units_current.csv', index=False)
+data['features'] = list(filter(lambda x: x['properties']['date'] == df.date.max().strftime('%Y-%m-%d'), data['features']))
+json.dump(data, open(export_folder / Path('./geojson/units_current.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
 
 # ----- Download BTGs
 df = pd.read_csv(sheet_btg)
@@ -107,13 +112,10 @@ try:
 except:
     raise ValueError("🤬 Could not convert 'Location? into Lat Lng. Probably empty or invalid input")
 
+df = df[['date', 'lat', 'lng', 'unit', 'type_of_btg']]
 
 for i, row in df.iterrows():
     try:
-        coords = row['location'].replace(' ', '').split(',')
-
-        if len(coords) < 2:
-            raise ValueError('Wrong coordinates: %s' % list(row))
 
         data['features'].append({
             "type": "Feature",
@@ -125,7 +127,7 @@ for i, row in df.iterrows():
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [float(coords[1]), float(coords[0])]
+                "coordinates": [float(row['lng']), float(row['lat'])]
             }
         })
     except Exception as e:
@@ -135,9 +137,18 @@ for i, row in df.iterrows():
         pass
         break
     
-json.dump(data, open(export_folder / Path('./btgs.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
+# Export Website
 json.dump(data, open(export_folder_website / Path('./btgs.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
-df[['date', 'lat', 'lng', 'unit', 'type_of_btg']].to_csv(export_folder / './btgs.csv', index=False)
+
+# Export Repo All
+json.dump(data, open(export_folder / Path('./geojson/btgs_all.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
+df.to_csv(export_folder / './csv/btgs_all.csv', index=False)
+
+# Export Repo Current
+df[df.date == df.date.max()].to_csv(export_folder / './csv/btgs_current.csv', index=False)
+data['features'] = list(filter(lambda x: x['properties']['date'] == df.date.max().strftime('%Y-%m-%d'), data['features']))
+json.dump(data, open(export_folder / Path('./geojson/btgs_current.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
+
 
 # ----- Download Assessments
 df = pd.read_csv(sheet_assessments)

@@ -9,16 +9,20 @@ If you want to use this data, please quote us. You have two options:
 * www.????.com
 
 ## The data
-All data is stored in the folder [`/data`](./data) as a csv and geojson. How they are structured:
+All data is stored in the folder [`/data`](./data) as a [csv](./data/csv) and [geojson](./data/geojson). How they are structured:
 
-### `units.geojson` and `units.csv`
+### Units
+Files:
+* `units_all.geojson` and `units_all.csv`: The complete data
+* `units_current.geojson`and `units_current.csv`: Only the most current day
+
 This file contains the units and where approximately their headquarters might be. Each unit in turn consists of different battalions (more about this later). The columns/properties of the file:
 
 | Property | Type | Description |
 |----------|------|-------------|
+|date|*str*|At which date a unit was there|
 |lat|*float*|Latitude, only in CSV|
 |lon|*float*|Longitude, only in CSV|
-|date|*str*|At which date a unit was there|
 |icon|*str*|Nato symbol (MIL-STD-2525C).|
 |type|*str*|Type of units (eg *Mechanized Infantry*)|
 |strength|*str*|Strength of units (eg *Battalion*)|
@@ -27,7 +31,11 @@ This file contains the units and where approximately their headquarters might be
 |number|*number*|Name of the unit as a number|
 |subordinate_to|*str*|Subordinates to which unit|
 
-### `btgs.geojson` and `btgs.csv`
+### BTGs
+Files:
+* `btgs_all.geojson` and `btgs_all.csv`: The complete data
+* `btgs_current.geojson`and `btgs_current.csv`: Only the most current day
+
 In this file the positions of the individual units (brigades, divisions, etc.) are stored. This file is the most accurate representation of the war.
 
 | Property | Type | Description |
