@@ -49,5 +49,8 @@ The **BTGs**-files contains the position of each individual unit (brigades, divi
 ## Methodology
 The data is collected by Henry Schlottman, a former U.S. Army analyst. Using known troop positions before the war began, pictures of (destroyed) Russian war equipment, information from prisoners, and other public data, he is able to record the approximate position of each unit. Despite all the information, the data remain approximations.
 
+## Mailinglist data structure changes
+If you want to be informed about changes to the data structure, write Simon an email: simon.huwiler /.at./ nzz.ch
+
 ## Credits
 Made by [Henry Schlottman](https://twitter.com/HN_Schlottman) and [Simon Huwiler](https://twitter.com/simon_huwiler)
