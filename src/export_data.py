@@ -1,6 +1,5 @@
 # Export data
 
-from logging import raiseExceptions
 import pandas as pd
 from pathlib import Path
 import json
@@ -9,9 +8,13 @@ from decouple import config
 import shutil
 
 # Load env Vars
-sheet_troops = os.getenv("SHEET_TROOPS", None)
-if not sheet_troops:
-    sheet_troops = config("SHEET_TROOPS")
+SHEET_UNITS_POSITION = os.getenv("SHEET_UNITS_POSITION", None)
+if not SHEET_UNITS_POSITION:
+    SHEET_UNITS_POSITION = config("SHEET_UNITS_POSITION")
+
+SHEET_UNITS_DESCRIPTION = os.getenv("SHEET_UNITS_DESCRIPTION", None)
+if not SHEET_UNITS_DESCRIPTION:
+    SHEET_UNITS_DESCRIPTION = config("SHEET_UNITS_DESCRIPTION")
 
 sheet_assessments = os.getenv("SHEET_ASSESSMENTS", None)
 if not sheet_assessments:
@@ -31,8 +34,18 @@ if export_folder_website.exists():
 os.mkdir(export_folder_website, )
 
 # ----- Download Units
-df = pd.read_csv(sheet_troops)
-df = df.sort_values('date')
+df = pd.read_csv(SHEET_UNITS_POSITION)
+
+df_description = pd.read_csv(SHEET_UNITS_DESCRIPTION)
+
+# Merge
+df = df.merge(df_description, how='left', on='unit')
+if len(df[df.icon.isna()]) > 0:
+    print(df[df.icon.isna()])
+    raise ValueError("🤬 Unit Position withouth corresponding Unit in 'units_description'")
+
+# Sort values
+df = df.sort_values(['date', 'number'])
 
 data = {
         "type": "FeatureCollection",

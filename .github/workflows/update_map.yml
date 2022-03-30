@@ -38,7 +38,8 @@ jobs:
 
       - name: Run python scripts
         env: 
-          SHEET_TROOPS: ${{ secrets.SHEET_TROOPS }}
+          SHEET_UNITS_POSITION: ${{ secrets.SHEET_UNITS_POSITION }}
+          SHEET_UNITS_DESCRIPTION: ${{ secrets.SHEET_UNITS_DESCRIPTION }}
           SHEET_ASSESSMENTS: ${{ secrets.SHEET_ASSESSMENTS }}
           SHEET_BTG: ${{ secrets.SHEET_BTG }}
         run: |
