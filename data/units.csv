@@ -63,8 +63,8 @@ lat,lng,date,icon,type,strength,strength_in_btg,unit,number,subordinate_to
 47.655715,37.540373,2022-03-26,SHGPUCIZ---G,Mechanized Infantry,Regiment,1,11th Motorized Rifle Regiment,11.0,1st Army Corps
 47.579328,35.515644,2022-03-26,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,503rd Motorized Rifle Regiment,503.0,19th Motorized Rifle Division
 47.598359,36.258873,2022-03-26,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,71st Guards Motorized Rifle Regiment,71.0,42nd Guards Motorized Rifle Division
-46.681243,32.354682,2022-03-26,SHGPUCIZ--AI,Headquarters,Division,0,20th Guards Motorized Rifle Division,20.0,22nd Army Corps
-46.744679,32.394958,2022-03-26,SHGPUCIA--AI,Headquarters,Division,0,7th Guards Air Assault Division,7.0,22nd Army Corps
+46.631259,32.439439,2022-03-26,SHGPUCIZ--AI,Headquarters,Division,1,20th Guards Motorized Rifle Division,20.0,22nd Army Corps
+46.744679,32.394958,2022-03-26,SHGPUCIA--AI,Headquarters,Division,1,7th Guards Air Assault Division,7.0,22nd Army Corps
 46.911632,32.852135,2022-03-26,SHGPUCIZ---H,Mechanized Infantry,Brigade,1,34th Motorized Rifle Brigade,34.0,22nd Army Corps
 47.069956,32.923289,2022-03-26,SHGPUCIZ---H,Mechanized Infantry,Brigade,1,205th Motorized Rifle Brigade,205.0,22nd Army Corps
 47.397190,33.385905,2022-03-26,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,11th Guards Air Assault Brigade,11.0,49th Combined Arms Army
@@ -81,4 +81,4 @@ lat,lng,date,icon,type,strength,strength_in_btg,unit,number,subordinate_to
 46.685221,32.368109,2022-03-26,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,1,255th Guards Motorized Rifle Regiment,255.0,20th Guards Motorized Rifle Division
 46.751486,32.409705,2022-03-26,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,1,33rd Guards Motorized Rifle Regiment,33.0,20th Guards Motorized Rifle Division
 46.776158,32.499570,2022-03-26,SHGPUCIA---G,"VDV (BMD-2, BMP-2)",Regiment,1,56th Guards Air Assault Regiment,56.0,7th Guards Air Assault Division
-46.677683,32.508789,2022-03-26,SHGPUCIZ--AJ,Headquarters,Army,0,22nd Army Corps,22.0,Black Sea Fleet
+46.677683,32.508789,2022-03-26,SHGPUCIZ--AJ,Headquarters,Army,1,22nd Army Corps,22.0,Black Sea Fleet
