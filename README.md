@@ -40,11 +40,14 @@ In this file the positions of the individual units (brigades, divisions, etc.) a
 
 | Property | Type | Description |
 |----------|------|-------------|
+|date|*str*|At which date a unit was there|
 |lat|*float*|Latitude, only in CSV|
 |lon|*float*|Longitude, only in CSV|
-|date|*str*|At which date a unit was there|
 |unit|*str*|Name of the unit|
 |type_of_btg|*enum*|Type of unit. One of these: `motor_rifle`, `vdv` (Russian Airborne Forces), `tank`|
 
 ## Methodology
 The data is collected by Henry Schlottman, a former U.S. Army analyst. Using known troop positions before the war began, pictures of (destroyed) Russian war equipment, information from prisoners, and other public data, he is able to record the approximate position of each unit. Despite all the information, the data remain approximations.
+
+## Credits
+Made by [Henry Schlottman](https://twitter.com/HN_Schlottman) and [Simon Huwiler](https://twitter.com/simon_huwiler)
