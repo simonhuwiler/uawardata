@@ -1,7 +1,7 @@
-# Ukraine Tactial Map Data
+# Ukraine War Data
 
 ## What you will find here
-In this repository you will find the data we use on www.uawardatacom. You can use this data for free, but please note the citation (see below).
+In this repository you will find the data we use on [www.uawardata.com](https://www.uawardata.com). You can use this data for free, but please note the citation (see below).
 
 ## How to cite
 If you want to use this data, please quote us. You have two options:
