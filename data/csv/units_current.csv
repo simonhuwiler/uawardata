@@ -44,6 +44,7 @@ date,lat,lng,icon,type,strength,strength_in_btg,unit,number,subordinate_to
 2022-03-31,51.217814,29.526519,SHGPUCIZ---H,"Motorized Rifle (BMP-1/BMP-2, T-80BV)",Brigade,2,69th Seperate Covering Brigade,69,35th Combined Arms Army
 2022-03-31,47.486886,36.250927,SHGPUCIZ---G,Motorized Rifle,Regiment,2,71st Guards Motorized Rifle Regiment,71,42nd Guards Motorized Rifle Division
 2022-03-31,51.420784,30.846963,SHGPUCIZ---H,"Motorized Rifle (BMP-2, T-72B3)",Brigade,1,74th Seperate Guards Motorized Rifle Brigade,74,41st Combined Arms Army
+2022-03-31,50.806959,32.135540,SHGPUCA---AI,Headquarters,Division,0,90th Guards Tank Division,90,Central Military District
 2022-03-31,47.146380,37.823051,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,102nd Motorized Rifle Regiment,102,150th Motorized Rifle Division
 2022-03-31,50.493271,30.126769,SHGPUCIA---G,VDV,Regiment,1,104th Guards Air Assault Regiment,104,76th Guards Air Assault Division
 2022-03-31,50.616493,30.182039,SHGPUCIA--AI,Headquarters,Division,0,106th Guards Airborne Division,106,35th Combined Arms Army
