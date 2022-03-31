@@ -110,6 +110,9 @@ json.dump(data, open(export_folder / Path('./geojson/units_current.geojson'), 'w
 df = pd.read_csv(sheet_btg)
 df = df.sort_values('date')
 
+# Remove empty types
+df = df[df['type_of_btg'].notna()]
+
 data = {
         "type": "FeatureCollection",
         "features": []
