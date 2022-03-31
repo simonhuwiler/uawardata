@@ -71,7 +71,7 @@ for i, row in df.iterrows():
     try:
         data['features'].append({
             "type": "Feature",
-            "id": i,
+            "id": i + 1,
             "properties": {
                 "date": row['date'].strftime('%Y-%m-%d'),
                 "icon": row['icon'],
