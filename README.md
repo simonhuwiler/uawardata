@@ -1,12 +1,12 @@
 # Ukraine Tactial Map Data
 
 ## What you will find here
-In this repository you will find the data we use on www.????.com. You can use this data for free, but please note the citation (see below).
+In this repository you will find the data we use on www.uawardatacom. You can use this data for free, but please note the citation (see below).
 
 ## How to cite
 If you want to use this data, please quote us. You have two options:
 * Henry Schlottman (https://twitter.com/HN_Schlottman)
-* www.????.com
+* uawardata.com (https://www.uawardata.com)
 
 ## The data
 All data is stored in the folder [`/data`](./data) as a [csv](./data/csv) and [geojson](./data/geojson). How they are structured:
