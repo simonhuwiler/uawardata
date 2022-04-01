@@ -171,6 +171,7 @@ json.dump(data, open(export_folder / Path('./geojson/btgs_current.geojson'), 'w'
 # ----- Download Assessments
 df = pd.read_csv(SHEET_ASSESSMENTS)
 df = df.sort_values('date')
+df['text'] = df['text'].fillna('')
 
 data = []
 for i, row in df.iterrows():
