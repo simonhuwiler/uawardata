@@ -41,7 +41,7 @@ date,lat,lng,icon,type,strength,strength_in_btg,unit,number,subordinate_to
 2022-03-31,46.776158,32.499570,SHGPUCIA---G,"VDV (BMD-2, BMP-2)",Regiment,1,56th Guards Air Assault Regiment,56,7th Guards Air Assault Division
 2022-03-31,46.843480,35.368727,SHGPUCIZ--AK,Headquarters,Army,0,58th Combined Arms Army,58,Southern Military District
 2022-03-31,49.698693,37.155743,SHGPUCA----G,Armor (T-72B),Regiment,1,59th Guards Tank Regiment,59,144th Motorized Rifle Division
-2022-03-31,50.573414,30.086240,SHGPUCIZ---H,"Motorized Rifle (T-80BVM, BMP-2)",Brigade,2,64th Seperate Motorized Rifle Brigade,64,35th Combined Arms Army
+2022-03-31,50.542846,30.184273,SHGPUCIZ---H,"Motorized Rifle (T-80BVM, BMP-2)",Brigade,2,64th Seperate Motorized Rifle Brigade,64,35th Combined Arms Army
 2022-03-31,47.233969,37.537001,SHGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,2,68th Tank Regiment,68,150th Motorized Rifle Division
 2022-03-31,51.217814,29.526519,SHGPUCIZ---H,"Motorized Rifle (BMP-1/BMP-2, T-80BV)",Brigade,2,69th Seperate Covering Brigade,69,35th Combined Arms Army
 2022-03-31,47.486886,36.250927,SHGPUCIZ---G,Motorized Rifle,Regiment,2,71st Guards Motorized Rifle Regiment,71,42nd Guards Motorized Rifle Division
@@ -57,7 +57,7 @@ date,lat,lng,icon,type,strength,strength_in_btg,unit,number,subordinate_to
 2022-03-31,47.694657,37.021484,SHGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,2,163rd Tank Regiment,163,150th Motorized Rifle Division
 2022-03-31,50.326912,36.189849,SHGPUCIZ---H,Motorized Rifle,Brigade,1,200th Seperate Motorized Rifle Brigade,200,6th Combined Arms Army
 2022-03-31,46.890757,33.144856,SHGPUCIZ---H,Motorized Rifle,Brigade,1,205th Seperate Motorized Rifle Brigade,205,22nd Army Corps
-2022-03-31,50.551355,30.157551,SHGPUCIA---G,VDV,Regiment,1,217th Guards Airborne Regiment,217,98th Guards Airborne Division
+2022-03-31,50.587958,30.211995,SHGPUCIA---G,VDV,Regiment,1,217th Guards Airborne Regiment,217,98th Guards Airborne Division
 2022-03-31,50.666957,31.290718,SHGPUCIZ---G,Motorized Rifle,Regiment,1,228th Motorized Rifle Regiment,228,90th Guards Tank Division
 2022-03-31,49.382130,37.630049,SHGPUCIZ---G,"Motorized Rifle (BMP-2, T-72B3)",Regiment,1,252nd Guards Motorized Rifle Regiment,252,3rd Motorized Rifle Division
 2022-03-31,49.316390,37.306571,SHGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72BA/T-72B3)",Regiment,1,254th Guards Motorized Rifle Regiment,254,144th Motorized Rifle Division
