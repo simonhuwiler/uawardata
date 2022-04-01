@@ -52,6 +52,10 @@ data = {
         "features": []
     }
 
+# Fill nas
+df['subordinate_to'] = df['subordinate_to'].fillna('')
+df['unit'] = df['unit'].fillna('')
+
 # Convert date
 try:
     df['date'] = pd.to_datetime(df['date'])
@@ -112,6 +116,9 @@ df = df.sort_values('date')
 
 # Remove empty types
 df = df[df['type_of_btg'].notna()]
+
+# Fillna
+df['unit'] = df['unit'].fillna('')
 
 data = {
         "type": "FeatureCollection",
