@@ -16,9 +16,9 @@ SHEET_UNITS_DESCRIPTION = os.getenv("SHEET_UNITS_DESCRIPTION", None)
 if not SHEET_UNITS_DESCRIPTION:
     SHEET_UNITS_DESCRIPTION = config("SHEET_UNITS_DESCRIPTION")
 
-sheet_assessments = os.getenv("SHEET_ASSESSMENTS", None)
-if not sheet_assessments:
-    sheet_assessments = config("SHEET_ASSESSMENTS")
+SHEET_ASSESSMENTS = os.getenv("SHEET_ASSESSMENTS", None)
+if not SHEET_ASSESSMENTS:
+    SHEET_ASSESSMENTS = config("SHEET_ASSESSMENTS")
 
 sheet_btg = os.getenv("SHEET_BTG", None)
 if not sheet_btg:
@@ -169,7 +169,7 @@ json.dump(data, open(export_folder / Path('./geojson/btgs_current.geojson'), 'w'
 
 
 # ----- Download Assessments
-df = pd.read_csv(sheet_assessments)
+df = pd.read_csv(SHEET_ASSESSMENTS)
 df = df.sort_values('date')
 
 data = []
