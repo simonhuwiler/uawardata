@@ -1,4 +1,4 @@
-name: Update Website PRODUCTION
+name: Update Website STAGE
 
 on:
   # Schedule makes this bot run in regular intervals, without any interventions
@@ -49,25 +49,12 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "10"
-    
-      - name: Commit files
-        continue-on-error: true
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git commit -m "Autoupdate" -- ./data
-
-      - name: Push changes
-        continue-on-error: true
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GIT_TOKEN }}
           
       - name: FTP Deploy to WP Engine (Production)
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
           ftp-server: ${{ secrets.FTP_HOST }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          ftp-username: ${{ secrets.FTP_USERNAME_STAGE }}
+          ftp-password: ${{ secrets.FTP_PASSWORD_STAGE }}
           local-dir: website_tmp
           git-ftp-args: --insecure
