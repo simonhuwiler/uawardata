@@ -1,7 +1,4 @@
 date,lat,lng,icon,type,strength,strength_in_btg,unit,number,subordinate_to
-2022-03-27,50.588335,30.253310,SHGPUCIA---G,VDV,Regiment,1,51st Guards Airborne Regiment,51,106th Guards Airborne Division
-2022-03-27,50.493271,30.126769,SHGPUCIA---G,VDV,Regiment,1,104th Guards Air Assault Regiment,104,76th Guards Air Assault Division
-2022-03-27,50.661395,30.224349,SHGPUCIA---G,VDV,Regiment,1,137th Guards Airborne Regiment,137,106th Guards Airborne Division
 2022-03-31,50.685702,32.180450,SHGPUCA----G,"Armor (T-72B3M, BTR-80)",Regiment,1,1st Guards Tank Regiment,1,2nd Guards Motorized Rifle Division
 2022-03-31,50.865655,35.267982,SHGPUCIZ---G,"Motorized Rifle (BTR-82A/BTR-80, T-72B3)",Regiment,1,1st Guards Motorized Rifle Regiment,1,2nd Guards Motorized Rifle Division
 2022-03-31,50.586354,36.005054,SHGPUCA---AK,Headquarters,Army,0,1st Guards Tank Army,1,Western Military District
