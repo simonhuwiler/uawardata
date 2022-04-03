@@ -59,14 +59,14 @@ date,lat,lng,unit,type_of_btg
 2022-04-01,51.515304,29.422865,69th Separate Covering Brigade,motor_rifle
 2022-04-01,51.570318,31.125076,35th Separate Guards Motorized Rifle Brigade,motor_rifle
 2022-04-01,51.447257,31.081259,74th Separate Guards Motorized Rifle Brigade,motor_rifle
-2022-04-01,51.435682,29.494974,155th Separate Guards Naval Infantry Brigade,motor_rifle
+2022-04-01,51.328531,30.436204,155th Separate Guards Naval Infantry Brigade,motor_rifle
 2022-04-01,50.110062,38.060234,137th Guards Airborne Regiment,vdv
 2022-04-01,52.004681,29.173645,36th Separate Guards Motorized Rifle Brigade,motor_rifle
 2022-04-01,51.061308,30.122804,5th Separate Guards Tank Brigade,tank
 2022-04-01,51.041879,29.774310,37th Separate Guards Motorized Rifle Brigade,motor_rifle
 2022-04-01,52.331016,30.376628,45th Separate Guards Special Purpose Brigade,vdv
 2022-04-01,52.024692,29.190672,64th Separate Motorized Rifle Brigade,motor_rifle
-2022-04-01,50.647244,32.355796,21st Separate Guards Motorized Rifle Brigade,motor_rifle
+2022-04-01,50.598550,32.120953,21st Separate Guards Motorized Rifle Brigade,motor_rifle
 2022-04-01,50.437619,35.605503,423rd Guards Motorized Rifle Regiment,motor_rifle
 2022-04-01,51.289892,33.404963,15th Separate Motorized Rifle Brigade,motor_rifle
 2022-04-01,51.201556,33.461418,15th Separate Motorized Rifle Brigade,motor_rifle
@@ -88,7 +88,7 @@ date,lat,lng,unit,type_of_btg
 2022-04-01,46.736885,32.211150,255th Guards Motorized Rifle Regiment,motor_rifle
 2022-04-01,46.796962,32.271940,33rd Guards Motorized Rifle Regiment,motor_rifle
 2022-04-01,46.808397,32.452657,56th Guards Air Assault Regiment,vdv
-2022-04-01,50.874406,31.985887,228th Motorized Rifle Regiment,motor_rifle
+2022-04-01,50.750042,32.033835,228th Motorized Rifle Regiment,motor_rifle
 2022-04-01,50.580953,35.408074,12th Guards Tank Regiment,tank
 2022-04-01,50.801488,33.115741,1st Guards Tank Regiment,tank
 2022-04-01,51.613202,31.163630,55th Separate Motorized Rifle Brigade,motor_rifle
@@ -110,4 +110,4 @@ date,lat,lng,unit,type_of_btg
 2022-04-01,46.835687,32.751689,34th Separate Motorized Rifle Brigade,motor_rifle
 2022-04-01,46.916860,33.086448,205th Separate Motorized Rifle Brigade,motor_rifle
 2022-04-01,47.382926,33.715351,126th Separate Guards Coastal Defense Brigade,motor_rifle
-2022-04-01,51.136304,29.595455,38th Separate Motorized Rifle Brigade,motor_rifle
+2022-04-01,51.198261,29.471488,38th Separate Motorized Rifle Brigade,motor_rifle
