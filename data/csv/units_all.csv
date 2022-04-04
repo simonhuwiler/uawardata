@@ -132,3 +132,52 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-01,47.435016,35.281804,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division
 2022-04-01,49.596228,36.985158,SHGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72B)",Regiment,1,1,752nd Guards Motorized Rifle Regiment,752,3rd Motorized Rifle Regiment
 2022-04-01,47.061573,37.269309,SHGPUCIN---H,Naval Infantry,Brigade,2,2,810th Separate Naval Infantry Brigade,810,58th Combined Arms Army
+2022-04-03,50.946229,34.616408,SHGPUCA----G,"Armor (T-72B3M, BTR-80)",Regiment,1,1,1st Guards Tank Regiment,1,2nd Guards Motorized Rifle Division
+2022-04-03,50.865655,35.267982,SHGPUCIZ---G,"Motorized Rifle (BTR-82A/BTR-80, T-72B3)",Regiment,1,1,1st Guards Motorized Rifle Regiment,1,2nd Guards Motorized Rifle Division
+2022-04-03,49.396700,37.204378,SHGPUCA---AK,Headquarters,Army,0,0,1st Guards Tank Army,1,Western Military District
+2022-04-03,50.797601,35.649831,SHGPUCIZ--AI,Headquarters,Division,0,0,2nd Guards Motorized Rifle Division,2,1st Guards Tank Army
+2022-04-03,51.712941,36.142620,SHGPUCIZ--AK,Headquarters,Army,0,0,2nd Guards Combined Arms Army,2,Central Military District
+2022-04-03,49.340039,37.524849,SHGPUCIZ--AI,Headquarters,Division,0,0,3rd Motorized Rifle Division,3,20th Guards Combined Arms Army
+2022-04-03,49.180971,37.127710,SHGPUCA---AI,Headquarters,Division,0,0,4th Guards Tank Division,4,1st Guards Tank Army
+2022-04-03,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,0,0,6th Combined Arms Army,6,Western Military District
+2022-04-03,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps
+2022-04-03,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps
+2022-04-03,47.350183,33.346536,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army
+2022-04-03,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,0,0,19th Motorized Rifle Division,19,58th Combined Arms Army
+2022-04-03,46.631259,32.439439,SHGPUCIZ--AI,Headquarters,Division,0,0,20th Guards Motorized Rifle Division,20,22nd Army Corps
+2022-04-03,49.722185,37.595307,SHGPUCIZ--AK,Headquarters,Army,0,0,20th Combined Arms Army,20,Western Military District
+2022-04-03,50.618071,32.198544,SHGPUCIZ---H,"Motorized Rifle (BMP-2M, T-72B3)",Brigade,1,1,21st Separate Guards Motorized Rifle Brigade,21,2nd Combined Arms Army
+2022-04-03,46.677683,32.508789,SHGPUCIZ--AJ,Headquarters,Corps,0,0,22nd Army Corps,22,Black Sea Fleet
+2022-04-03,50.489654,36.431006,SHGPUCIZ---H,"Motorized Rifle (T-72B3, MTLB)",Brigade,1,1,25th Separate Guards Motorized Rifle Brigade,25,6th Combined Arms Army
+2022-04-03,49.205225,37.127467,SHGPUCA----G,"Armor (T-72B3M, BMP-2)",Regiment,<1,1,26th Guards Tank Regiment,26,47th Guards Tank Division
+2022-04-03,51.066116,34.802565,SHGPUCIZ---H,"Motorized Rifle (BTR-82A/BMP-3, T-90A)",Brigade,2,2,27th Separate Guards Motorized Rifle Brigade,27,1st Guards Tank Army
+2022-04-03,46.751486,32.409705,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,1,1,33rd Guards Motorized Rifle Regiment,33,20th Guards Motorized Rifle Division
+2022-04-03,46.748100,32.794248,SHGPUCIZ---H,Motorized Rifle (MTLB/MT-LBM),Brigade,1,1,34th Separate Motorized Rifle Brigade,34,22nd Army Corps
+2022-04-03,52.360228,30.399689,SHGPUCIZ--AK,Headquarters,Army,0,0,35th Combined Arms Army,35,Eastern Military District
+2022-04-03,52.258796,30.393226,SHGPUCIZ--AK,Headquarters,Army,0,0,36th Combined Arms Army,36,Eastern Military District
+2022-04-03,52.352014,31.051151,SHGPUCIZ--AK,Headquarters,Army,0,0,41st Combined Arms Army,41,Central Military District
+2022-04-03,47.226337,36.483432,SHGPUCIZ--AI,Headquarters,Division,0,0,42nd Guards Motorized Rifle Division,42,58th Combined Arms Army
+2022-04-03,49.372038,37.198220,SHGPUCA---AI,Headquarters,Division,0,0,47th Guards Tank Division,47,1st Guards Tank Army
+2022-04-03,46.755083,33.364644,SHGPUCIZ--AK,Headquarters,Army,0,0,49th Combined Arms Army,49,Southern Military District
+2022-04-03,49.670354,37.487308,SHGPUCIA---G,VDV,Regiment,1,1,51st Guards Airborne Regiment,51,106th Guards Airborne Division
+2022-04-03,46.776158,32.499570,SHGPUCIA---G,"VDV (BMD-2, BMP-2)",Regiment,1,1,56th Guards Air Assault Regiment,56,7th Guards Air Assault Division
+2022-04-03,46.843480,35.368727,SHGPUCIZ--AK,Headquarters,Army,0,0,58th Combined Arms Army,58,Southern Military District
+2022-04-03,49.698693,37.155743,SHGPUCA----G,Armor (T-72B),Regiment,1,1,59th Guards Tank Regiment,59,144th Motorized Rifle Division
+2022-04-03,47.233969,37.537001,SHGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,2,2,68th Tank Regiment,68,150th Motorized Rifle Division
+2022-04-03,47.486886,36.250927,SHGPUCIZ---G,Motorized Rifle,Regiment,2,2,71st Guards Motorized Rifle Regiment,71,42nd Guards Motorized Rifle Division
+2022-04-03,51.136874,33.378422,SHGPUCA---AI,Headquarters,Division,0,0,90th Guards Tank Division,90,Central Military District
+2022-04-03,47.146380,37.823051,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2,102nd Motorized Rifle Regiment,102,150th Motorized Rifle Division
+2022-04-03,49.697377,37.182437,SHGPUCIA--AI,Headquarters,Division,0,0,106th Guards Airborne Division,106,Russian Airborne Forces
+2022-04-03,47.266749,33.876026,SHGPUCIN---H,"Motorized Rifle (BMP-2/BTR-80, T-72B3)",Brigade,1,1,126th Separate Guards Coastal Defense Brigade,126,49th Combined Arms Army
+2022-04-03,49.682899,37.335409,SHGPUCIA---G,VDV,Regiment,1,1,137th Guards Airborne Regiment,137,106th Guards Airborne Division
+2022-04-03,50.068096,36.625249,SHGPUCIZ---H,"Motorized Rifle (MT-LBV, T-72B3)",Brigade,1,1,138th Separate Guards Motorized Rifle Brigade,138,6th Combined Arms Army
+2022-04-03,49.522165,37.260551,SHGPUCIZ--AI,Headquarters,Division,0,0,144th Guards Motorized Rifle Division,144,20th Guards Combined Arms Army
+2022-04-03,47.381783,37.072515,SHGPUCIZ--AI,Headquarters,Division,0,0,150th Motorized Rifle Division,150,8th Guards Combined Arms Army
+2022-04-03,47.694657,37.021484,SHGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,2,2,163rd Tank Regiment,163,150th Motorized Rifle Division
+2022-04-03,50.326912,36.189849,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1,200th Separate Motorized Rifle Brigade,200,6th Combined Arms Army
+2022-04-03,46.890757,33.144856,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1,205th Separate Motorized Rifle Brigade,205,22nd Army Corps
+2022-04-03,49.396559,37.051150,SHGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72BA/T-72B3)",Regiment,1,1,254th Guards Motorized Rifle Regiment,254,144th Motorized Rifle Division
+2022-04-03,46.685221,32.368109,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,1,1,255th Guards Motorized Rifle Regiment,255,20th Guards Motorized Rifle Division
+2022-04-03,47.435016,35.281804,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division
+2022-04-03,49.233975,37.248968,SHGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72B)",Regiment,1,1,752nd Guards Motorized Rifle Regiment,752,3rd Motorized Rifle Regiment
+2022-04-03,47.061573,37.269309,SHGPUCIN---H,Naval Infantry,Brigade,2,2,810th Separate Naval Infantry Brigade,810,58th Combined Arms Army
