@@ -26,7 +26,8 @@ The **Unit**-files contains the units and where approximately their headquarters
 |icon|*str*|Nato symbol (MIL-STD-2525C).|
 |type|*str*|Type of units (eg *Mechanized Infantry*)|
 |strength|*str*|Strength of units (eg *Battalion*)|
-|strength_in_btg|*number*|Approx. Strength in Batallion Tactical Groups|
+|strength_in_btg_number|*number*|Approx. Strength in Batallion Tactical Groups|
+|strength_in_btg_text|*text*|Approx. Strength in Batallion Tactical Groups (could be `< 1`)|
 |unit|*str*|Name of the unit|
 |number|*number*|Name of the unit as a number|
 |subordinate_to|*str*|Subordinates to which unit|

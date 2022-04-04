@@ -69,7 +69,7 @@ try:
 except:
     raise ValueError("🤬 Could not convert 'Location? into Lat Lng. Probably empty or invalid input")
 
-df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg', 'unit', 'number', 'subordinate_to']]
+df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg_text', 'strength_in_btg_number', 'unit', 'number', 'subordinate_to']]
 
 for i, row in df.iterrows():
     try:
@@ -81,7 +81,9 @@ for i, row in df.iterrows():
                 "icon": row['icon'],
                 "type": row['type'],
                 "strength": row['strength'].strip(),
-                "strength_in_btg": row['strength_in_btg'],
+                "strength_in_btg": row['strength_in_btg_text'],
+                "strength_in_btg_number": row['strength_in_btg_number'],
+                "strength_in_btg_text": row['strength_in_btg_text'],
                 "unit": row['unit'].strip(),
                 "number": row['number'] if pd.notna(row['number']) else None,
                 "subordinate_to": row['subordinate_to'].strip(),
