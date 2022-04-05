@@ -29,7 +29,7 @@ The **Unit**-files contains the units and where approximately their headquarters
 |strength_in_btg_number|*number*|Approx. Strength in Batallion Tactical Groups|
 |strength_in_btg_text|*text*|Approx. Strength in Batallion Tactical Groups (could be `< 1`)|
 |unit|*str*|Name of the unit|
-|number|*number*|Name of the unit as a number|
+|unitnumber|*number*|Name of the unit as a number|
 |subordinate_to|*str*|Subordinates to which unit|
 
 ### BTGs
