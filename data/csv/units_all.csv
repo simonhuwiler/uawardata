@@ -81,7 +81,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-01,51.295018,33.508990,SHGPUCIZ---H,"Motorized Rifle (BTR-82A, T-72BM)",Brigade,2,2,15th Separate Motorized Rifle Brigade,15,2nd Combined Arms Army,,
 2022-04-01,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,0,0,19th Motorized Rifle Division,19,58th Combined Arms Army,,
 2022-04-01,46.631259,32.439439,SHGPUCIZ--AI,Headquarters,Division,0,0,20th Guards Motorized Rifle Division,20,22nd Army Corps,,
-2022-04-01,49.722185,37.595307,SHGPUCIZ--AK,Headquarters,Army,0,0,20th Combined Arms Army,20,Western Military District,,
+2022-04-01,49.722185,37.595307,SHGPUCIZ--AK,Headquarters,Army,0,0,20th Combined Arms Army,20,Western Military District,,https://en.m.wikipedia.org/wiki/20th_Guards_Combined_Arms_Army
 2022-04-01,50.618071,32.198544,SHGPUCIZ---H,"Motorized Rifle (BMP-2M, T-72B3)",Brigade,1,1,21st Separate Guards Motorized Rifle Brigade,21,2nd Combined Arms Army,,
 2022-04-01,46.677683,32.508789,SHGPUCIZ--AJ,Headquarters,Corps,0,0,22nd Army Corps,22,Black Sea Fleet,,
 2022-04-01,50.489654,36.431006,SHGPUCIZ---H,"Motorized Rifle (T-72B3, MTLB)",Brigade,1,1,25th Separate Guards Motorized Rifle Brigade,25,6th Combined Arms Army,,
@@ -95,15 +95,15 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-01,51.665081,30.406292,SHGPUCIZ--AK,Headquarters,Army,0,0,36th Combined Arms Army,36,Eastern Military District,,
 2022-04-01,51.075654,29.809758,SHGPUCIZ---H,"Motorized Rifle (T-72B3, BMP-2)",Brigade,1,1,37th Separate Guards Motorized Rifle Brigade,37,36th Combined Arms Army,,
 2022-04-01,51.190159,29.621230,SHGPUCIZ---H,"Motorized Rifle (BMP-1AM/1D, T-80BV/T-72B3)",Brigade,2,2,38th Separate Motorized Rifle Brigade,38,35th Combined Arms Army,,
-2022-04-01,52.352014,31.051151,SHGPUCIZ--AK,Headquarters,Army,0,0,41st Combined Arms Army,41,Central Military District,,
+2022-04-01,52.352014,31.051151,SHGPUCIZ--AK,Headquarters,Army,0,0,41st Combined Arms Army,41,Central Military District,,https://en.wikipedia.org/wiki/41st_Combined_Arms_Army
 2022-04-01,47.226337,36.483432,SHGPUCIZ--AI,Headquarters,Division,0,0,42nd Guards Motorized Rifle Division,42,58th Combined Arms Army,,
 2022-04-01,52.291293,30.340171,SHGPUCIA---H,Special Purpose (BTR-82A/Tigr-M),Brigade,1,1,45th Separate Guards Special Purpose Brigade,45,35th Combined Arms Army,,
 2022-04-01,49.465109,37.386185,SHGPUCA---AI,Headquarters,Division,0,0,47th Guards Tank Division,47,1st Guards Tank Army,,
-2022-04-01,46.755083,33.364644,SHGPUCIZ--AK,Headquarters,Army,0,0,49th Combined Arms Army,49,Southern Military District,,
+2022-04-01,46.755083,33.364644,SHGPUCIZ--AK,Headquarters,Army,0,0,49th Combined Arms Army,49,Southern Military District,,https://en.m.wikipedia.org/wiki/49th_Combined_Arms_Army
 2022-04-01,50.158229,38.040289,SHGPUCIA---G,VDV,Regiment,1,1,51st Guards Airborne Regiment,51,106th Guards Airborne Division,,
 2022-04-01,51.663700,31.192920,SHGPUCIZ---H,Motorized Rifle,Brigade,2,2,55th Separate Motorized Rifle Brigade,55,41st Combined Arms Army,,
 2022-04-01,46.776158,32.499570,SHGPUCIA---G,"VDV (BMD-2, BMP-2)",Regiment,1,1,56th Guards Air Assault Regiment,56,7th Guards Air Assault Division,,
-2022-04-01,46.843480,35.368727,SHGPUCIZ--AK,Headquarters,Army,0,0,58th Combined Arms Army,58,Southern Military District,,
+2022-04-01,46.843480,35.368727,SHGPUCIZ--AK,Headquarters,Army,0,0,58th Combined Arms Army,58,Southern Military District,,https://en.m.wikipedia.org/wiki/58th_Combined_Arms_Army
 2022-04-01,49.698693,37.155743,SHGPUCA----G,Armor (T-72B),Regiment,1,1,59th Guards Tank Regiment,59,144th Motorized Rifle Division,,
 2022-04-01,52.030957,29.181767,SHGPUCIZ---H,"Motorized Rifle (T-80BVM/T-72B3, BMP-2)",Brigade,1,1,64th Separate Motorized Rifle Brigade,64,35th Combined Arms Army,,
 2022-04-01,47.233969,37.537001,SHGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,2,2,68th Tank Regiment,68,150th Motorized Rifle Division,,
