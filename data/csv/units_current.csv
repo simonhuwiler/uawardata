@@ -1,4 +1,4 @@
-date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit,number,subordinate_to
+date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit,unitnumber,subordinate_to
 2022-04-03,51.055271,34.661846,SHGPUCA----G,"Armor (T-72B3M, BTR-80)",Regiment,1,1,1st Guards Tank Regiment,1,2nd Guards Motorized Rifle Division
 2022-04-03,50.865655,35.267982,SHGPUCIZ---G,"Motorized Rifle (BTR-82A/BTR-80, T-72B3)",Regiment,1,1,1st Guards Motorized Rifle Regiment,1,2nd Guards Motorized Rifle Division
 2022-04-03,49.644387,37.332796,SHGPUCA---AK,Headquarters,Army,0,0,1st Guards Tank Army,1,Western Military District
