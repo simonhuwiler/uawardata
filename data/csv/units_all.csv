@@ -9,7 +9,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-03-31,50.562007,29.951634,SHGPUCA----H,Armor (T-72B3),Brigade,1,1,5th Separate Guards Tank Brigade,5,36th Combined Arms Army,,
 2022-03-31,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,0,0,6th Combined Arms Army,6,Western Military District,Q2651982,https://en.wikipedia.org/wiki/6th_Combined_Arms_Army
 2022-03-31,50.661993,31.835582,SHGPUCA----G,Armor (T-72B),Regiment,<1,1,6th Guards Tank Regiment,6,90th Guards Tank Division,,
-2022-03-31,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps,,
+2022-03-31,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps,Q2357,https://en.wikipedia.org/wiki/76th_Guards_Air_Assault_Division
 2022-03-31,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,,
 2022-03-31,47.350183,33.346536,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,,
 2022-03-31,50.574682,35.459193,SHGPUCA----G,"Armor (T-80U, BMP-2)",Regiment,1,1,12th Guards Tank Regiment,12,4th Guards Tank Division,,
