@@ -1,11 +1,11 @@
 date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit,unitnumber,subordinate_to,wikidata,wikipedia
 2022-03-31,50.685702,32.180450,SHGPUCA----G,"Armor (T-72B3M, BTR-80)",Regiment,1,1,1st Guards Tank Regiment,1,2nd Guards Motorized Rifle Division,,
 2022-03-31,50.865655,35.267982,SHGPUCIZ---G,"Motorized Rifle (BTR-82A/BTR-80, T-72B3)",Regiment,1,1,1st Guards Motorized Rifle Regiment,1,2nd Guards Motorized Rifle Division,,
-2022-03-31,50.586354,36.005054,SHGPUCA---AK,Headquarters,Army,0,0,1st Guards Tank Army,1,Western Military District,,
-2022-03-31,50.797601,35.649831,SHGPUCIZ--AI,Headquarters,Division,0,0,2nd Guards Motorized Rifle Division,2,1st Guards Tank Army,,
+2022-03-31,50.586354,36.005054,SHGPUCA---AK,Headquarters,Army,0,0,1st Guards Tank Army,1,Western Military District,Q162559,https://en.wikipedia.org/wiki/1st_Guards_Tank_Army_(Russia)
+2022-03-31,50.797601,35.649831,SHGPUCIZ--AI,Headquarters,Division,0,0,2nd Guards Motorized Rifle Division,2,1st Guards Tank Army,Q4029875,https://en.wikipedia.org/wiki/2nd_Guards_Motor_Rifle_Division
 2022-03-31,51.898036,34.381714,SHGPUCIZ--AK,Headquarters,Army,0,0,2nd Guards Combined Arms Army,2,Central Military District,,
-2022-03-31,49.581962,38.190864,SHGPUCIZ--AI,Headquarters,Division,0,0,3rd Motorized Rifle Division,3,20th Guards Combined Arms Army,,
-2022-03-31,50.534499,35.810305,SHGPUCA---AI,Headquarters,Division,0,0,4th Guards Tank Division,4,1st Guards Tank Army,,
+2022-03-31,49.581962,38.190864,SHGPUCIZ--AI,Headquarters,Division,0,0,3rd Motorized Rifle Division,3,20th Guards Combined Arms Army,Q28650707,https://en.wikipedia.org/wiki/3rd_Motor_Rifle_Division
+2022-03-31,50.534499,35.810305,SHGPUCA---AI,Headquarters,Division,0,0,4th Guards Tank Division,4,1st Guards Tank Army,Q4031232,https://en.wikipedia.org/wiki/4th_Guards_Tank_Division
 2022-03-31,50.562007,29.951634,SHGPUCA----H,Armor (T-72B3),Brigade,1,1,5th Separate Guards Tank Brigade,5,36th Combined Arms Army,,
 2022-03-31,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,0,0,6th Combined Arms Army,6,Western Military District,,
 2022-03-31,50.661993,31.835582,SHGPUCA----G,Armor (T-72B),Regiment,<1,1,6th Guards Tank Regiment,6,90th Guards Tank Division,,
