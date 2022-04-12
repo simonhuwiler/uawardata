@@ -1,0 +1,82 @@
+strength,unit,unitnumber,subordinate_to,wikidata,wikipedia
+Army,1st Guards Tank Army,1,Western Military District,Q162559,https://en.wikipedia.org/wiki/1st_Guards_Tank_Army
+Army,20th Combined Arms Army,20,Western Military District,Q4029914,https://en.wikipedia.org/wiki/20th_Guards_Combined_Arms_Army
+Army,2nd Guards Combined Arms Army,2,Central Military District,Q4029882,https://en.wikipedia.org/wiki/2nd_Guards_Tank_Army
+Army,35th Combined Arms Army,35,Eastern Military District,Q25182460,https://en.wikipedia.org/wiki/35th_Combined_Arms_Army
+Army,36th Combined Arms Army,36,Eastern Military District,Q16486386,https://en.wikipedia.org/wiki/36th_Combined_Arms_Army
+Army,41st Combined Arms Army,41,Central Military District,Q4031318,https://en.wikipedia.org/wiki/41st_Combined_Arms_Army
+Army,49th Combined Arms Army,49,Southern Military District,Q4031542,https://en.wikipedia.org/wiki/49th_Combined_Arms_Army
+Army,58th Combined Arms Army,58,Southern Military District,Q244693,https://en.wikipedia.org/wiki/58th_Combined_Arms_Army
+Army,6th Combined Arms Army,6,Western Military District,Q2651982,https://en.wikipedia.org/wiki/6th_Combined_Arms_Army
+Army,8th Guards Combined Arms Army,8,Southern Military District,Q2495312,https://en.wikipedia.org/wiki/8th_Guards_Combined_Arms_Army
+Brigade,155th Separate Guards Naval Infantry Brigade,155,Pacific Fleet,,
+Brigade,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,Q18394938,https://en.wikipedia.org/wiki/11th_Guards_Air_Assault_Brigade
+Brigade,126th Separate Guards Coastal Defense Brigade,126,49th Combined Arms Army,,
+Brigade,138th Separate Guards Motorized Rifle Brigade,138,6th Combined Arms Army,,
+Brigade,200th Separate Motorized Rifle Brigade,200,6th Combined Arms Army,Q720163,https://en.wikipedia.org/wiki/200th_Separate_Motor_Rifle_Brigade
+Brigade,205th Separate Motorized Rifle Brigade,205,22nd Army Corps,,
+Brigade,21st Separate Guards Motorized Rifle Brigade,21,2nd Combined Arms Army,Q25630228,https://en.wikipedia.org/wiki/21st_Guards_Motor_Rifle_Brigade
+Brigade,25th Separate Guards Motorized Rifle Brigade,25,6th Combined Arms Army,,
+Brigade,34th Separate Motorized Rifle Brigade,34,22nd Army Corps,,
+Brigade,35th Separate Guards Motorized Rifle Brigade,35,41st Combined Arms Army,,
+Brigade,36th Separate Guards Motorized Rifle Brigade,36,29th Combined Arms Army,Q28650607,https://en.wikipedia.org/wiki/36th_Guards_Motor_Rifle_Brigade
+Brigade,37th Separate Guards Motorized Rifle Brigade,37,36th Combined Arms Army,,
+Brigade,38th Separate Motorized Rifle Brigade,38,35th Combined Arms Army,,
+Brigade,45th Separate Guards Special Purpose Brigade,45,35th Combined Arms Army,Q4031442,https://en.wikipedia.org/wiki/45th_Guards_Spetsnaz_Brigade
+Brigade,4th Separate Motorized Rifle Brigade,4,2nd Army Corps (Luhansk),,
+Brigade,5th Separate Guards Tank Brigade,5,36th Combined Arms Army,,
+Brigade,64th Separate Motorized Rifle Brigade,64,35th Combined Arms Army,Q30635077,https://en.wikipedia.org/wiki/64th_Motor_Rifle_Brigade
+Brigade,69th Separate Covering Brigade,69,35th Combined Arms Army,,
+Brigade,69th Separate Covering Brigade,69,35th Combined Arms Army,Q104842553,https://en.wikipedia.org/wiki/69th_Covering_Brigade_(Russia)
+Brigade,74th Separate Guards Motorized Rifle Brigade,74,41st Combined Arms Army,Q4643363,https://en.wikipedia.org/wiki/74th_Guards_Motor_Rifle_Brigade
+Brigade,136th Separate Guards Motorized Rifle Brigade,136,58th Combined Arms Army,,
+Brigade,15th Separate Motorized Rifle Brigade,15,2nd Combined Arms Army,Q48951930,15th Separate Motorized Rifle Brigade
+Brigade,27th Separate Guards Motorized Rifle Brigade,27,1st Guards Tank Army,Q28650675,https://en.wikipedia.org/wiki/27th_Separate_Guards_Motor_Rifle_Brigade
+Brigade,38th Separate Motorized Rifle Brigade,38,35th Combined Arms Army,,
+Brigade,55th Separate Motorized Rifle Brigade,55,41st Combined Arms Army,,
+Brigade,810th Separate Naval Infantry Brigade,810,58th Combined Arms Army,,
+Corps,1st Army Corps (Donetsk),1,Southern Military District,,
+Corps,22nd Army Corps,22,Black Sea Fleet,,
+Corps,2nd Army Corps (Luhansk),2,Southern Military District,,
+Division,106th Guards Airborne Division,106,Russian Airborne Forces,Q1982881,https://en.wikipedia.org/wiki/106th_Guards_Airborne_Division
+Division,144th Guards Motorized Rifle Division,144,20th Guards Combined Arms Army,Q28650772,https://en.wikipedia.org/wiki/144th_Guards_Motor_Rifle_Division
+Division,150th Motorized Rifle Division,150,8th Guards Combined Arms Army,Q1986734,https://en.wikipedia.org/wiki/150th_Rifle_Division
+Division,19th Motorized Rifle Division,19,58th Combined Arms Army,Q96694250,https://en.wikipedia.org/wiki/19th_Motor_Rifle_Division
+Division,20th Guards Motorized Rifle Division,20,22nd Army Corps,Q4030688,https://en.wikipedia.org/wiki/20th_Guards_Motor_Rifle_Division
+Division,2nd Guards Motorized Rifle Division,2,1st Guards Tank Army,Q4029875,https://en.wikipedia.org/wiki/2nd_Guards_Motor_Rifle_Division
+Division,3rd Motorized Rifle Division,3,20th Guards Combined Arms Army,Q28650707,https://en.wikipedia.org/wiki/3rd_Motor_Rifle_Division
+Division,42nd Guards Motorized Rifle Division,42,58th Combined Arms Army,Q4031354,https://en.wikipedia.org/wiki/42nd_Guards_Motor_Rifle_Division
+Division,47th Guards Tank Division,47,1st Guards Tank Army,Q18234867,https://en.wikipedia.org/wiki/47th_Guards_Tank_Division
+Division,4th Guards Tank Division,4,1st Guards Tank Army,Q4031232,https://en.wikipedia.org/wiki/4th_Guards_Tank_Division
+Division,76th Guards Air Assault Division,76,Russian Airborne Forces,Q2357,https://en.wikipedia.org/wiki/76th_Guards_Air_Assault_Division
+Division,7th Guards Air Assault Division,7,22nd Army Corps,Q2470360,https://en.wikipedia.org/wiki/7th_Guards_Mountain_Air_Assault_Division
+Division,90th Guards Tank Division,90,Central Military District,Q111447699,https://en.wikipedia.org/wiki/90th_Guards_Tank_Division_(2016%E2%80%93present)
+Regiment,26th Guards Tank Regiment,26,47th Guards Tank Division,,
+Regiment,6th Guards Tank Regiment,6,90th Guards Tank Division,,
+Regiment,104th Guards Air Assault Regiment,104,76th Guards Air Assault Division,,
+Regiment,11th Motorized Rifle Regiment,11,1st Army Corps,,
+Regiment,12th Guards Tank Regiment,12,4th Guards Tank Division,,
+Regiment,137th Guards Airborne Regiment,137,106th Guards Airborne Division,,
+Regiment,13th Guards Tank Regiment,13,4th Guards Tank Division,,
+Regiment,15th Guards Motorized Rifle Regiment,15,2nd Guards Motorized Rifle Division,,
+Regiment,1st Guards Motorized Rifle Regiment,1,2nd Guards Motorized Rifle Division,,
+Regiment,1st Guards Tank Regiment,1,2nd Guards Motorized Rifle Division,,
+Regiment,217th Guards Airborne Regiment,217,98th Guards Airborne Division,,
+Regiment,228th Motorized Rifle Regiment,228,90th Guards Tank Division,,
+Regiment,237th Tank Regiment,237,3rd Motorized Rifle Division,,
+Regiment,252nd Guards Motorized Rifle Regiment,252,3rd Motorized Rifle Division,,
+Regiment,254th Guards Motorized Rifle Regiment,254,144th Motorized Rifle Division,,
+Regiment,255th Guards Motorized Rifle Regiment,255,20th Guards Motorized Rifle Division,,
+Regiment,26th Guards Tank Regiment,26,47th Guards Tank Division,,
+Regiment,33rd Guards Motorized Rifle Regiment,33,20th Guards Motorized Rifle Division,,
+Regiment,423rd Guards Motorized Rifle Regiment,423,4th Guards Tank Division,,
+Regiment,51st Guards Airborne Regiment,51,106th Guards Airborne Division,,
+Regiment,56th Guards Air Assault Regiment,56,7th Guards Air Assault Division,,
+Regiment,59th Guards Tank Regiment,59,144th Motorized Rifle Division,,
+Regiment,6th Guards Tank Regiment,6,90th Guards Tank Division,,
+Regiment,752nd Guards Motorized Rifle Regiment,752,3rd Motorized Rifle Division,,
+Regiment,102nd Motorized Rifle Regiment,102,150th Motorized Rifle Division,,
+Regiment,163rd Tank Regiment,163,150th Motorized Rifle Division,,
+Regiment,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division,,
+Regiment,68th Tank Regiment,68,150th Motorized Rifle Division,,
+Regiment,71st Guards Motorized Rifle Regiment,71,42nd Guards Motorized Rifle Division,,
