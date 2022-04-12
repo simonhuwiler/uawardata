@@ -300,7 +300,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-12,51.712941,36.142620,SHGPUCIZ--AK,Headquarters,Army,0,0,2nd Guards Combined Arms Army,2,Central Military District
 2022-04-12,48.558665,39.307395,SHGPUCIZ--AJ,Headquarters,Corps,0,0,2nd Army Corps (Luhansk),2,Southern Military District
 2022-04-12,49.235171,37.373813,SHGPUCIZ--AI,Headquarters,Division,0,0,3rd Motorized Rifle Division,3,20th Guards Combined Arms Army
-2022-04-12,49.269928,37.045661,SHGPUCA---AI,Headquarters,Division,0,0,4th Guards Tank Division,4,1st Guards Tank Army
+2022-04-12,49.309382,37.049959,SHGPUCA---AI,Headquarters,Division,0,0,4th Guards Tank Division,4,1st Guards Tank Army
 2022-04-12,48.627522,38.580410,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1,4th Separate Motorized Rifle Brigade,4,2nd Army Corps (Luhansk)
 2022-04-12,48.467210,38.795318,SSGPUCIZ--AK,Headquarters,Army,0,0,5th Combined Arms Army,5,Eastern Military District
 2022-04-12,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,0,0,6th Combined Arms Army,6,Western Military District
@@ -332,11 +332,10 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-12,47.643427,36.913299,SSGPUCIZ---G,Motorized Rifle (BMP-3),Regiment,1,1,70th Guards Motorized Rifle Regiment,70,42nd Guards Motorized Rifle Division
 2022-04-12,47.486886,36.250927,SHGPUCIZ---G,Motorized Rifle,Regiment,2,2,71st Guards Motorized Rifle Regiment,71,42nd Guards Motorized Rifle Division
 2022-04-12,50.271217,38.019690,SSGPUCIA--AI,Headquarters,Division,2,2,76th Guards Air Assault Division,76,Russian Airborne Forces
-2022-04-12,50.157478,37.893001,SSGPUCIA--AI,Headquarters,Division,0,0,76th Guards Air Assault Division,76,Russian Airborne Forces
 2022-04-12,47.146380,37.823051,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2,102nd Motorized Rifle Regiment,102,150th Motorized Rifle Division
 2022-04-12,49.601462,36.984238,SSGPUCIA--AI,Headquarters,Division,0,0,106th Guards Airborne Division,106,Russian Airborne Forces
 2022-04-12,47.085248,33.524263,SSGPUCIN---H,"Motorized Rifle (BMP-2/BTR-80, T-72B3)",Brigade,1,1,126th Separate Guards Coastal Defense Brigade,126,49th Combined Arms Army
-2022-04-12,48.950657,39.022491,SSGPUCIZ--AI,Headquarters,Division,0,0,127th Motorized Rifle Division,127,5th Combined Arms Army
+2022-04-12,48.950657,39.022491,SSGPUCIZ--AI,Headquarters,Division,3,3,127th Motorized Rifle Division,127,5th Combined Arms Army
 2022-04-12,46.691939,32.523411,SSGPUCR----H,Recon,Brigade,1,1,127th Separate Reconnaissance Brigade,127,22nd Army Corps
 2022-04-12,47.416132,35.832464,SHGPUCIZ---H,Motorized Rifle (BMP-3),Brigade,2,2,136th Separate Guards Motorized Rifle Brigade,136,58th Combined Arms Army
 2022-04-12,49.697216,36.917205,SSGPUCIA---G,VDV,Regiment,1,1,137th Guards Airborne Regiment,137,106th Guards Airborne Division
@@ -351,7 +350,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-12,49.194537,37.273691,SSGPUCA----G,Armor,Regiment,1,1,237th Tank Regiment,237,3rd Motorized Rifle Division
 2022-04-12,49.219505,37.595321,SSGPUCIZ---G,"Motorized Rifle (BMP-2, T-72B3)",Regiment,1,1,252nd Guards Motorized Rifle Regiment,252,3rd Motorized Rifle Division
 2022-04-12,47.544139,36.681215,SSGPUCIZ---G,Motorized Rifle,Regiment,2,2,291st Guards Motorized Rifle Regiment,291,42nd Guards Motorized Rifle Division
-2022-04-12,49.183711,37.006146,SHGPUCIZ---G,"Motorized Rifle (BMP-2, T-80U)",Regiment,1,1,423rd Guards Motorized Rifle Regiment,423,4th Guards Tank Division
+2022-04-12,49.225266,36.991626,SHGPUCIZ---G,"Motorized Rifle (BMP-2, T-80U)",Regiment,1,1,423rd Guards Motorized Rifle Regiment,423,4th Guards Tank Division
 2022-04-12,47.276439,35.221250,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1,429th Motorized Rifle Regiment,429,19th Motorized Rifle Division
 2022-04-12,47.435016,35.281804,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division
 2022-04-12,49.184492,37.405926,SSGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72B)",Regiment,1,1,752nd Guards Motorized Rifle Regiment,752,3rd Motorized Rifle Division
