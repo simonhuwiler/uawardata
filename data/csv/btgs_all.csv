@@ -309,12 +309,12 @@ date,lat,lng,unit,type_of_btg
 2022-04-15,49.385694,37.852730,201st Military Base,motor_rifle
 2022-04-15,48.870378,38.890813,127th Motorized Rifle Division,tank
 2022-04-15,49.416415,37.754441,201st Military Base,motor_rifle
-2022-04-15,49.278491,38.021579,2nd Combined Arms Army,motor_rifle
+2022-04-15,49.278491,38.021579,2nd Guards Combined Arms Army,motor_rifle
 2022-04-15,50.023020,37.332349,38th Separate Motorized Rifle Brigade,motor_rifle
 2022-04-15,48.939919,38.710179,127th Motorized Rifle Division,motor_rifle
 2022-04-15,47.754944,37.131931,163rd Tank Regiment,tank
 2022-04-15,48.217269,37.972868,1st Army Corps (Donetsk),motor_rifle
-2022-04-15,49.289444,38.189399,2nd Combined Arms Army,motor_rifle
+2022-04-15,49.289444,38.189399,2nd Guards Combined Arms Army,motor_rifle
 2022-04-15,46.802838,32.536749,56th Guards Air Assault Regiment,vdv
 2022-04-15,46.711900,32.422485,127th Separate Reconnaissance Brigade,motor_rifle
 2022-04-15,46.632989,32.383904,10th Separate Special Purpose Brigade,vdv
@@ -342,4 +342,4 @@ date,lat,lng,unit,type_of_btg
 2022-04-15,48.126173,37.888414,60th Separate Motorized Rifle Brigade,motor_rifle
 2022-04-15,48.628763,38.474965,4th Separate Motorized Rifle Brigade,motor_rifle
 2022-04-15,48.800768,38.738063,127th Motorized Rifle Division,motor_rifle
-2022-04-15,49.347023,38.097893,2nd Combined Arms Army,motor_rifle
+2022-04-15,49.347023,38.097893,2nd Guards Combined Arms Army,motor_rifle
