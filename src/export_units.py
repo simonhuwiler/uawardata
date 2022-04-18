@@ -148,7 +148,10 @@ def export_website(CONSTS):
                         "subordinate_to": row['subordinate_to'].strip(),
                     })
 
-                icon_removed_hq = "%s-%s" % (row['icon'][0:10], row['icon'][11:])
+                if len(new_df) > 1:
+                    icon_removed_hq = "%s-%s" % (row['icon'][0:10], row['icon'][11:])
+                else:
+                    icon_removed_hq = row['icon']
                 icons.append(icon_removed_hq)
 
             # Deside if subtype is "headquarters" or "units"
