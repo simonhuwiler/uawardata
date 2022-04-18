@@ -20,9 +20,9 @@ SHEET_ASSESSMENTS = os.getenv("SHEET_ASSESSMENTS", None)
 if not SHEET_ASSESSMENTS:
     SHEET_ASSESSMENTS = config("SHEET_ASSESSMENTS")
 
-sheet_btg = os.getenv("SHEET_BTG", None)
-if not sheet_btg:
-    sheet_btg = config("SHEET_BTG")
+SHEET_BTG = os.getenv("SHEET_BTG", None)
+if not SHEET_BTG:
+    SHEET_BTG = config("SHEET_BTG")
 
 export_folder = Path('./data/')
 export_folder_website = Path('./website_tmp')
@@ -113,7 +113,7 @@ data['features'] = list(filter(lambda x: x['properties']['date'] == df.date.max(
 json.dump(data, open(export_folder / Path('./geojson/units_current.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
 
 # ----- Download BTGs
-df = pd.read_csv(sheet_btg)
+df = pd.read_csv(SHEET_BTG)
 df = df.sort_values('date')
 
 # Remove empty types
