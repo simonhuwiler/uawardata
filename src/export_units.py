@@ -155,6 +155,13 @@ def export_website(CONSTS):
                 icons.append(icon_removed_hq)
 
             # Deside if subtype is "headquarters" or "units"
+            # print(new_df.iloc[0]['icon'][10])
+
+            if len(new_df) > 1:
+                icon_type = 'stacked'
+            else:
+                icon_type = 'single'
+
             if new_df.iloc[0]['icon'][10].lower() == 'a':
                 subtype = 'headquarters'
             else:
@@ -165,9 +172,9 @@ def export_website(CONSTS):
                 "id": counter + 1,
                 "properties": {
                     "date": new_df.iloc[0]['date'].strftime('%Y-%m-%d'),
-                    "type": ("single" if len(new_df) == 1 else "stacked"),
+                    "type": icon_type,
                     "icon": {
-                        "type": subtype,
+                      "type": subtype,
                         "icons": icons
                     },
                     "units": units
