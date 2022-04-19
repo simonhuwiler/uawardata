@@ -1,11 +1,10 @@
 # Export data
 
-import pandas as pd
 from pathlib import Path
-import json
 import os
 from decouple import config
 import shutil
+import argparse
 
 import export_units
 import export_btgs
@@ -28,6 +27,14 @@ SHEET_BTG = os.getenv("SHEET_BTG", None)
 if not SHEET_BTG:
     SHEET_BTG = config("SHEET_BTG")
 
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-p', type=str, required=True, help='"staging" or "production"')
+args = parser.parse_args()
+print("Update %s" % args.p)
+
+production = True if  args.p.lower() == 'production' else False
+
 export_folder = Path('./data/')
 export_folder_website = Path('./website_tmp')
 
@@ -47,11 +54,13 @@ if export_folder_website.exists():
 os.mkdir(export_folder_website, )
 
 # ----- Download Units
-export_units.export_repo(CONSTS)
-# export_units.export_website(CONSTS)
+if production:
+    export_units.export_repo(CONSTS)
+
+#export_units.export_website(CONSTS)
 
 # ----- Download BTGs
-export_btgs.export(CONSTS)
+export_btgs.export(CONSTS, production)
 
 # ----- Download Assessments
 export_assessments.export(CONSTS)

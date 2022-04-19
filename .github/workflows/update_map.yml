@@ -43,7 +43,7 @@ jobs:
           SHEET_ASSESSMENTS: ${{ secrets.SHEET_ASSESSMENTS }}
           SHEET_BTG: ${{ secrets.SHEET_BTG }}
         run: |
-          python ./src/export_data.py
+          python ./src/export_data.py -p production
 
       - name: Setup Node.js
         uses: actions/setup-node@v2

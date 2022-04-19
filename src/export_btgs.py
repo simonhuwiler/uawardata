@@ -2,7 +2,7 @@ import pandas as pd
 import json
 from pathlib import Path
 
-def export(CONSTS):
+def export(CONSTS, production=True):
     df = pd.read_csv(CONSTS['SHEET_BTG'])
     df = df.sort_values('date')
 
@@ -57,11 +57,12 @@ def export(CONSTS):
     # Export Website
     json.dump(data, open(CONSTS['export_folder_website'] / Path('./btgs.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
 
-    # Export Repo All
-    json.dump(data, open(CONSTS['export_folder'] / Path('./geojson/btgs_all.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
-    df.to_csv(CONSTS['export_folder'] / './csv/btgs_all.csv', index=False)
+    if production:
+        # Export Repo All
+        json.dump(data, open(CONSTS['export_folder'] / Path('./geojson/btgs_all.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
+        df.to_csv(CONSTS['export_folder'] / './csv/btgs_all.csv', index=False)
 
-    # Export Repo Current
-    df[df.date == df.date.max()].to_csv(CONSTS['export_folder'] / './csv/btgs_current.csv', index=False)
-    data['features'] = list(filter(lambda x: x['properties']['date'] == df.date.max().strftime('%Y-%m-%d'), data['features']))
-    json.dump(data, open(CONSTS['export_folder'] / Path('./geojson/btgs_current.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
+        # Export Repo Current
+        df[df.date == df.date.max()].to_csv(CONSTS['export_folder'] / './csv/btgs_current.csv', index=False)
+        data['features'] = list(filter(lambda x: x['properties']['date'] == df.date.max().strftime('%Y-%m-%d'), data['features']))
+        json.dump(data, open(CONSTS['export_folder'] / Path('./geojson/btgs_current.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
