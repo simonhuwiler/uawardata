@@ -38,6 +38,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-18,49.406915,37.072911,SSGPUCIZ--AJ,Headquarters,Corps,2,2,68th Army Corps,68,Eastern Military District
 2022-04-18,47.643427,36.913299,SSGPUCIZ---G,Motorized Rifle (BMP-3),Regiment,1,1,70th Guards Motorized Rifle Regiment,70,42nd Guards Motorized Rifle Division
 2022-04-18,47.486886,36.250927,SHGPUCIZ---G,Motorized Rifle,Regiment,2,2,71st Guards Motorized Rifle Regiment,71,42nd Guards Motorized Rifle Division
+2022-04-18,49.301952,38.020509,SHGPUCIZ---H,"Motorized Rifle (BMP-2, T-72B3)",Brigade,1,1,74th Separate Guards Motorized Rifle Brigade,74,41st Combined Arms Army
 2022-04-18,50.271217,38.019690,SSGPUCIA--AI,Headquarters,Division,2,2,76th Guards Air Assault Division,76,Russian Airborne Forces
 2022-04-18,49.477423,38.161129,SSGPUCA---AI,Headquarters,Division,0,0,90th Guards Tank Division,90,Central Military District
 2022-04-18,48.614373,38.555196,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2,102nd Motorized Rifle Regiment,102,150th Motorized Rifle Division
@@ -50,6 +51,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-18,49.911924,37.224868,SSGPUCIZ--AI,Headquarters,Division,<1,1,144th Guards Motorized Rifle Division,144,20th Guards Combined Arms Army
 2022-04-18,47.381783,37.072515,SHGPUCIZ--AI,Headquarters,Division,0,0,150th Motorized Rifle Division,150,8th Guards Combined Arms Army
 2022-04-18,48.525584,38.631582,SSGPUCIN---H,"Naval Infantry (BTR-80, T-80BV)",Brigade,1,1,155th Separate Guards Naval Infantry Brigade,155,Pacific Fleet
+2022-04-18,47.687604,37.201380,SSGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,2,2,163rd Tank Regiment,163,150th Motorized Rifle Division
 2022-04-18,47.198637,37.321379,SHGPUCIN---G,Naval Infantry,Regiment,1,1,177th Naval Infantry Regiment,177,Caspian Flotilla
 2022-04-18,50.532135,36.262832,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1,200th Separate Motorized Rifle Brigade,200,6th Combined Arms Army
 2022-04-18,49.566947,37.828123,SHGPUCIZ---I,Motorized Rifle,Division,4,4,201st Military Base,201,Central Military District
