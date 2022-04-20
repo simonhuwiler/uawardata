@@ -71,3 +71,10 @@ jobs:
           ftp-password: ${{ secrets.FTP_PASSWORD }}
           local-dir: website_tmp
           git-ftp-args: --insecure
+
+      - name: Purge Cache
+        env: 
+          PURGE_TOKEN: ${{ secrets.PURGE_TOKEN }}
+          PURGE_IDENTIFIER: ${{ secrets.PURGE_IDENTIFIER }}
+        run: |
+          python ./src/purge_cache.py
