@@ -3,11 +3,11 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-21,49.396902,37.204498,SHGPUCA---AK,Headquarters,Army,0,0,1st Guards Tank Army,1,Western Military District
 2022-04-21,47.981152,37.843091,SHGPUCIZ--AJ,Headquarters,Corps,0,0,1st Army Corps (Donetsk),1,Southern Military District
 2022-04-21,49.151200,37.175070,SSGPUCIZ---G,"Motorized Rifle (BTR-82A/BTR-80, T-72B3/T-90A)",Regiment,1,1,1st Guards Motorized Rifle Regiment,1,2nd Guards Motorized Rifle Division
-2022-04-21,49.288526,37.147002,SHGPUCIZ--AI,Headquarters,Division,0,0,2nd Guards Motorized Rifle Division,2,1st Guards Tank Army
+2022-04-21,49.234153,37.134207,SHGPUCIZ--AI,Headquarters,Division,0,0,2nd Guards Motorized Rifle Division,2,1st Guards Tank Army
 2022-04-21,49.407287,38.166312,SSGPUCIZ--AK,Headquarters,Army,0,0,2nd Guards Combined Arms Army,2,Central Military District
 2022-04-21,48.558665,39.307395,SHGPUCIZ--AJ,Headquarters,Corps,0,0,2nd Army Corps (Luhansk),2,Southern Military District
 2022-04-21,49.183967,37.279340,SSGPUCIZ--AI,Headquarters,Division,0,0,3rd Motorized Rifle Division,3,20th Guards Combined Arms Army
-2022-04-21,49.288526,37.147002,SHGPUCA---AI,Headquarters,Division,0,0,4th Guards Tank Division,4,1st Guards Tank Army
+2022-04-21,49.234153,37.134207,SHGPUCA---AI,Headquarters,Division,0,0,4th Guards Tank Division,4,1st Guards Tank Army
 2022-04-21,48.667749,38.607920,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1,4th Separate Motorized Rifle Brigade,4,2nd Army Corps (Luhansk)
 2022-04-21,48.467210,38.795318,SSGPUCIZ--AK,Headquarters,Army,0,0,5th Combined Arms Army,5,Eastern Military District
 2022-04-21,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,0,0,6th Combined Arms Army,6,Western Military District
