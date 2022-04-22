@@ -484,3 +484,4 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-18,47.435016,35.281804,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division
 2022-04-18,49.184492,37.405926,SSGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72B)",Regiment,1,1,752nd Guards Motorized Rifle Regiment,752,3rd Motorized Rifle Division
 2022-04-18,47.061573,37.269309,SHGPUCIN---H,Naval Infantry,Brigade,1,1,810th Separate Naval Infantry Brigade,810,58th Combined Arms Army
+2022-04-21,49.118294,37.299426,SHGPUCA----G,"Armor (T-72B3M, BTR-80)",Regiment,1,1,1st Guards Tank Regiment,1,2nd Guards Motorized Rifle Division
