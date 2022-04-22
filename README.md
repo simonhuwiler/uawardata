@@ -47,6 +47,10 @@ The **BTGs**-files contains the position of each individual unit (brigades, divi
 |unit|*str*|Name of the unit|
 |type_of_btg|*enum*|Type of unit. One of these: `motor_rifle`, `vdv` (Russian Airborne Forces), `tank`|
 
+## Data Structure Changes
+**`2022-04-22` Multiple icons on same location**  
+Now several icons can be placed at the same coordinates. On uawardata.com they are displayed one above the other. In the data, they are still added separately.
+
 ## Methodology
 The data is collected by Henry Schlottman, a former U.S. Army analyst. Using known troop positions before the war began, pictures of (destroyed) Russian war equipment, information from prisoners, and other public data, he is able to record the approximate position of each unit. Despite all the information, the data remain approximations.
 

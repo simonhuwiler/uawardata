@@ -57,7 +57,7 @@ os.mkdir(export_folder_website, )
 if production:
     export_units.export_repo(CONSTS)
 
-#export_units.export_website(CONSTS)
+export_units.export_website(CONSTS)
 
 # ----- Download BTGs
 export_btgs.export(CONSTS, production)

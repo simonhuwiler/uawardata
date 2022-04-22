@@ -70,7 +70,7 @@ def export_repo(CONSTS):
             break
 
     # Export website XXX REMOVE HERE!
-    json.dump(data, open(CONSTS['export_folder_website'] / Path('./units.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
+    #json.dump(data, open(CONSTS['export_folder_website'] / Path('./units.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
         
     # Export Repo All
     json.dump(data, open(CONSTS['export_folder'] / Path('./geojson/units_all.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
@@ -144,7 +144,7 @@ def export_website(CONSTS):
                         "strength_in_btg_number": row['strength_in_btg_number'],
                         "strength_in_btg_text": row['strength_in_btg_text'],
                         "unit": row['unit'].strip(),
-                        "unitnumber": row['unitnumber'] if pd.notna(row['unitnumber']) else None,
+                        # "unitnumber": row['unitnumber'] if pd.notna(row['unitnumber']) else None,
                         "subordinate_to": row['subordinate_to'].strip(),
                     })
 
@@ -152,7 +152,10 @@ def export_website(CONSTS):
                     icon_removed_hq = "%s-%s" % (row['icon'][0:10], row['icon'][11:])
                 else:
                     icon_removed_hq = row['icon']
-                icons.append(icon_removed_hq)
+                icons.append({
+                    'i': icon_removed_hq,
+                    'n': str(row['unitnumber'])
+                })
 
             # Deside if subtype is "headquarters" or "units"
             # print(new_df.iloc[0]['icon'][10])
