@@ -40,6 +40,16 @@ def export_repo(CONSTS):
 
     df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg_text', 'strength_in_btg_number', 'unit', 'unitnumber', 'subordinate_to']]
 
+    # Find stacked icons
+    def find_stacked(row):
+        return True if len(df[
+            (df['date'] == row['date']) &
+            (df['lat'] == row['lat']) &
+            (df['lng'] == row['lng'])
+        ]) > 1 else False
+
+    df['stacked'] = df.apply(find_stacked, axis=1)
+
     for i, row in df.iterrows():
         try:
             data['features'].append({
@@ -50,12 +60,12 @@ def export_repo(CONSTS):
                     "icon": row['icon'],
                     "type": row['type'],
                     "strength": row['strength'].strip(),
-                    #"strength_in_btg": row['strength_in_btg_text'],
                     "strength_in_btg_number": row['strength_in_btg_number'],
                     "strength_in_btg_text": row['strength_in_btg_text'],
                     "unit": row['unit'].strip(),
                     "unitnumber": row['unitnumber'] if pd.notna(row['unitnumber']) else None,
                     "subordinate_to": row['subordinate_to'].strip(),
+                    "stacked": row['stacked']
                 },
                 "geometry": {
                     "type": "Point",
@@ -69,9 +79,6 @@ def export_repo(CONSTS):
             pass
             break
 
-    # Export website XXX REMOVE HERE!
-    #json.dump(data, open(CONSTS['export_folder_website'] / Path('./units.json'), 'w', encoding='UTF-8'), ensure_ascii=False)
-        
     # Export Repo All
     json.dump(data, open(CONSTS['export_folder'] / Path('./geojson/units_all.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
     df.to_csv(CONSTS['export_folder'] / './csv/units_all.csv', index=False)
@@ -144,7 +151,6 @@ def export_website(CONSTS):
                         "strength_in_btg_number": row['strength_in_btg_number'],
                         "strength_in_btg_text": row['strength_in_btg_text'],
                         "unit": row['unit'].strip(),
-                        # "unitnumber": row['unitnumber'] if pd.notna(row['unitnumber']) else None,
                         "subordinate_to": row['subordinate_to'].strip(),
                     })
 
