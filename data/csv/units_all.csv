@@ -588,7 +588,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-24,49.281764,38.907821,SSGPUCIZ---H,Motorized Rifle,Brigade,2,2,57th Separate Guards Motorized Rifle Brigade,57,5th Combined Arms Army,False
 2022-04-24,46.843480,35.368727,SHGPUCIZ--AK,Headquarters,Army,7,7,58th Combined Arms Army,58,Southern Military District,False
 2022-04-24,48.134241,38.024860,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1,60th Separate Motorized Rifle Brigade,60,5th Combined Arms Army,False
-2022-04-24,49.518574,36.913267,SSGPUCIZ---H,"Motorized Rifle (T-80BVM/T-72B3, BMP-2)",Brigade,1,1,64th Separate Motorized Rifle Brigade,64,35th Combined Arms Army,False
+2022-04-24,49.210311,37.171735,SSGPUCIZ---H,"Motorized Rifle (T-80BVM/T-72B3, BMP-2)",Brigade,1,1,64th Separate Motorized Rifle Brigade,64,35th Combined Arms Army,False
 2022-04-24,48.558161,38.644365,SSGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,1,1,68th Tank Regiment,68,150th Motorized Rifle Division,False
 2022-04-24,49.396902,37.204498,SSGPUCIZ--AJ,Headquarters,Corps,2,2,68th Army Corps,68,Eastern Military District,True
 2022-04-24,47.751207,36.959571,SSGPUCIZ---G,Motorized Rifle (BMP-3),Regiment,1,1,70th Guards Motorized Rifle Regiment,70,42nd Guards Motorized Rifle Division,False
@@ -613,10 +613,10 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-24,46.890757,33.144856,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1,205th Separate Motorized Rifle Brigade,205,22nd Army Corps,False
 2022-04-24,50.283517,38.051674,SSGPUCA----G,Armor,Regiment,<1,1,237th Tank Regiment,237,3rd Motorized Rifle Division,False
 2022-04-24,49.335234,38.177688,SSGPUCA----G,Armor,Regiment,1,1,239th Guards Tank Regiment,239,90th Guards Tank Division,False
-2022-04-24,49.276694,37.469018,SSGPUCIZ---G,"Motorized Rifle (BMP-2, T-72B3)",Regiment,1,1,252nd Guards Motorized Rifle Regiment,252,3rd Motorized Rifle Division,False
+2022-04-24,49.254980,37.446543,SSGPUCIZ---G,"Motorized Rifle (BMP-2, T-72B3)",Regiment,1,1,252nd Guards Motorized Rifle Regiment,252,3rd Motorized Rifle Division,True
 2022-04-24,47.544139,36.681215,SSGPUCIZ---G,Motorized Rifle,Regiment,2,2,291st Guards Motorized Rifle Regiment,291,42nd Guards Motorized Rifle Division,False
 2022-04-24,49.225266,36.991626,SHGPUCIZ---G,"Motorized Rifle (BMP-2, T-80BV)",Regiment,1,1,423rd Guards Motorized Rifle Regiment,423,4th Guards Tank Division,False
 2022-04-24,47.276439,35.221250,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1,429th Motorized Rifle Regiment,429,19th Motorized Rifle Division,False
 2022-04-24,47.435016,35.281804,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division,False
-2022-04-24,49.184492,37.405926,SSGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72B)",Regiment,1,1,752nd Guards Motorized Rifle Regiment,752,3rd Motorized Rifle Division,False
+2022-04-24,49.254980,37.446543,SSGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72B)",Regiment,1,1,752nd Guards Motorized Rifle Regiment,752,3rd Motorized Rifle Division,True
 2022-04-24,47.061573,37.269309,SHGPUCIN---H,Naval Infantry,Brigade,1,1,810th Separate Naval Infantry Brigade,810,58th Combined Arms Army,False
