@@ -33,6 +33,7 @@ The **Unit**-files contains the units and where approximately their headquarters
 |unit|*str*|Name of the unit|
 |unitnumber|*number*|Name of the unit as a number|
 |subordinate_to|*str*|Subordinates to which unit|
+|country|*enum*|Country where the unit is from. One of these: `ru`, `ua`, `na`|
 |stacked|*bool*|`True` if more than one feature/unit is at this exact location|
 
 ### BTGs
@@ -49,11 +50,18 @@ The **BTGs**-files contains the position of each individual unit (brigades, divi
 |lng|*float*|Longitude, only in CSV|
 |unit|*str*|Name of the unit|
 |type_of_btg|*enum*|Type of unit. One of these: `motor_rifle`, `vdv` (Russian Airborne Forces), `tank`|
+|country|*enum*|Country where the unit is from. One of these: `ru` (Russia), `ua` (Ukraine), `na` (unknow)|
 
 ## Data Structure Changes
 **`2022-04-22` Multiple icons on same location**  
 Now several icons can be placed at the same coordinates. On uawardata.com they are displayed one above the other. In the data, they are still added separately.  
 These Units are marked with `stacked = true`
+
+##`2022-04-24` Add country code
+Added country code, where unit is from. One of these:
+* `ru` = Russia
+* `ua` = Ukraine
+* `na` = unknown
 
 ## Methodology
 The data is collected by Henry Schlottman, a former U.S. Army analyst. Using known troop positions before the war began, pictures of (destroyed) Russian war equipment, information from prisoners, and other public data, he is able to record the approximate position of each unit. Despite all the information, the data remain approximations.
