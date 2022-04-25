@@ -9,7 +9,7 @@ def export_repo(CONSTS):
     df_description = pd.read_csv(CONSTS['SHEET_UNITS_DESCRIPTION'])
 
     # Merge
-    df = df.merge(df_description, how='left', on='unit')
+    df = df.merge(df_description, how='left', on=['unit', 'country'])
     if len(df[df.icon.isna()]) > 0:
         print(df[df.icon.isna()])
         raise ValueError("🤬 Unit Position withouth corresponding Unit in 'units_description'")
@@ -102,7 +102,7 @@ def export_website(CONSTS):
     df_description = pd.read_csv(CONSTS['SHEET_UNITS_DESCRIPTION'])
 
     # Merge
-    df = df.merge(df_description, how='left', on='unit')
+    df = df.merge(df_description, how='left', on=['unit', 'country'])
     if len(df[df.icon.isna()]) > 0:
         print(df[df.icon.isna()])
         raise ValueError("🤬 Unit Position withouth corresponding Unit in 'units_description'")

@@ -14,7 +14,7 @@ def export(CONSTS, production=True):
     df_description = df_description.drop_duplicates('unit')
 
     # Join and add country
-    df = df.merge(df_description[['unit', 'icon']], how='left', on='unit')
+    df = df.merge(df_description[['unit', 'icon', 'country']], how='left', on=['unit', 'country'])
     if len(df[df.icon.isna()]) > 0:
         for i, row in df[df.icon.isna()].iterrows():
             print("👉 BTG '%s' not found in unit_description. Date %s" % (row['unit'], row['date']))
