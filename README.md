@@ -63,6 +63,12 @@ Added country code, where unit is from. One of these:
 * `ua` = Ukraine
 * `na` = unknown
 
+## Accuracy Ukrainian troops
+We reduce accuracy of Ukrainian troops and show:
+* Only data from official government sources
+* We do no other OSINT analysis (equipment, .etc.)
+* Coordinates will be only 3 significant figures
+
 ## Methodology
 The data is collected by Henry Schlottman, a former U.S. Army analyst. Using known troop positions before the war began, pictures of (destroyed) Russian war equipment, information from prisoners, and other public data, he is able to record the approximate position of each unit. Despite all the information, the data remain approximations.
 
