@@ -10,7 +10,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-03-31,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,0,0,6th Combined Arms Army,6,Western Military District,ru,False
 2022-03-31,50.661993,31.835582,SHGPUCA----G,Armor (T-72B),Regiment,<1,1,6th Guards Tank Regiment,6,90th Guards Tank Division,ru,False
 2022-03-31,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps,ru,False
-2022-03-31,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,ru,False
+2022-03-31,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-03-31,47.350183,33.346536,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
 2022-03-31,50.574682,35.459193,SHGPUCA----G,"Armor (T-80U, BMP-2)",Regiment,1,1,12th Guards Tank Regiment,12,4th Guards Tank Division,ru,False
 2022-03-31,50.889753,33.495740,SHGPUCIZ---G,"Motorized Rifle (BMP-2M, T-72B3)",Regiment,1,1,15th Guards Motorized Rifle Regiment,15,2nd Guards Motorized Rifle Division,ru,False
@@ -73,7 +73,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-01,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,0,0,6th Combined Arms Army,6,Western Military District,ru,False
 2022-04-01,50.805666,32.128216,SHGPUCA----G,Armor (T-72B),Regiment,<1,1,6th Guards Tank Regiment,6,90th Guards Tank Division,ru,False
 2022-04-01,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps,ru,False
-2022-04-01,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,ru,False
+2022-04-01,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-04-01,47.350183,33.346536,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
 2022-04-01,50.581600,35.563395,SHGPUCA----G,"Armor (T-80U, BMP-2)",Regiment,1,1,12th Guards Tank Regiment,12,4th Guards Tank Division,ru,False
 2022-04-01,50.889753,33.495740,SHGPUCIZ---G,"Motorized Rifle (BMP-2M, T-72B3)",Regiment,1,1,15th Guards Motorized Rifle Regiment,15,2nd Guards Motorized Rifle Division,ru,False
@@ -142,7 +142,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-03,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,0,0,6th Combined Arms Army,6,Western Military District,ru,False
 2022-04-03,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps,ru,False
 2022-04-03,47.252661,39.715541,SHGPUCIZ--AK,Headquarters,Army,0,0,8th Guards Combined Arms Army,8,Southern Military District,ru,False
-2022-04-03,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,ru,False
+2022-04-03,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-04-03,47.350183,33.346536,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
 2022-04-03,49.137196,37.126906,SSGPUCA----G,Armor (T-80U),Regiment,1,1,13th Guards Tank Regiment,13,4th Guards Tank Division,ru,False
 2022-04-03,50.958113,35.218597,SHGPUCIZ---G,"Motorized Rifle (BMP-2M, T-72B3)",Regiment,1,1,15th Guards Motorized Rifle Regiment,15,2nd Guards Motorized Rifle Division,ru,False
@@ -196,7 +196,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-06,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,0,0,6th Combined Arms Army,6,Western Military District,ru,False
 2022-04-06,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps,ru,False
 2022-04-06,47.252661,39.715541,SHGPUCIZ--AK,Headquarters,Army,0,0,8th Guards Combined Arms Army,8,Southern Military District,ru,False
-2022-04-06,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,ru,False
+2022-04-06,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-04-06,47.164336,33.207065,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
 2022-04-06,49.137196,37.126906,SSGPUCA----G,Armor (T-80U),Regiment,1,1,13th Guards Tank Regiment,13,4th Guards Tank Division,ru,False
 2022-04-06,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,0,0,19th Motorized Rifle Division,19,58th Combined Arms Army,ru,False
@@ -248,7 +248,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-09,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps,ru,False
 2022-04-09,47.252661,39.715541,SHGPUCIZ--AK,Headquarters,Army,0,0,8th Guards Combined Arms Army,8,Southern Military District,ru,False
 2022-04-09,46.638006,32.493478,SSGPUCRA---H,Special Purpose,Brigade,1,1,10th Separate Special Purpose Brigade,10,Southern Military District,ru,False
-2022-04-09,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,ru,False
+2022-04-09,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-04-09,47.164336,33.207065,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
 2022-04-09,49.137196,37.126906,SSGPUCA----G,Armor (T-80U),Regiment,1,1,13th Guards Tank Regiment,13,4th Guards Tank Division,ru,False
 2022-04-09,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,0,0,19th Motorized Rifle Division,19,58th Combined Arms Army,ru,False
@@ -307,7 +307,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-12,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps,ru,False
 2022-04-12,47.252661,39.715541,SHGPUCIZ--AK,Headquarters,Army,0,0,8th Guards Combined Arms Army,8,Southern Military District,ru,False
 2022-04-12,46.638006,32.493478,SSGPUCRA---H,Special Purpose,Brigade,1,1,10th Separate Special Purpose Brigade,10,Southern Military District,ru,False
-2022-04-12,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,ru,False
+2022-04-12,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-04-12,47.164336,33.207065,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
 2022-04-12,49.183181,37.127416,SSGPUCA----G,Armor (T-80U),Regiment,1,1,13th Guards Tank Regiment,13,4th Guards Tank Division,ru,False
 2022-04-12,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,0,0,19th Motorized Rifle Division,19,58th Combined Arms Army,ru,False
@@ -369,7 +369,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-15,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps,ru,False
 2022-04-15,47.252661,39.715541,SHGPUCIZ--AK,Headquarters,Army,0,0,8th Guards Combined Arms Army,8,Southern Military District,ru,False
 2022-04-15,46.638006,32.493478,SSGPUCRA---H,Special Purpose,Brigade,1,1,10th Separate Special Purpose Brigade,10,Southern Military District,ru,False
-2022-04-15,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,ru,False
+2022-04-15,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-04-15,47.164336,33.207065,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
 2022-04-15,49.183181,37.127416,SSGPUCA----G,Armor (T-80U),Regiment,1,1,13th Guards Tank Regiment,13,4th Guards Tank Division,ru,False
 2022-04-15,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,0,0,19th Motorized Rifle Division,19,58th Combined Arms Army,ru,False
@@ -432,7 +432,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-18,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,0,0,7th Guards Air Assault Division,7,22nd Army Corps,ru,False
 2022-04-18,47.252661,39.715541,SHGPUCIZ--AK,Headquarters,Army,0,0,8th Guards Combined Arms Army,8,Southern Military District,ru,False
 2022-04-18,46.638006,32.493478,SSGPUCRA---H,Special Purpose,Brigade,1,1,10th Separate Special Purpose Brigade,10,Southern Military District,ru,False
-2022-04-18,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,ru,False
+2022-04-18,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-04-18,47.164336,33.207065,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
 2022-04-18,49.183181,37.127416,SSGPUCA----G,Armor (T-80U),Regiment,1,1,13th Guards Tank Regiment,13,4th Guards Tank Division,ru,False
 2022-04-18,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,0,0,19th Motorized Rifle Division,19,58th Combined Arms Army,ru,False
@@ -499,7 +499,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-21,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,1,1,7th Guards Air Assault Division,7,22nd Army Corps,ru,True
 2022-04-21,47.252661,39.715541,SHGPUCIZ--AK,Headquarters,Army,6,6,8th Guards Combined Arms Army,8,Southern Military District,ru,False
 2022-04-21,46.638006,32.493478,SSGPUCRA---H,Special Purpose,Brigade,1,1,10th Separate Special Purpose Brigade,10,Southern Military District,ru,False
-2022-04-21,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,ru,False
+2022-04-21,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-04-21,47.164336,33.207065,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
 2022-04-21,49.200011,37.085628,SSGPUCA----G,Armor (T-80U),Regiment,1,1,13th Guards Tank Regiment,13,4th Guards Tank Division,ru,False
 2022-04-21,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,0,0,19th Motorized Rifle Division,19,58th Combined Arms Army,ru,False
@@ -566,7 +566,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-24,46.708098,32.655357,SHGPUCIA--AI,Headquarters,Division,1,1,7th Guards Air Assault Division,7,22nd Army Corps,ru,True
 2022-04-24,47.252661,39.715541,SHGPUCIZ--AK,Headquarters,Army,6,6,8th Guards Combined Arms Army,8,Southern Military District,ru,False
 2022-04-24,46.638006,32.493478,SSGPUCRA---H,Special Purpose,Brigade,1,1,10th Separate Special Purpose Brigade,10,Southern Military District,ru,False
-2022-04-24,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps,ru,False
+2022-04-24,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-04-24,47.164336,33.207065,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
 2022-04-24,49.200011,37.085628,SSGPUCA----G,Armor (T-80U),Regiment,1,1,13th Guards Tank Regiment,13,4th Guards Tank Division,ru,False
 2022-04-24,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,0,0,19th Motorized Rifle Division,19,58th Combined Arms Army,ru,False

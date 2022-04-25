@@ -394,7 +394,7 @@ date,lat,lng,unit,type_of_btg,country
 2022-04-18,48.126173,37.888414,60th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-04-18,47.144614,37.455905,177th Naval Infantry Regiment,motor_rifle,ru
 2022-04-18,47.068764,37.440037,810th Separate Naval Infantry Brigade,motor_rifle,ru
-2022-04-18,47.122756,37.652923,1st Army Corps,motor_rifle,ru
+2022-04-18,47.122756,37.652923,1st Army Corps (Donetsk),motor_rifle,ru
 2022-04-18,47.301199,37.537933,68th Tank Regiment,tank,ru
 2022-04-18,48.694440,38.642258,4th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-04-18,48.800768,38.738063,127th Motorized Rifle Division,motor_rifle,ru
@@ -457,7 +457,7 @@ date,lat,lng,unit,type_of_btg,country
 2022-04-21,48.126173,37.888414,60th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-04-21,47.144614,37.455905,177th Naval Infantry Regiment,motor_rifle,ru
 2022-04-21,47.068764,37.440037,810th Separate Naval Infantry Brigade,motor_rifle,ru
-2022-04-21,47.122756,37.652923,1st Army Corps,motor_rifle,ru
+2022-04-21,47.122756,37.652923,1st Army Corps (Donetsk),motor_rifle,ru
 2022-04-21,48.217269,37.972868,1st Army Corps (Donetsk),motor_rifle,ru
 2022-04-21,47.143316,37.561577,68th Tank Regiment,tank,ru
 2022-04-21,48.628467,38.492709,102nd Motorized Rifle Regiment,motor_rifle,ru
@@ -520,7 +520,7 @@ date,lat,lng,unit,type_of_btg,country
 2022-04-24,48.644345,38.526057,102nd Motorized Rifle Regiment,motor_rifle,ru
 2022-04-24,48.628467,38.492709,102nd Motorized Rifle Regiment,motor_rifle,ru
 2022-04-24,48.622367,38.539339,68th Tank Regiment,tank,ru
-2022-04-24,47.122756,37.652923,1st Army Corps,motor_rifle,ru
+2022-04-24,47.122756,37.652923,1st Army Corps (Donetsk),motor_rifle,ru
 2022-04-24,48.800768,38.738063,127th Motorized Rifle Division,motor_rifle,ru
 2022-04-24,48.939919,38.710179,127th Motorized Rifle Division,motor_rifle,ru
 2022-04-24,48.870378,38.890813,127th Motorized Rifle Division,tank,ru
