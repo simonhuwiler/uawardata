@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 from pathlib import Path
+from utils import country_from_icon
 
 def export_repo(CONSTS):
     df = pd.read_csv(CONSTS['SHEET_UNITS_POSITION'])
@@ -40,6 +41,9 @@ def export_repo(CONSTS):
 
     df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg_text', 'strength_in_btg_number', 'unit', 'unitnumber', 'subordinate_to']]
 
+    # Add country
+    df['country'] = df['icon'].apply(country_from_icon)
+
     # Find stacked icons
     def find_stacked(row):
         return True if len(df[
@@ -62,6 +66,7 @@ def export_repo(CONSTS):
                     "strength": row['strength'].strip(),
                     "strength_in_btg_number": row['strength_in_btg_number'],
                     "strength_in_btg_text": row['strength_in_btg_text'],
+                    "country": row['country'],
                     "unit": row['unit'].strip(),
                     "unitnumber": row['unitnumber'] if pd.notna(row['unitnumber']) else None,
                     "subordinate_to": row['subordinate_to'].strip(),
@@ -88,7 +93,6 @@ def export_repo(CONSTS):
     data['features'] = list(filter(lambda x: x['properties']['date'] == df.date.max().strftime('%Y-%m-%d'), data['features']))
     json.dump(data, open(CONSTS['export_folder'] / Path('./geojson/units_current.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
 
-    
 
 
     # ----------- EXPORT WEBSITE
@@ -129,6 +133,9 @@ def export_website(CONSTS):
         raise ValueError("🤬 Could not convert 'Location? into Lat Lng. Probably empty or invalid input")
 
     df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg_text', 'strength_in_btg_number', 'unit', 'unitnumber', 'subordinate_to']]
+
+    # Add country
+    df['country'] = df['icon'].apply(country_from_icon)    
 
     # add Grouper
     df['_group'] = df.apply(lambda row: "%s-%s-%s" % (row['date'], row['lat'], row['lng']), axis=1)
@@ -182,6 +189,7 @@ def export_website(CONSTS):
                 "properties": {
                     "date": new_df.iloc[0]['date'].strftime('%Y-%m-%d'),
                     "type": icon_type,
+                    "country": new_df.iloc[0]['country'],
                     "icon": {
                       "type": subtype,
                         "icons": icons

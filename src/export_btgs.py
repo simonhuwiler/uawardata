@@ -1,10 +1,27 @@
 import pandas as pd
 import json
 from pathlib import Path
+from utils import country_from_icon
 
 def export(CONSTS, production=True):
+
+    # Download BTG
     df = pd.read_csv(CONSTS['SHEET_BTG'])
     df = df.sort_values('date')
+
+    # Download Description
+    df_description = pd.read_csv(CONSTS['SHEET_UNITS_DESCRIPTION'])
+    df_description = df_description.drop_duplicates('unit')
+
+    # Join and add country
+    df = df.merge(df_description[['unit', 'icon']], how='left', on='unit')
+    if len(df[df.icon.isna()]) > 0:
+        for i, row in df[df.icon.isna()].iterrows():
+            print("👉 BTG '%s' not found in unit_description. Date %s" % (row['unit'], row['date']))
+
+        raise ValueError("Could not find BTGs in unit_description. Which ones, see above 👆")
+
+    df['country'] = df['icon'].apply(country_from_icon)
 
     # Remove empty types
     df = df[df['type_of_btg'].notna()]
@@ -29,7 +46,7 @@ def export(CONSTS, production=True):
     except:
         raise ValueError("🤬 Could not convert 'Location? into Lat Lng. Probably empty or invalid input")
 
-    df = df[['date', 'lat', 'lng', 'unit', 'type_of_btg']]
+    df = df[['date', 'lat', 'lng', 'unit', 'type_of_btg', 'country']]
 
     for i, row in df.iterrows():
         try:
@@ -40,7 +57,8 @@ def export(CONSTS, production=True):
                 "properties": {
                     "date": row['date'].strftime('%Y-%m-%d'),
                     "unit": row['unit'],
-                    "type_of_btg": row['type_of_btg']
+                    "type_of_btg": row['type_of_btg'],
+                    "country": row['country']
                 },
                 "geometry": {
                     "type": "Point",

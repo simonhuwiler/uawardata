@@ -9,12 +9,14 @@ If you want to use this data, please quote us. You have two options:
 * uawardata.com (https://www.uawardata.com)
 
 ## The data
-All data is stored in the folder [`/data`](./data) as a [csv](./data/csv) and [geojson](./data/geojson). How they are structured:
+*If you already use the data, have a look at the chapter `Data Structure Changes` for any recent changes*  
+
+All data is stored in the folder [`/data`](./data) as [csv](./data/csv) and [geojson](./data/geojson). The structure:
 
 ### Units
 Files:
 * `units_all.geojson` and `units_all.csv`: All data points
-* `units_current.geojson`and `units_current.csv`: Only the most current day
+* `units_current.geojson` and `units_current.csv`: Only the most current day
 
 The **Unit**-files contains the units and where approximately their headquarters might be. Each unit in turn consists of different battalions (more about this later). The columns/properties of the files:
 
@@ -31,12 +33,12 @@ The **Unit**-files contains the units and where approximately their headquarters
 |unit|*str*|Name of the unit|
 |unitnumber|*number*|Name of the unit as a number|
 |subordinate_to|*str*|Subordinates to which unit|
-|stacked|*bool*|True if more than one feature/unit is at this exact location|
+|stacked|*bool*|`True` if more than one feature/unit is at this exact location|
 
 ### BTGs
 Files:
 * `btgs_all.geojson` and `btgs_all.csv`: All data points
-* `btgs_current.geojson`and `btgs_current.csv`: Only the most current day
+* `btgs_current.geojson` and `btgs_current.csv`: Only the most current day
 
 The **BTGs**-files contains the position of each individual unit (brigades, divisions, etc.). This file is the most accurate representation of the military presence.
 
@@ -51,7 +53,7 @@ The **BTGs**-files contains the position of each individual unit (brigades, divi
 ## Data Structure Changes
 **`2022-04-22` Multiple icons on same location**  
 Now several icons can be placed at the same coordinates. On uawardata.com they are displayed one above the other. In the data, they are still added separately.  
-This Units are marked with the `stacked = true`
+These Units are marked with `stacked = true`
 
 ## Methodology
 The data is collected by Henry Schlottman, a former U.S. Army analyst. Using known troop positions before the war began, pictures of (destroyed) Russian war equipment, information from prisoners, and other public data, he is able to record the approximate position of each unit. Despite all the information, the data remain approximations.
