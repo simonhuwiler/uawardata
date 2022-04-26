@@ -25,6 +25,8 @@ def export_repo(CONSTS):
     # Fill nas
     df['subordinate_to'] = df['subordinate_to'].fillna('')
     df['unit'] = df['unit'].fillna('')
+    df['strength_in_btg_number']  = df['strength_in_btg_number'].fillna(0)
+    df['strength_in_btg_text']  = df['strength_in_btg_text'].fillna('n/a')
 
     # Convert date
     try:
@@ -64,7 +66,7 @@ def export_repo(CONSTS):
                     "icon": row['icon'],
                     "type": row['type'],
                     "strength": row['strength'].strip(),
-                    "strength_in_btg_number": row['strength_in_btg_number'],
+                    "strength_in_btg_number": int(row['strength_in_btg_number']),
                     "strength_in_btg_text": row['strength_in_btg_text'],
                     "country": row['country'],
                     "unit": row['unit'].strip(),
@@ -95,7 +97,7 @@ def export_repo(CONSTS):
 
 
 
-    # ----------- EXPORT WEBSITE
+# ----------- EXPORT WEBSITE
 def export_website(CONSTS):
     df = pd.read_csv(CONSTS['SHEET_UNITS_POSITION'])
 
@@ -118,6 +120,8 @@ def export_website(CONSTS):
     # Fill nas
     df['subordinate_to'] = df['subordinate_to'].fillna('')
     df['unit'] = df['unit'].fillna('')
+    df['strength_in_btg_number']  = df['strength_in_btg_number'].fillna(0)
+    df['strength_in_btg_text']  = df['strength_in_btg_text'].fillna('n/a')
 
     # Convert date
     try:
@@ -155,7 +159,7 @@ def export_website(CONSTS):
                         "icon": row['icon'],
                         "type": row['type'],
                         "strength": row['strength'].strip(),
-                        "strength_in_btg_number": row['strength_in_btg_number'],
+                        "strength_in_btg_number": int(row['strength_in_btg_number']),
                         "strength_in_btg_text": row['strength_in_btg_text'],
                         "unit": row['unit'].strip(),
                         "subordinate_to": row['subordinate_to'].strip(),
