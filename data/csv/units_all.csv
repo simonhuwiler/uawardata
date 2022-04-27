@@ -637,7 +637,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-27,46.638006,32.493478,SSGPUCRA---H,Special Purpose,Brigade,1,1,10th Separate Special Purpose Brigade,10,Southern Military District,ru,False
 2022-04-27,47.655715,37.540373,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1,11th Motorized Rifle Regiment,11,1st Army Corps (Donetsk),ru,False
 2022-04-27,47.164336,33.207065,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False
-2022-04-27,49.131916,37.110578,SSGPUCA----G,Armor (T-80U),Regiment,1,1,13th Guards Tank Regiment,13,4th Guards Tank Division,ru,False
+2022-04-27,49.131916,37.110578,SSGPUCA----G,Armor (T-80U),Regiment,1,1,13th Guards Tank Regiment,13,4th Guards Tank Division,ru,True
 2022-04-27,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,0,0,19th Motorized Rifle Division,19,58th Combined Arms Army,ru,False
 2022-04-27,49.722185,37.595307,SHGPUCIZ--AK,Headquarters,Army,3,3,20th Combined Arms Army,20,Western Military District,ru,True
 2022-04-27,46.708098,32.655357,SHGPUCIZ--AJ,Headquarters,Corps,1,1,22nd Army Corps,22,Black Sea Fleet,ru,True
@@ -645,8 +645,8 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-27,49.221811,37.057996,SSGPUCIZ---H,"Motorized Rifle (BTR-82A/BMP-3, T-90A)",Brigade,2,2,27th Separate Guards Motorized Rifle Brigade,27,1st Guards Tank Army,ru,False
 2022-04-27,49.228397,37.637828,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1,30th Separate Motorized Rifle Brigade,30,2nd Guards Combined Arms Army,ru,False
 2022-04-27,46.748100,32.794248,SHGPUCIZ---H,Motorized Rifle (MTLB/MT-LBM),Brigade,1,1,34th Separate Motorized Rifle Brigade,34,22nd Army Corps,ru,False
-2022-04-27,49.234153,37.134207,SSGPUCIZ--AK,Headquarters,Army,2,2,35th Combined Arms Army,35,Eastern Military District,ru,True
-2022-04-27,49.234153,37.134207,SSGPUCIZ--AK,Headquarters,Army,2,2,36th Combined Arms Army,36,Eastern Military District,ru,True
+2022-04-27,49.183967,37.279340,SSGPUCIZ--AK,Headquarters,Army,2,2,35th Combined Arms Army,35,Eastern Military District,ru,True
+2022-04-27,49.183967,37.279340,SSGPUCIZ--AK,Headquarters,Army,2,2,36th Combined Arms Army,36,Eastern Military District,ru,True
 2022-04-27,49.697216,36.917205,SSGPUCIZ---H,"Motorized Rifle (BMP-1AM/1D, T-80BV/T-72B3)",Brigade,1,1,38th Separate Motorized Rifle Brigade,38,35th Combined Arms Army,ru,False
 2022-04-27,47.301990,37.414970,SSGPUCIN---H,Naval Infantry,Brigade,1,1,40th Separate Naval Infantry Brigade,40,Pacific Fleet,ru,True
 2022-04-27,49.407287,38.166312,SSGPUCIZ--AK,Headquarters,Army,1,1,41st Combined Arms Army,41,Central Military District,ru,True
@@ -685,7 +685,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-27,49.102592,38.193227,SSGPUCA----G,Armor,Regiment,1,1,239th Guards Tank Regiment,239,90th Guards Tank Division,ru,False
 2022-04-27,49.254980,37.446543,SSGPUCIZ---G,"Motorized Rifle (BMP-2, T-72B3)",Regiment,1,1,252nd Guards Motorized Rifle Regiment,252,3rd Motorized Rifle Division,ru,True
 2022-04-27,47.544139,36.681215,SSGPUCIZ---G,Motorized Rifle,Regiment,2,2,291st Guards Motorized Rifle Regiment,291,42nd Guards Motorized Rifle Division,ru,False
-2022-04-27,49.135883,37.191710,SHGPUCIZ---G,"Motorized Rifle (BMP-2, T-80BV)",Regiment,1,1,423rd Guards Motorized Rifle Regiment,423,4th Guards Tank Division,ru,False
+2022-04-27,49.131916,37.110578,SHGPUCIZ---G,"Motorized Rifle (BMP-2, T-80BV)",Regiment,1,1,423rd Guards Motorized Rifle Regiment,423,4th Guards Tank Division,ru,True
 2022-04-27,47.276439,35.221250,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1,429th Motorized Rifle Regiment,429,19th Motorized Rifle Division,ru,False
 2022-04-27,47.435016,35.281804,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division,ru,False
 2022-04-27,49.254980,37.446543,SSGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72B)",Regiment,1,1,752nd Guards Motorized Rifle Regiment,752,3rd Motorized Rifle Division,ru,True
