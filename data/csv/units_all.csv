@@ -675,7 +675,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-27,47.8,35.7,SNGPUCIM---H,Motorized Infantry,Brigade,n/a,0.0,59th Separate Motorized Brigade,59,Operational Command South,ua,False
 2022-04-27,48.134241,38.024860,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,60th Separate Motorized Rifle Brigade,60,5th Combined Arms Army,ru,False
 2022-04-27,47.7,33.5,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,60th Separate Mechanized Brigade (Reserve),60,Operational Command South,ua,False
-2022-04-27,49.221811,37.057996,SSGPUCIZ---H,"Motorized Rifle (T-80BVM/T-72B3, BMP-2)",Brigade,1,1.0,64th Separate Motorized Rifle Brigade,64,35th Combined Arms Army,ru,False
+2022-04-27,49.221811,37.057995,SSGPUCIZ---H,"Motorized Rifle (T-80BVM/T-72B3, BMP-2)",Brigade,1,1.0,64th Separate Motorized Rifle Brigade,64,35th Combined Arms Army,ru,False
 2022-04-27,48.614373,38.555196,SSGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,1,1.0,68th Tank Regiment,68,150th Motorized Rifle Division,ru,True
 2022-04-27,49.396902,37.204498,SSGPUCIZ--AJ,Headquarters,Corps,2,2.0,68th Army Corps,68,Eastern Military District,ru,True
 2022-04-27,47.751207,36.959571,SSGPUCIZ---G,Motorized Rifle (BMP-3),Regiment,1,1.0,70th Guards Motorized Rifle Regiment,70,42nd Guards Motorized Rifle Division,ru,False
