@@ -29,7 +29,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-27,48.7,38.3,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,24th Separate Mechanized Brigade,24,Operational Command West,ua,False
 2022-04-27,50.444516,36.577230,SHGPUCIZ---H,"Motorized Rifle (T-72B3, MTLB)",Brigade,1,1.0,25th Separate Guards Motorized Rifle Brigade,25,6th Combined Arms Army,ru,False
 2022-04-27,49.3,36.8,SNGPUCIA---H,Airborne,Brigade,n/a,0.0,25th Airborne Brigade,25,Assault Forces,ua,False
-2022-04-27,49.598217,36.986037,SSGPUCIZ---H,"Motorized Rifle (BTR-82A/BMP-3, T-90A)",Brigade,2,2.0,27th Separate Guards Motorized Rifle Brigade,27,1st Guards Tank Army,ru,False
+2022-04-27,49.598217,36.986036,SSGPUCIZ---H,"Motorized Rifle (BTR-82A/BMP-3, T-90A)",Brigade,2,2.0,27th Separate Guards Motorized Rifle Brigade,27,1st Guards Tank Army,ru,False
 2022-04-27,46.9,32.5,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,28th Separate Mechanized Brigade,28,Operational Command South,ua,False
 2022-04-27,49.228397,37.637828,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,30th Separate Motorized Rifle Brigade,30,2nd Guards Combined Arms Army,ru,False
 2022-04-27,48.5,38.4,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,30th Separate Mechanized Brigade,30,Operational Command North,ua,False
