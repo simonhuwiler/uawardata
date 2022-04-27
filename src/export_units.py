@@ -95,8 +95,6 @@ def export_repo(CONSTS):
     data['features'] = list(filter(lambda x: x['properties']['date'] == df.date.max().strftime('%Y-%m-%d'), data['features']))
     json.dump(data, open(CONSTS['export_folder'] / Path('./geojson/units_current.geojson'), 'w', encoding='UTF-8'), ensure_ascii=False)
 
-
-
 # ----------- EXPORT WEBSITE
 def export_website(CONSTS):
     df = pd.read_csv(CONSTS['SHEET_UNITS_POSITION'])
@@ -153,7 +151,7 @@ def export_website(CONSTS):
 
             new_df = new_df.reset_index()
 
-            for j, row in new_df.iterrows():
+            for j, row in new_df.sort_values('unitnumber', ascending=True).iterrows():
 
                 units.append({
                         "icon": row['icon'],
