@@ -600,7 +600,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-24,49.183967,37.279340,SSGPUCIA--AI,Headquarters,Division,2,2.0,106th Guards Airborne Division,106,Russian Airborne Forces,ru,True
 2022-04-24,47.085248,33.524263,SSGPUCIN---H,"Motorized Rifle (BMP-2/BTR-80, T-72B3)",Brigade,1,1.0,126th Separate Guards Coastal Defense Brigade,126,49th Combined Arms Army,ru,False
 2022-04-24,48.950657,39.022491,SSGPUCIZ--AI,Headquarters,Division,3,3.0,127th Motorized Rifle Division,127,5th Combined Arms Army,ru,False
-2022-04-24,46.691939,32.523411,SSGPUCR----H,Recon,Brigade,1,1.0,127th Separate Reconnaissance Brigade,127,22nd Army Corps,ru,False
+2022-04-24,46.691939,32.523412,SSGPUCR----H,Recon,Brigade,1,1.0,127th Separate Reconnaissance Brigade,127,22nd Army Corps,ru,False
 2022-04-24,47.944925,37.618997,SHGPUCIZ---H,Motorized Rifle (BMP-3),Brigade,2,2.0,136th Separate Guards Motorized Rifle Brigade,136,58th Combined Arms Army,ru,False
 2022-04-24,50.482893,37.005850,SHGPUCIZ---H,"Motorized Rifle (MT-LBV, T-72B3)",Brigade,1,1.0,138th Separate Guards Motorized Rifle Brigade,138,6th Combined Arms Army,ru,False
 2022-04-24,49.911924,37.224868,SSGPUCIZ--AI,Headquarters,Division,<1,1.0,144th Guards Motorized Rifle Division,144,20th Guards Combined Arms Army,ru,False
