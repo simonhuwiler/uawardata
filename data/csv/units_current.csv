@@ -64,7 +64,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-27,48.9,38.4,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,79th Air Assault Brigade,79,Assault Forces,ua,False
 2022-04-27,47.5,32.9,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,80th Air Assault Brigade,80,Assault Forces,ua,False
 2022-04-27,49.0,36.8,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,81st Air Assault Brigade,81,Assault Forces,ua,False
-2022-04-27,49.407287,38.166312,SSGPUCA---AI,Headquarters,Division,1,1.0,90th Guards Tank Division,90,Central Military District,ru,True
+2022-04-27,49.407287,38.166311,SSGPUCA---AI,Headquarters,Division,1,1.0,90th Guards Tank Division,90,Central Military District,ru,False
 2022-04-27,49.8,36.7,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,92nd Separate Mechanized Brigade,92,Operational Command East,ua,False
 2022-04-27,50.2,35.7,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,93rd Separate Mechanized Brigade,93,Operational Command East,ua,False
 2022-04-27,48.4,37.9,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,95th Air Assault Brigade,95,Assault Forces,ua,False
