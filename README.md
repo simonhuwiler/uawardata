@@ -53,15 +53,15 @@ The **BTGs**-files contains the position of each individual unit (brigades, divi
 |country|*enum*|Country where the unit is from. One of these: `ru` (Russia), `ua` (Ukraine), `na` (unknow)|
 
 ## Data Structure Changes
-**`2022-04-22` Multiple icons on same location**  
-Now several icons can be placed at the same coordinates. On uawardata.com they are displayed one above the other. In the data, they are still added separately.  
-These Units are marked with `stacked = true`
-
-## `2022-04-24` Add country code
+**`2022-04-24` Add country code**  
 Added country code. One of these:
 * `ru` = Russia
 * `ua` = Ukraine
 * `na` = unknown
+
+**`2022-04-22` Multiple icons at same location**  
+Now several icons can have the same coordinates. On uawardata.com they are displayed stacked, one above the other. In the data, they are still added separately.  
+These Units are marked with `stacked = true`
 
 ## Accuracy Ukrainian troops
 We reduce accuracy of Ukrainian troops and show:
