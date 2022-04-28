@@ -57,8 +57,8 @@ The **BTGs**-files contains the position of each individual unit (brigades, divi
 Now several icons can be placed at the same coordinates. On uawardata.com they are displayed one above the other. In the data, they are still added separately.  
 These Units are marked with `stacked = true`
 
-##`2022-04-24` Add country code
-Added country code, where unit is from. One of these:
+## `2022-04-24` Add country code
+Added country code. One of these:
 * `ru` = Russia
 * `ua` = Ukraine
 * `na` = unknown
