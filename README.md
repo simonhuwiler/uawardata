@@ -53,8 +53,8 @@ The **BTGs**-files contains the position of each individual unit (brigades, divi
 |country|*enum*|Country where the unit is from. One of these: `ru` (Russia), `ua` (Ukraine), `na` (unknow)|
 
 ## Data Structure Changes
-**`2022-04-24` Add country code**  
-Added country code. One of these:
+**`2022-04-24` Added country code**  
+Added country code to field `country`. One of these:
 * `ru` = Russia
 * `ua` = Ukraine
 * `na` = unknown
