@@ -74,3 +74,9 @@ The data is collected by Henry Schlottman, a former U.S. Army analyst. Using kno
 
 ## Credits
 Made by [Henry Schlottman](https://twitter.com/HN_Schlottman) and [Simon Huwiler](https://twitter.com/simon_huwiler)
+
+## Thanks to
+This project is only possible because of these people and companies:
+* [maptiler.com](https://www.maptiler.com/), our technology sponsor. Check them out!
+* [Volodymyr Agafonkin](https://agafonkin.com/), an Ukrainian Software developer and founder of the framework that powers the map
+* The OSINT-Community
