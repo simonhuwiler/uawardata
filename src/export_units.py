@@ -196,7 +196,8 @@ def export_website(CONSTS):
                       "type": subtype,
                         "icons": icons
                     },
-                    "units": units
+                    "units": units,
+                    "iconcount": len(units)
                 },
                 "geometry": {
                     "type": "Point",
