@@ -3,17 +3,17 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-30,49.086134,37.425892,SSGPUCIZ---G,"Motorized Rifle (BTR-82A/BTR-80, T-72B3/T-90A)",Regiment,1,1.0,1st Guards Motorized Rifle Regiment,1,2nd Guards Motorized Rifle Division,ru,True
 2022-04-30,47.655715,37.540373,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,1st Separate Motorized Rifle Brigade (DPR),1,1st Army Corps (Donetsk),ru,False
 2022-04-30,49.234153,37.134207,SHGPUCA---AK,Headquarters,Army,6,6.0,1st Guards Tank Army,1,Western Military District,ru,True
-2022-04-30,47.981152,37.843091,SHGPUCIZ--AJ,Headquarters,Corps,6,6.0,1st Army Corps (Donetsk),1,Southern Military District,ru,False
+2022-04-30,47.981152,37.843091,SHGPUCIZ--AJ,Headquarters,Corps,7,7.0,1st Army Corps (Donetsk),1,Southern Military District,ru,False
 2022-04-30,51.5,31.5,SNGPUCA----H,Armor,Brigade,n/a,0.0,1st Separate Tank Brigade,1,Operational Command North,ua,False
 2022-04-30,49.234153,37.134207,SHGPUCIZ--AI,Headquarters,Division,2,2.0,2nd Guards Motorized Rifle Division,2,1st Guards Tank Army,ru,True
 2022-04-30,49.407287,38.166312,SSGPUCIZ--AK,Headquarters,Army,4,4.0,2nd Guards Combined Arms Army,2,Central Military District,ru,True
-2022-04-30,48.558665,39.307395,SHGPUCIZ--AJ,Headquarters,Corps,4,4.0,2nd Army Corps (Luhansk),2,Southern Military District,ru,False
+2022-04-30,48.558665,39.307395,SHGPUCIZ--AJ,Headquarters,Corps,3,3.0,2nd Army Corps (Luhansk),2,Southern Military District,ru,False
 2022-04-30,48.808270,38.733837,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,2nd Separate Motorized Rifle Brigade (LPR),2,2nd Army Corps (Luhansk),ru,False
 2022-04-30,49.183967,37.279340,SSGPUCIZ--AI,Headquarters,Division,2,2.0,3rd Motorized Rifle Division,3,20th Guards Combined Arms Army,ru,True
 2022-04-30,48.318999,38.022579,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,3rd Separate Motorized Rifle Brigade (DPR),3,1st Army Corps (Donetsk),ru,False
 2022-04-30,48.9,37.6,SNGPUCA----H,Armor,Brigade,n/a,0.0,3rd Separate Tank Brigade (Reserve),3,Operational Command East,ua,False
 2022-04-30,49.234153,37.134207,SHGPUCA---AI,Headquarters,Division,2,2.0,4th Guards Tank Division,4,1st Guards Tank Army,ru,True
-2022-04-30,48.704000,38.670918,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,4th Separate Motorized Rifle Brigade,4,2nd Army Corps (Luhansk),ru,False
+2022-04-30,48.704000,38.670918,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,4th Separate Motorized Rifle Brigade (LPR),4,2nd Army Corps (Luhansk),ru,False
 2022-04-30,48.8,37.7,SNGPUCA----H,Armor,Brigade,n/a,0.0,4th Separate Tank Brigade (Reserve),4,Operational Command East,ua,False
 2022-04-30,49.0,38.3,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,4th National Guard Brigade,4,National Guard,ua,False
 2022-04-30,48.467210,38.795317,SSGPUCIZ--AK,Headquarters,Army,0,0.0,5th Combined Arms Army,5,Eastern Military District,ru,False
@@ -131,6 +131,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-30,49.254980,37.446543,SSGPUCIZ---G,"Motorized Rifle (BMP-2, T-72B3)",Regiment,1,1.0,252nd Guards Motorized Rifle Regiment,252,3rd Motorized Rifle Division,ru,True
 2022-04-30,47.596206,36.694744,SSGPUCIZ---G,Motorized Rifle,Regiment,2,2.0,291st Guards Motorized Rifle Regiment,291,42nd Guards Motorized Rifle Division,ru,False
 2022-04-30,49.131916,37.110578,SHGPUCIZ---G,"Motorized Rifle (BMP-2, T-80BV)",Regiment,1,1.0,423rd Guards Motorized Rifle Regiment,423,4th Guards Tank Division,ru,True
+2022-04-30,47.276439,35.221250,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,429th Motorized Rifle Regiment,429,19th Motorized Rifle Division,ru,False
 2022-04-30,47.435016,35.281804,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2.0,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division,ru,False
 2022-04-30,49.254980,37.446543,SSGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72B)",Regiment,1,1.0,752nd Guards Motorized Rifle Regiment,752,3rd Motorized Rifle Division,ru,True
 2022-04-30,47.204916,36.221653,SHGPUCIN---H,Naval Infantry,Brigade,1,1.0,810th Separate Naval Infantry Brigade,810,58th Combined Arms Army,ru,True
