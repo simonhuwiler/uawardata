@@ -1,7 +1,7 @@
 date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit,unitnumber,subordinate_to,country,stacked
 2022-04-30,49.086134,37.425892,SSGPUCA----G,"Armor (T-72B3M, BTR-80)",Regiment,1,1.0,1st Guards Tank Regiment,1,2nd Guards Motorized Rifle Division,ru,True
 2022-04-30,49.086134,37.425892,SSGPUCIZ---G,"Motorized Rifle (BTR-82A/BTR-80, T-72B3/T-90A)",Regiment,1,1.0,1st Guards Motorized Rifle Regiment,1,2nd Guards Motorized Rifle Division,ru,True
-2022-04-30,47.655715,37.540373,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,1st Separate Motorized Rifle Brigade (DPR),1,1st Army Corps (Donetsk),ru,False
+2022-04-30,47.655715,37.540372,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,1st Separate Motorized Rifle Brigade (DPR),1,1st Army Corps (Donetsk),ru,False
 2022-04-30,49.234153,37.134207,SHGPUCA---AK,Headquarters,Army,6,6.0,1st Guards Tank Army,1,Western Military District,ru,True
 2022-04-30,47.981152,37.843091,SHGPUCIZ--AJ,Headquarters,Corps,7,7.0,1st Army Corps (Donetsk),1,Southern Military District,ru,False
 2022-04-30,51.5,31.5,SNGPUCA----H,Armor,Brigade,n/a,0.0,1st Separate Tank Brigade,1,Operational Command North,ua,False
