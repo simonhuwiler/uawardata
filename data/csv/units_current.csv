@@ -59,8 +59,8 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-04-30,49.6,34.5,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,46th Separate Air Assault Brigade,46,Assault Forces,ua,False
 2022-04-30,49.396902,37.204498,SSGPUCA---AI,Headquarters,Division,<1,1.0,47th Guards Tank Division,47,1st Guards Tank Army,ru,True
 2022-04-30,46.755083,33.364644,SHGPUCIZ--AK,Headquarters,Army,2,2.0,49th Combined Arms Army,49,Southern Military District,ru,False
-2022-04-30,47.9,36.6,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,53rd Separate Mechanzied Brigade,53,Operational Command East,ua,False
-2022-04-30,48.0,37.4,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,54th Separate Mechanzied Brigade,54,Operational Command East,ua,False
+2022-04-30,47.9,36.6,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,53rd Separate Mechanized Brigade,53,Operational Command East,ua,False
+2022-04-30,48.0,37.4,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,54th Separate Mechanized Brigade,54,Operational Command East,ua,False
 2022-04-30,49.603359,36.987329,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,55th Separate Motorized Rifle Brigade,55,41st Combined Arms Army,ru,False
 2022-04-30,46.759586,32.553357,SSGPUCIA---G,"VDV (BMD-2, BMP-2)",Regiment,1,1.0,56th Guards Air Assault Regiment,56,7th Guards Air Assault Division,ru,False
 2022-04-30,48.1,37.6,SNGPUCIM---H,Motorized Infantry,Brigade,n/a,0.0,56th Separate Motorized Brigade,56,Operational Command South,ua,False
