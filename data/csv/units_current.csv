@@ -88,6 +88,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-07,49.407287,38.166312,SSGPUCIZ--AK,Headquarters,Army,1,1.0,41st Combined Arms Army,41,Central Military District,ru,True
 2022-05-07,47.358147,36.655786,SHGPUCIZ--AI,Headquarters,Division,5,5.0,42nd Guards Motorized Rifle Division,42,58th Combined Arms Army,ru,False
 2022-05-07,49.316287,37.313325,SSGPUCIZ---G,"Motorized Rifle (BMP-2, T-80BV)",Regiment,<1,1.0,423rd Guards Motorized Rifle Regiment,423?,4th Guards Tank Division,ru,True
+2022-05-07,47.276439,35.221250,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,429th Motorized Rifle Regiment,429,19th Motorized Rifle Division,ru,False
 2022-05-07,45.8,29.6,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,45th Separate Air Assault Brigade,45,Assault Forces,ua,False
 2022-05-07,49.6,34.5,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,46th Separate Air Assault Brigade,46,Assault Forces,ua,False
 2022-05-07,49.396902,37.204498,SSGPUCA---AI,Headquarters,Division,<1,1.0,47th Guards Tank Division,47,1st Guards Tank Army,ru,True
@@ -97,6 +98,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-07,47.435016,35.281804,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2.0,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division,ru,False
 2022-05-07,47.9,36.6,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,53rd Separate Mechanized Brigade,53,Operational Command East,ua,False
 2022-05-07,48.0,37.4,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,54th Separate Mechanized Brigade,54,Operational Command East,ua,False
+2022-05-07,49.603359,36.987329,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,55th Separate Motorized Rifle Brigade,55,41st Combined Arms Army,ru,False
 2022-05-07,46.759586,32.553357,SSGPUCIA---G,"VDV (BMD-2, BMP-2)",Regiment,1,1.0,56th Guards Air Assault Regiment,56,7th Guards Air Assault Division,ru,False
 2022-05-07,48.1,37.6,SNGPUCIM---H,Motorized Infantry,Brigade,n/a,0.0,56th Separate Motorized Brigade,56,Operational Command South,ua,False
 2022-05-07,49.1,37.6,SNGPUCIM---H,Motorized Infantry,Brigade,n/a,0.0,57th Separate Motorized Brigade,57,Operational Command South,ua,False
