@@ -932,6 +932,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-07,49.102592,38.193227,SSGPUCA----G,Armor,Regiment,1,1.0,239th Guards Tank Regiment,239,90th Guards Tank Division,ru,False
 2022-05-07,49.254980,37.446543,SSGPUCIZ---G,"Motorized Rifle (BMP-2, T-72B3)",Regiment,1,1.0,252nd Guards Motorized Rifle Regiment,252,3rd Motorized Rifle Division,ru,True
 2022-05-07,47.596206,36.694744,SSGPUCIZ---G,Motorized Rifle,Regiment,2,2.0,291st Guards Motorized Rifle Regiment,291,42nd Guards Motorized Rifle Division,ru,False
+2022-05-07,48.614373,38.555196,SSGPUCIN---H,Naval Infantry,Brigade,1,1.0,336th Separate Guards Naval Infantry Brigade,336,Baltic Fleet,ru,True
 2022-05-07,49.316287,37.313325,SHGPUCIZ---G,"Motorized Rifle (BMP-2, T-80BV)",Regiment,<1,1.0,423rd Guards Motorized Rifle Regiment,423,4th Guards Tank Division,ru,True
 2022-05-07,47.435016,35.281804,SHGPUCIZ---G,Mechanized Infantry,Regiment,2,2.0,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division,ru,False
 2022-05-07,49.254980,37.446543,SSGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72B)",Regiment,1,1.0,752nd Guards Motorized Rifle Regiment,752,3rd Motorized Rifle Division,ru,True
