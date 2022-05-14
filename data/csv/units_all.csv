@@ -1089,7 +1089,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-13,48.614373,38.555196,SSGPUCIN---H,Naval Infantry,Brigade,1,1.0,336th Separate Guards Naval Infantry Brigade,336?,Baltic Fleet,ru,True
 2022-05-13,46.748100,32.794248,SHGPUCIZ---H,Motorized Rifle (MTLB/MT-LBM),Brigade,1,1.0,34th Separate Motorized Rifle Brigade,34,22nd Army Corps,ru,False
 2022-05-13,49.183967,37.279340,SSGPUCIZ--AK,Headquarters,Army,2,2.0,35th Combined Arms Army,35,Eastern Military District,ru,True
-2022-05-13,48.978178,38.196585,SSGPUCIZ---H,"Motorized Rifle (BMP-1, T-72BM)",Brigade,<1,1.0,35th Separate Guards Motorized Rifle Brigade,35,41st Combined Arms Army,ru,True
+2022-05-13,48.977516,38.130406,SSGPUCIZ---H,"Motorized Rifle (BMP-1, T-72BM)",Brigade,<1,1.0,35th Separate Guards Motorized Rifle Brigade,35,41st Combined Arms Army,ru,True
 2022-05-13,46.7,32.1,SNGPUCIN---H,Marine,Brigade,n/a,0.0,35th Separate Marine Brigade,35,Ukrainian Navy,ua,False
 2022-05-13,49.183967,37.279340,SSGPUCIZ--AK,Headquarters,Army,2,2.0,36th Combined Arms Army,36,Eastern Military District,ru,True
 2022-05-13,49.316287,37.313325,SHGPUCIZ---H,"Motorized Rifle (T-72B3, BMP-2)",Brigade,1,1.0,37th Separate Guards Motorized Rifle Brigade,37?,36th Combined Arms Army,ru,True
@@ -1134,7 +1134,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-13,47.751207,36.959571,SSGPUCIZ---G,Motorized Rifle (BMP-3),Regiment,1,1.0,70th Guards Motorized Rifle Regiment,70,42nd Guards Motorized Rifle Division,ru,False
 2022-05-13,47.486886,36.250927,SHGPUCIZ---G,Motorized Rifle,Regiment,2,2.0,71st Guards Motorized Rifle Regiment,71,42nd Guards Motorized Rifle Division,ru,False
 2022-05-13,50.2,35.7,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,72nd Separate Mechanized Brigade,72,Operational Command North,ua,False
-2022-05-13,48.978178,38.196585,SSGPUCIZ---H,"Motorized Rifle (BMP-2, T-72B3)",Brigade,1,1.0,74th Separate Guards Motorized Rifle Brigade,74,41st Combined Arms Army,ru,True
+2022-05-13,48.977516,38.130406,SSGPUCIZ---H,"Motorized Rifle (BMP-2, T-72B3)",Brigade,1,1.0,74th Separate Guards Motorized Rifle Brigade,74,41st Combined Arms Army,ru,True
 2022-05-13,49.254980,37.446543,SSGPUCIZ---G,"Motorized Rifle (BTR-82A, T-72B)",Regiment,1,1.0,752nd Guards Motorized Rifle Regiment,752?,3rd Motorized Rifle Division,ru,True
 2022-05-13,49.234153,37.134207,SSGPUCIA--AI,Headquarters,Division,2,2.0,76th Guards Air Assault Division,76,Russian Airborne Forces,ru,True
 2022-05-13,48.9,38.2,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,79th Air Assault Brigade,79,Assault Forces,ua,False
@@ -1146,3 +1146,4 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-13,49.8,36.7,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,92nd Separate Mechanized Brigade,92,Operational Command East,ua,False
 2022-05-13,49.5,36.5,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,93rd Separate Mechanized Brigade,93,Operational Command East,ua,False
 2022-05-13,48.9,38.0,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,95th Air Assault Brigade,95,Assault Forces,ua,False
+2022-05-13,49.407287,38.166312,SSGPUCIA---I,Infantry Airborne,Division,1,1.0,98th Guards Airborne Division,98?,35th Combined Arms Army,ru,True
