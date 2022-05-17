@@ -54,7 +54,7 @@ The **BTGs**-files contains the position of each individual unit (brigades, divi
 |country|*enum*|Country where the unit is from. One of these: `ru` (Russia), `ua` (Ukraine), `na` (unknow)|
 
 ## Data Structure Changes
-**`2022-05-17` Added icon15 für ArcGIS-Users**
+**`2022-05-17` Added icon15 für ArcGIS-Users**  
 Added column `icon15`. The MIL-STD-2525C-Symbol will have a length of 15 chars. Filled from the right with `-`.
 
 **`2022-04-24` Added country code**  
