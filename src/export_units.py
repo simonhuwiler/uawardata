@@ -56,6 +56,9 @@ def export_repo(CONSTS):
 
     df['stacked'] = df.apply(find_stacked, axis=1)
 
+    # Add - to icon (ARCGIS...)
+    df['icon15'] = df['icon'].apply(lambda x: x.ljust(15, '-'))
+
     for i, row in df.iterrows():
         try:
             data['features'].append({
@@ -64,6 +67,7 @@ def export_repo(CONSTS):
                 "properties": {
                     "date": row['date'].strftime('%Y-%m-%d'),
                     "icon": row['icon'],
+                    "icon15": row['icon15'],
                     "type": row['type'],
                     "strength": row['strength'].strip(),
                     "strength_in_btg_number": int(row['strength_in_btg_number']),

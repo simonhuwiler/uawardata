@@ -26,6 +26,7 @@ The **Unit**-files contains the units and where approximately their headquarters
 |lat|*float*|Latitude, only in CSV|
 |lng|*float*|Longitude, only in CSV|
 |icon|*str*|Nato symbol (MIL-STD-2525C).|
+|icon15|*str*|Nato symbol (MIL-STD-2525C) but with a length of 15 chars. Missing chars are filled with `-`. Handy for ArcGIS-Users|
 |type|*str*|Type of units (eg *Mechanized Infantry*)|
 |strength|*str*|Strength of units (eg *Battalion*)|
 |strength_in_btg_number|*number*|Approx. Strength in Batallion Tactical Groups|
@@ -53,6 +54,9 @@ The **BTGs**-files contains the position of each individual unit (brigades, divi
 |country|*enum*|Country where the unit is from. One of these: `ru` (Russia), `ua` (Ukraine), `na` (unknow)|
 
 ## Data Structure Changes
+**`2022-05-17` Added icon15 für ArcGIS-Users
+Added column `icon15`. The MIL-STD-2525C-Symbol will have a length of 15 chars. Filled from the right with `-`.
+
 **`2022-04-24` Added country code**  
 Added country code to field `country`. One of these:
 * `ru` = Russia
