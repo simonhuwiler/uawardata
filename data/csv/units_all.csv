@@ -1244,7 +1244,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-20,49.407287,38.166312,SSGPUCIZ--AK,Headquarters,Army,1,1.0,41st Combined Arms Army,41,Central Military District,ru,True,SSGPUCIZ--AK---
 2022-05-20,47.358147,36.655786,SHGPUCIZ--AI,Headquarters,Division,5,5.0,42nd Guards Motorized Rifle Division,42,58th Combined Arms Army,ru,False,SHGPUCIZ--AI---
 2022-05-20,49.698119,37.390213,SSGPUCIZ---G,"Motorized Rifle (BMP-2, T-80BV)",Regiment,<1,1.0,423rd Guards Motorized Rifle Regiment,423?,4th Guards Tank Division,ru,True,SSGPUCIZ---G---
-2022-05-20,47.276439,35.221250,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,429th Motorized Rifle Regiment,429,19th Motorized Rifle Division,ru,False,SSGPUCIZ---G---
+2022-05-20,47.435016,35.281804,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,429th Motorized Rifle Regiment,429,19th Motorized Rifle Division,ru,True,SSGPUCIZ---G---
 2022-05-20,45.8,29.6,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,45th Separate Air Assault Brigade,45,Assault Forces,ua,False,SNGPUCIS---H---
 2022-05-20,49.6,34.5,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,46th Separate Air Assault Brigade,46,Assault Forces,ua,False,SNGPUCIS---H---
 2022-05-20,49.713890,37.603688,SSGPUCA---AI,Headquarters,Division,<1,1.0,47th Guards Tank Division,47,1st Guards Tank Army,ru,True,SSGPUCA---AI---
@@ -1252,6 +1252,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-20,48.955671,39.013636,SHGPUCIZ--AK,Headquarters,Army,4,4.0,5th Combined Arms Army,5,Eastern Military District,ru,True,SHGPUCIZ--AK---
 2022-05-20,48.044119,37.791705,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,5th Separate Motorized Rifle Brigade (DPR),5,1st Army Corps (Donetsk),ru,True,SSGPUCIZ---H---
 2022-05-20,46.6,30.8,SNGPUCA----H,Armor,Brigade,n/a,0.0,5th Separate Tank Brigade (Reserve),5,Operational Command South,ua,False,SNGPUCA----H---
+2022-05-20,47.435016,35.281804,SHGPUCIZ---G,Mechanized Infantry,Regiment,1,1.0,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division,ru,True,SHGPUCIZ---G---
 2022-05-20,47.9,36.6,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,53rd Separate Mechanized Brigade,53,Operational Command East,ua,False,SNGPUCIZ---H---
 2022-05-20,48.0,37.4,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,54th Separate Mechanized Brigade,54,Operational Command East,ua,False,SNGPUCIZ---H---
 2022-05-20,48.977516,38.130406,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,55th Separate Motorized Rifle Brigade,55,41st Combined Arms Army,ru,True,SSGPUCIZ---H---
