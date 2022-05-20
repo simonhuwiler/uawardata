@@ -73,6 +73,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-20,50.288821,36.930181,SSGPUCIZ---H,"Motorized Rifle (BTR-82A/BMP-3, T-90A)",Brigade,1,1.0,27th Separate Guards Motorized Rifle Brigade,27?,1st Guards Tank Army,ru,False,SSGPUCIZ---H---
 2022-05-20,46.9,32.5,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,28th Separate Mechanized Brigade,28,Operational Command South,ua,False,SNGPUCIZ---H---
 2022-05-20,48.955671,39.013636,SHGPUCIZ--AK,Headquarters,Army,1,1.0,29th Combined Arms Army,29,Eastern Military District,ru,True,SHGPUCIZ--AK---
+2022-05-20,47.459557,36.675125,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,291st Guards Motorized Rifle Regiment,291,42nd Guards Motorized Rifle Division,ru,False,SSGPUCIZ---G---
 2022-05-20,49.077448,38.406851,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,2nd Separate Motorized Rifle Brigade (LPR),2?,2nd Army Corps (Luhansk),ru,True,SSGPUCIZ---H---
 2022-05-20,49.393929,37.444915,SSGPUCIZ--AI,Headquarters,Division,1,1.0,3rd Motorized Rifle Division,3,20th Guards Combined Arms Army,ru,False,SSGPUCIZ--AI---
 2022-05-20,48.318999,38.022579,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,3rd Separate Motorized Rifle Brigade (DPR),3,1st Army Corps (Donetsk),ru,False,SSGPUCIZ---H---
