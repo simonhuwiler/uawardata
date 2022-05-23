@@ -114,6 +114,7 @@ def export_website(CONSTS):
 
     # Sort values
     df['sort'] = df['unitnumber'].apply(lambda x: re.sub("[^0-9a-zA-Z]+", "", x))
+    df['sort'] =  df['sort'].fillna('0')
     df['sort'] = pd.to_numeric(df['sort'])
     df = df.sort_values(['date', 'sort']).reset_index(drop=True)
 
