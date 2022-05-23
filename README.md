@@ -32,7 +32,7 @@ The **Unit**-files contains the units and where approximately their headquarters
 |strength_in_btg_number|*number*|Approx. Strength in Batallion Tactical Groups|
 |strength_in_btg_text|*text*|Approx. Strength in Batallion Tactical Groups (could be `< 1`)|
 |unit|*str*|Name of the unit|
-|unitnumber|*number*|Name of the unit as a number|
+|unitnumber|*str*|Name of the unit|
 |subordinate_to|*str*|Subordinates to which unit|
 |country|*enum*|Country where the unit is from. One of these: `ru`, `ua`, `na`|
 |stacked|*bool*|`True` if more than one feature/unit is at this exact location|

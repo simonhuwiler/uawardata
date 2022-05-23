@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 from pathlib import Path
+import re
 from utils import country_from_icon
 
 def export_repo(CONSTS):
@@ -112,7 +113,9 @@ def export_website(CONSTS):
         raise ValueError("🤬 Unit Position withouth corresponding Unit in 'units_description'")
 
     # Sort values
-    df = df.sort_values(['date', 'unitnumber'])
+    df['sort'] = df['unitnumber'].apply(lambda x: re.sub("[^0-9a-zA-Z]+", "", x))
+    df['sort'] = pd.to_numeric(df['sort'])
+    df = df.sort_values(['date', 'sort']).reset_index(drop=True)
 
     data = {
             "type": "FeatureCollection",
@@ -138,7 +141,7 @@ def export_website(CONSTS):
     except:
         raise ValueError("🤬 Could not convert 'Location? into Lat Lng. Probably empty or invalid input")
 
-    df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg_text', 'strength_in_btg_number', 'unit', 'unitnumber', 'subordinate_to']]
+    #df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg_text', 'strength_in_btg_number', 'unit', 'unitnumber', 'sort', 'subordinate_to']]
 
     # Add country
     df['country'] = df['icon'].apply(country_from_icon)    
@@ -155,7 +158,7 @@ def export_website(CONSTS):
 
             new_df = new_df.reset_index()
 
-            for j, row in new_df.sort_values('unitnumber', ascending=True).iterrows():
+            for j, row in new_df.sort_values('sort', ascending=True).iterrows():
 
                 units.append({
                         "icon": row['icon'],
