@@ -17,6 +17,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-27,53.248335,34.364374,SSGPUCIZ--AI,Headquarters,Division,<1,1.0,144th Guards Motorized Rifle Division,144,20th Guards Combined Arms Army,ru,False,SSGPUCIZ--AI---
 2022-05-27,48.597820,38.752256,SSGPUCIZ--AI,Headquarters,Division,3,3.0,150th Motorized Rifle Division,150,8th Guards Combined Arms Army,ru,True,SSGPUCIZ--AI---
 2022-05-27,47.692182,37.208366,SSGPUCIN---H,"Naval Infantry (BTR-80, T-80BV)",Brigade,1,1.0,155th Separate Guards Naval Infantry Brigade,155?,Pacific Fleet,ru,False,SSGPUCIN---H---
+2022-05-27,49.022050,37.967285,SSGPUCIZ---H,"Motorized Rifle (BTR-82A, T-72BM)",Brigade,1,1.0,15th Separate Motorized Rifle Brigade,15?,2nd Guards Combined Arms Army,ru,True,SSGPUCIZ---H---
 2022-05-27,48.614373,38.555196,SSGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,1,1.0,163rd Tank Regiment,163?,150th Motorized Rifle Division,ru,True,SSGPUCA----G---
 2022-05-27,47.204916,36.221653,SSGPUCIN---G,Naval Infantry,Regiment,1,1.0,177th Naval Infantry Regiment,177?,Caspian Flotilla,ru,True,SSGPUCIN---G---
 2022-05-27,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,3,3.0,19th Motorized Rifle Division,19,58th Combined Arms Army,ru,False,SHGPUCIZ--AI---
@@ -30,7 +31,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-05-27,48.946959,37.975117,SSGPUCIZ---G,"Motorized Rifle (BTR-82A/BTR-80, T-72BM)",Regiment,1,1.0,228th Motorized Rifle Regiment,228?,90th Guards Tank Division,ru,False,SSGPUCIZ---G---
 2022-05-27,48.644277,38.299939,SHGPUCIA---G,VDV,Regiment,1,1.0,234th Guards Air Assault Regiment,234?,76th Guards Air Assault Division,ru,True,SHGPUCIA---G---
 2022-05-27,50.283517,38.051674,SSGPUCA----G,Armor,Regiment,<1,1.0,237th Tank Regiment,237,3rd Motorized Rifle Division,ru,False,SSGPUCA----G---
-2022-05-27,49.022050,37.967285,SSGPUCA----G,Armor,Regiment,1,1.0,239th Guards Tank Regiment,239?,90th Guards Tank Division,ru,False,SSGPUCA----G---
+2022-05-27,49.022050,37.967285,SSGPUCA----G,Armor,Regiment,1,1.0,239th Guards Tank Regiment,239?,90th Guards Tank Division,ru,True,SSGPUCA----G---
 2022-05-27,50.444516,36.577230,SHGPUCIZ---H,"Motorized Rifle (T-72B3, MTLB)",Brigade,1,1.0,25th Separate Guards Motorized Rifle Brigade,25,6th Combined Arms Army,ru,False,SHGPUCIZ---H---
 2022-05-27,50.288821,36.930181,SSGPUCIZ---H,"Motorized Rifle (BTR-82A/BMP-3, T-90A)",Brigade,1,1.0,27th Separate Guards Motorized Rifle Brigade,27?,1st Guards Tank Army,ru,False,SSGPUCIZ---H---
 2022-05-27,48.955671,39.013636,SSGPUCIZ--AK,Headquarters,Army,1,1.0,29th Combined Arms Army,29,Eastern Military District,ru,True,SSGPUCIZ--AK---
