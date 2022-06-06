@@ -8,7 +8,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,51.2,24.7,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,100th Territorial Defense Brigade,100,Operational Command West,ua,False,SNGPUCIL---H---
 2022-06-05,48.4,22.7,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,101st Territorial Defense Brigade,101,Operational Command West,ua,False,SNGPUCIL---H---
 2022-06-05,48.9,24.7,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,102nd Territorial Defense Brigade,102,Operational Command West,ua,False,SNGPUCIL---H---
-2022-06-05,48.636257,38.404964,SSGPUCIZ---G,Mechanized Infantry,Regiment,1,1.0,102nd Motorized Rifle Regiment,102?,150th Motorized Rifle Division,ru,True,SSGPUCIZ---G---
+2022-06-05,48.714559,38.341168,SSGPUCIZ---G,Mechanized Infantry,Regiment,1,1.0,102nd Motorized Rifle Regiment,102?,150th Motorized Rifle Division,ru,False,SSGPUCIZ---G---
 2022-06-05,49.9,24.0,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,103rd Territorial Defense Brigade,103,Operational Command West,ua,False,SNGPUCIL---H---
 2022-06-05,50.6,26.3,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,104th Territorial Defense Brigade,104,Operational Command West,ua,False,SNGPUCIL---H---
 2022-06-05,49.6,25.6,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,105th Territorial Defense Brigade,105,Operational Command West,ua,False,SNGPUCIL---H---
@@ -61,8 +61,9 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,47.8,34.1,SNGPUCI----H,Infantry,Brigade,n/a,0.0,21st National Guard Brigade,21,National Guard,ua,False,SNGPUCI----H---
 2022-06-05,46.708098,32.655357,SHGPUCIZ--AJ,Headquarters,Corps,1,1.0,22nd Army Corps,22,Black Sea Fleet,ru,True,SHGPUCIZ--AJ---
 2022-06-05,47.8,37.3,SNGPUCI----H,Infantry,Brigade,n/a,0.0,23rd National Guard Brigade,23,National Guard,ua,False,SNGPUCI----H---
-2022-06-05,48.648611,38.259973,SHGPUCIA---G,VDV,Regiment,1,1.0,234th Guards Air Assault Regiment,234?,76th Guards Air Assault Division,ru,True,SHGPUCIA---G---
+2022-06-05,48.636257,38.404964,SHGPUCIA---G,VDV,Regiment,1,1.0,234th Guards Air Assault Regiment,234?,76th Guards Air Assault Division,ru,True,SHGPUCIA---G---
 2022-06-05,50.283517,38.051674,SSGPUCA----G,Armor,Regiment,<1,1.0,237th Tank Regiment,237,3rd Motorized Rifle Division,ru,True,SSGPUCA----G---
+2022-06-05,48.991840,37.869876,SSGPUCA----G,Armor,Regiment,1,1.0,239th Guards Tank Regiment,239?,90th Guards Tank Division,ru,True,SSGPUCA----G---
 2022-06-05,48.7,38.1,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,24th Separate Mechanized Brigade,24,Operational Command West,ua,False,SNGPUCIZ---H---
 2022-06-05,50.444516,36.577230,SHGPUCIZ---H,"Motorized Rifle (T-72B3, MTLB)",Brigade,1,1.0,25th Separate Guards Motorized Rifle Brigade,25,6th Combined Arms Army,ru,False,SHGPUCIZ---H---
 2022-06-05,49.3,36.8,SNGPUCIA---H,Airborne,Brigade,n/a,0.0,25th Airborne Brigade,25,Assault Forces,ua,False,SNGPUCIA---H---
@@ -134,7 +135,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,48.991840,37.869876,SSGPUCA----G,Armor,Regiment,1,1.0,80th Tank Regiment,80?,90th Guards Tank Division,ru,True,SSGPUCA----G---
 2022-06-05,49.0,36.8,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,81st Air Assault Brigade,81,Assault Forces,ua,False,SNGPUCIS---H---
 2022-06-05,47.204916,36.221653,SHGPUCIN---H,Naval Infantry,Brigade,1,1.0,810th Separate Naval Infantry Brigade,810?,58th Combined Arms Army,ru,True,SHGPUCIN---H---
-2022-06-05,49.127122,38.156320,SSGPUCA---AI,Headquarters,Division,3,3.0,90th Guards Tank Division,90,Central Military District,ru,False,SSGPUCA---AI---
+2022-06-05,49.024794,37.957510,SSGPUCA---AI,Headquarters,Division,3,3.0,90th Guards Tank Division,90,Central Military District,ru,False,SSGPUCA---AI---
 2022-06-05,49.8,36.7,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,92nd Separate Mechanized Brigade,92,Operational Command East,ua,False,SNGPUCIZ---H---
 2022-06-05,49.5,36.5,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,93rd Separate Mechanized Brigade,93,Operational Command East,ua,False,SNGPUCIZ---H---
 2022-06-05,48.9,38.0,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,95th Air Assault Brigade,95,Assault Forces,ua,False,SNGPUCIS---H---
