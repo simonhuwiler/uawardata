@@ -15,7 +15,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,49.4,27.0,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,106th Territorial Defense Brigade,106,Operational Command West,ua,False,SNGPUCIL---H---
 2022-06-05,48.3,26.0,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,107th Territorial Defense Brigade,107,Operational Command West,ua,False,SNGPUCIL---H---
 2022-06-05,48.4,35.0,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,108th Territorial Defense Brigade,108,Operational Command South,ua,False,SNGPUCIL---H---
-2022-06-05,47.164336,33.207065,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1.0,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False,SHGPUCIA---H---
+2022-06-05,47.056043,33.282324,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1.0,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,True,SHGPUCIA---H---
 2022-06-05,50.588388,36.585965,SSGPUCIZ--AJ,Headquarters,Corps,0,0.0,11th Army Corps,11,Baltic Fleet,ru,True,SSGPUCIZ--AJ---
 2022-06-05,48.134241,38.024860,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,11th Separate Guards Motorized Rifle Regiment (DPR),11,1st Army Corps (Donetsk),ru,True,SHGPUCIZ---G---
 2022-06-05,48.134241,38.024860,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,11th Separate Guards Motorized Rifle Regiment (DPR),11,1st Army Corps (Donetsk),ru,True,SSGPUCIZ---G---
@@ -33,7 +33,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,48.5,32.2,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,121st Territorial Defense Brigade,121,Operational Command South,ua,False,SNGPUCIL---H---
 2022-06-05,46.6,30.4,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,122nd Territorial Defense Brigade,122,Operational Command South,ua,False,SNGPUCIL---H---
 2022-06-05,46.9,32.0,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,124th Territorial Defense Brigade,124,Operational Command South,ua,False,SNGPUCIL---H---
-2022-06-05,47.085248,33.524263,SHGPUCIN---H,"Motorized Rifle (BMP-2/BTR-80, T-72B3)",Brigade,1,1.0,126th Separate Guards Coastal Defense Brigade,126,49th Combined Arms Army,ru,False,SHGPUCIN---H---
+2022-06-05,47.056043,33.282324,SHGPUCIN---H,"Motorized Rifle (BMP-2/BTR-80, T-72B3)",Brigade,1,1.0,126th Separate Guards Coastal Defense Brigade,126,49th Combined Arms Army,ru,True,SHGPUCIN---H---
 2022-06-05,46.691939,32.523411,SSGPUCR----H,Recon,Brigade,1,1.0,127th Separate Reconnaissance Brigade,127,22nd Army Corps,ru,False,SSGPUCR----H---
 2022-06-05,48.955671,39.013636,SSGPUCIZ--AI,Headquarters,Division,3,3.0,127th Motorized Rifle Division,127?,5th Combined Arms Army,ru,True,SSGPUCIZ--AI---
 2022-06-05,47.9,35.9,SNGPUCIO---H,Infantry,Brigade,n/a,0.0,128th Separate Mountain Brigade,128,Operational Command West,ua,False,SNGPUCIO---H---
