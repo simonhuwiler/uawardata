@@ -47,7 +47,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,49.4,27.3,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,15nd Separate Mechanized Brigade,15,Operational Command West,ua,False,SNGPUCIZ---H---
 2022-06-05,48.597820,38.752256,SSGPUCIZ--AI,Headquarters,Division,3,3.0,150th Motorized Rifle Division,150,8th Guards Combined Arms Army,ru,True,SSGPUCIZ--AI---
 2022-06-05,47.692182,37.208366,SSGPUCIN---H,"Naval Infantry (BTR-80, T-80BV)",Brigade,1,1.0,155th Separate Guards Naval Infantry Brigade,155?,Pacific Fleet,ru,False,SSGPUCIN---H---
-2022-06-05,48.991840,37.869876,SSGPUCIZ---H,"Motorized Rifle (BTR-82A, T-72BM)",Brigade,1,1.0,15th Separate Motorized Rifle Brigade,15?,2nd Guards Combined Arms Army,ru,True,SSGPUCIZ---H---
+2022-06-05,49.020016,37.802044,SSGPUCIZ---H,"Motorized Rifle (BTR-82A, T-72BM)",Brigade,1,1.0,15th Separate Motorized Rifle Brigade,15?,2nd Guards Combined Arms Army,ru,True,SSGPUCIZ---H---
 2022-06-05,48.614373,38.555196,SSGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,1,1.0,163rd Tank Regiment,163?,150th Motorized Rifle Division,ru,False,SSGPUCA----G---
 2022-06-05,48.8,38.5,SNGPUCA----H,Armor,Brigade,n/a,0.0,17th Separate Tank Brigade,17,Operational Command East,ua,False,SNGPUCA----H---
 2022-06-05,47.204916,36.221653,SSGPUCIN---G,Naval Infantry,Regiment,1,1.0,177th Naval Infantry Regiment,177?,Caspian Flotilla,ru,True,SSGPUCIN---G---
@@ -56,14 +56,15 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,48.558665,39.307395,SHGPUCIZ--AJ,Headquarters,Corps,3,3.0,2nd Army Corps (Luhansk),2,Southern Military District,ru,False,SHGPUCIZ--AJ---
 2022-06-05,50.190979,38.147970,SSGPUCIZ--AK,Headquarters,Army,4,4.0,20th Guards Combined Arms Army,20,Western Military District,ru,True,SSGPUCIZ--AK---
 2022-06-05,50.272813,36.469012,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,200th Separate Motorized Rifle Brigade,200,6th Combined Arms Army,ru,False,SHGPUCIZ---H---
-2022-06-05,49.162229,37.882962,SHGPUCIZ---I,Motorized Rifle,Division,4,4.0,201st Military Base,201,Central Military District,ru,False,SHGPUCIZ---I---
+2022-06-05,49.146047,37.717988,SHGPUCIZ---I,Motorized Rifle,Division,2,2.0,201st Military Base,201,Central Military District,ru,False,SHGPUCIZ---I---
 2022-06-05,46.890757,33.144856,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,205th Separate Motorized Rifle Brigade,205,22nd Army Corps,ru,False,SHGPUCIZ---H---
 2022-06-05,47.8,34.1,SNGPUCI----H,Infantry,Brigade,n/a,0.0,21st National Guard Brigade,21,National Guard,ua,False,SNGPUCI----H---
 2022-06-05,46.708098,32.655357,SHGPUCIZ--AJ,Headquarters,Corps,1,1.0,22nd Army Corps,22,Black Sea Fleet,ru,True,SHGPUCIZ--AJ---
+2022-06-05,48.956700,37.863363,SSGPUCIZ---G,"Motorized Rifle (BTR-82A/BTR-80, T-72BM)",Regiment,1,1.0,228th Motorized Rifle Regiment,228?,90th Guards Tank Division,ru,True,SSGPUCIZ---G---
 2022-06-05,47.8,37.3,SNGPUCI----H,Infantry,Brigade,n/a,0.0,23rd National Guard Brigade,23,National Guard,ua,False,SNGPUCI----H---
 2022-06-05,48.636257,38.404964,SHGPUCIA---G,VDV,Regiment,1,1.0,234th Guards Air Assault Regiment,234?,76th Guards Air Assault Division,ru,True,SHGPUCIA---G---
 2022-06-05,50.283517,38.051674,SSGPUCA----G,Armor,Regiment,<1,1.0,237th Tank Regiment,237,3rd Motorized Rifle Division,ru,True,SSGPUCA----G---
-2022-06-05,48.991840,37.869876,SSGPUCA----G,Armor,Regiment,1,1.0,239th Guards Tank Regiment,239?,90th Guards Tank Division,ru,True,SSGPUCA----G---
+2022-06-05,48.956700,37.863363,SSGPUCA----G,Armor,Regiment,1,1.0,239th Guards Tank Regiment,239?,90th Guards Tank Division,ru,True,SSGPUCA----G---
 2022-06-05,48.7,38.1,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,24th Separate Mechanized Brigade,24,Operational Command West,ua,False,SNGPUCIZ---H---
 2022-06-05,50.444516,36.577230,SHGPUCIZ---H,"Motorized Rifle (T-72B3, MTLB)",Brigade,1,1.0,25th Separate Guards Motorized Rifle Brigade,25,6th Combined Arms Army,ru,False,SHGPUCIZ---H---
 2022-06-05,49.3,36.8,SNGPUCIA---H,Airborne,Brigade,n/a,0.0,25th Airborne Brigade,25,Assault Forces,ua,False,SNGPUCIA---H---
@@ -75,8 +76,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,50.190979,38.147970,SSGPUCIZ--AI,Headquarters,Division,1,1.0,3rd Motorized Rifle Division,3,20th Guards Combined Arms Army,ru,True,SSGPUCIZ--AI---
 2022-06-05,48.318999,38.022579,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,3rd Separate Motorized Rifle Brigade (DPR),3,1st Army Corps (Donetsk),ru,False,SSGPUCIZ---H---
 2022-06-05,48.9,37.0,SNGPUCA----H,Armor,Brigade,n/a,0.0,3rd Separate Tank Brigade (Reserve),3,Operational Command East,ua,False,SNGPUCA----H---
-2022-06-05,49.228397,37.637828,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,30th Separate Motorized Rifle Brigade,30,2nd Guards Combined Arms Army,ru,False,SSGPUCIZ---H---
-2022-06-05,48.991840,37.869876,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,30th Separate Motorized Rifle Brigade,30,2nd Guards Combined Arms Army,ru,True,SSGPUCIZ---H---
+2022-06-05,49.020016,37.802044,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,30th Separate Motorized Rifle Brigade,30,2nd Guards Combined Arms Army,ru,True,SSGPUCIZ---H---
 2022-06-05,48.5,38.2,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,30th Separate Mechanized Brigade,30,Operational Command North,ua,False,SNGPUCIZ---H---
 2022-06-05,48.648611,38.259973,SHGPUCIA---H,VDV,Brigade,1,1.0,31st Separate Guards Air Assault Brigade,31,Russian Airborne Forces,ru,True,SHGPUCIA---H---
 2022-06-05,48.648611,38.259973,SSGPUCIN---H,Naval Infantry,Brigade,1,1.0,336th Separate Guards Naval Infantry Brigade,336?,Baltic Fleet,ru,True,SSGPUCIN---H---
@@ -112,7 +112,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,46.843480,35.368727,SHGPUCIZ--AK,Headquarters,Army,7,7.0,58th Combined Arms Army,58,Southern Military District,ru,False,SHGPUCIZ--AK---
 2022-06-05,50.6,34.5,SNGPUCIM---H,Motorized Infantry,Brigade,n/a,0.0,58th Separate Motorized Brigade,58,Operational Command North,ua,False,SNGPUCIM---H---
 2022-06-05,47.8,35.7,SNGPUCIM---H,Motorized Infantry,Brigade,n/a,0.0,59th Separate Motorized Brigade,59,Operational Command South,ua,False,SNGPUCIM---H---
-2022-06-05,49.181336,37.421561,SSGPUCA----H,Armor (T-72B3),Brigade,1,1.0,5th Separate Guards Tank Brigade,5?,36th Combined Arms Army,ru,False,SSGPUCA----H---
+2022-06-05,49.125371,37.293088,SSGPUCA----H,Armor (T-72B3),Brigade,1,1.0,5th Separate Guards Tank Brigade,5?,36th Combined Arms Army,ru,False,SSGPUCA----H---
 2022-06-05,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,2,2.0,6th Combined Arms Army,6,Western Military District,ru,True,SHGPUCIZ--AK---
 2022-06-05,48.568997,38.563407,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,6th Separate Motorized Rifle Regiment (LPR),6,2nd Army Corps (Luhansk),ru,False,SSGPUCIZ---G---
 2022-06-05,48.134241,38.024860,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,60th Separate Motorized Rifle Brigade,60,5th Combined Arms Army,ru,True,SHGPUCIZ---H---
@@ -132,7 +132,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,48.9,38.2,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,79th Air Assault Brigade,79,Assault Forces,ua,False,SNGPUCIS---H---
 2022-06-05,48.973160,38.530518,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,7th Separate Motorized Rifle Brigade (LPR),7?,2nd Army Corps (Luhansk),ru,True,SSGPUCIZ---H---
 2022-06-05,47.5,32.9,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,80th Air Assault Brigade,80,Assault Forces,ua,False,SNGPUCIS---H---
-2022-06-05,48.991840,37.869876,SSGPUCA----G,Armor,Regiment,1,1.0,80th Tank Regiment,80?,90th Guards Tank Division,ru,True,SSGPUCA----G---
+2022-06-05,48.956700,37.863363,SSGPUCA----G,Armor,Regiment,1,1.0,80th Tank Regiment,80?,90th Guards Tank Division,ru,True,SSGPUCA----G---
 2022-06-05,49.0,36.8,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,81st Air Assault Brigade,81,Assault Forces,ua,False,SNGPUCIS---H---
 2022-06-05,47.204916,36.221653,SHGPUCIN---H,Naval Infantry,Brigade,1,1.0,810th Separate Naval Infantry Brigade,810?,58th Combined Arms Army,ru,True,SHGPUCIN---H---
 2022-06-05,49.024794,37.957510,SSGPUCA---AI,Headquarters,Division,3,3.0,90th Guards Tank Division,90,Central Military District,ru,False,SSGPUCA---AI---
