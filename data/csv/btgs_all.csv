@@ -484,7 +484,7 @@ date,lat,lng,unit,type_of_btg,country
 2022-04-24,49.410551,37.858826,201st Military Base,motor_rifle,ru
 2022-04-24,49.416415,37.754441,201st Military Base,motor_rifle,ru
 2022-04-24,49.378710,37.966080,201st Military Base,motor_rifle,ru
-2022-04-24,49.252419,38.202740,239th Guards Tank Regiment,tank,ru
+2022-04-24,49.127080,38.157959,2nd Guards Combined Arms Army,motor_rifle,ru
 2022-04-24,49.084775,38.218525,2nd Guards Combined Arms Army,motor_rifle,ru
 2022-04-24,49.050183,38.270942,2nd Guards Combined Arms Army,motor_rifle,ru
 2022-04-24,49.462062,36.879539,68th Army Corps,motor_rifle,ru
@@ -496,7 +496,7 @@ date,lat,lng,unit,type_of_btg,country
 2022-04-24,48.126173,37.888412,60th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-04-24,49.354793,37.743306,201st Military Base,motor_rifle,ru
 2022-04-24,49.084285,37.351388,1st Guards Tank Regiment,tank,ru
-2022-04-24,49.127080,38.157959,2nd Guards Combined Arms Army,motor_rifle,ru
+2022-04-24,49.252419,38.202740,239th Guards Tank Regiment,tank,ru
 2022-04-24,49.243950,37.436633,252nd Guards Motorized Rifle Regiment,motor_rifle,ru
 2022-04-24,46.802838,32.536749,56th Guards Air Assault Regiment,vdv,ru
 2022-04-24,46.711900,32.422485,127th Separate Reconnaissance Brigade,motor_rifle,ru
@@ -506,8 +506,8 @@ date,lat,lng,unit,type_of_btg,country
 2022-04-24,47.331503,33.308110,11th Separate Guards Air Assault Brigade,vdv,ru
 2022-04-24,47.180527,33.758431,126th Separate Guards Coastal Defense Brigade,motor_rifle,ru
 2022-04-24,47.532478,35.363826,503rd Motorized Rifle Regiment,motor_rifle,ru
-2022-04-24,50.253966,38.024342,237th Tank Regiment,tank,ru
 2022-04-24,47.362146,35.253582,429th Motorized Rifle Regiment,motor_rifle,ru
+2022-04-24,50.253966,38.024342,237th Tank Regiment,tank,ru
 2022-04-24,47.922578,37.570451,136th Separate Guards Motorized Rifle Brigade,motor_rifle,ru
 2022-04-24,47.960386,37.568367,136th Separate Guards Motorized Rifle Brigade,motor_rifle,ru
 2022-04-24,47.551153,36.207374,71st Guards Motorized Rifle Regiment,motor_rifle,ru
@@ -749,10 +749,10 @@ date,lat,lng,unit,type_of_btg,country
 2022-05-13,47.251151,36.058990,810th Separate Naval Infantry Brigade,motor_rifle,ru
 2022-05-13,47.160230,36.027490,177th Naval Infantry Regiment,motor_rifle,ru
 2022-05-13,49.180287,37.580134,30th Separate Motorized Rifle Brigade,motor_rifle,ru
-2022-05-13,49.493086,36.973429,68th Army Corps,motor_rifle,ru
+2022-05-13,50.526707,36.809019,11th Army Corps,motor_rifle,ru
 2022-05-13,49.524540,36.851077,68th Army Corps,motor_rifle,ru
 2022-05-13,49.037136,38.299009,2nd Guards Combined Arms Army,motor_rifle,ru
-2022-05-13,50.526707,36.809019,11th Army Corps,motor_rifle,ru
+2022-05-13,49.493086,36.973429,68th Army Corps,motor_rifle,ru
 2022-05-13,48.126173,37.888412,60th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-05-13,49.026796,38.109591,2nd Guards Combined Arms Army,motor_rifle,ru
 2022-05-13,49.185946,37.738030,201st Military Base,motor_rifle,ru
@@ -786,7 +786,7 @@ date,lat,lng,unit,type_of_btg,country
 2022-05-13,49.300669,37.369516,37th Separate Guards Motorized Rifle Brigade,motor_rifle,ru
 2022-05-13,49.199990,36.969115,38th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-05-13,49.121150,37.014777,76th Guards Air Assault Division,vdv,ru
-2022-05-13,48.656588,38.416698,336th Separate Guards Naval Infantry Brigade,motor_rifle,ru
+2022-05-13,48.628467,38.492709,102nd Motorized Rifle Regiment,motor_rifle,ru
 2022-05-13,49.177211,37.420909,752nd Guards Motorized Rifle Regiment,motor_rifle,ru
 2022-05-13,47.797954,36.815563,70th Guards Motorized Rifle Regiment,motor_rifle,ru
 2022-05-13,47.568228,36.672481,291st Guards Motorized Rifle Regiment,motor_rifle,ru
@@ -824,7 +824,7 @@ date,lat,lng,unit,type_of_btg,country
 2022-05-13,48.837989,38.600552,127th Motorized Rifle Division,motor_rifle,ru
 2022-05-13,47.153992,37.592831,1st Army Corps (Donetsk),motor_rifle,ru
 2022-05-13,49.037318,38.950588,68th Tank Regiment,tank,ru
-2022-05-13,48.628467,38.492709,102nd Motorized Rifle Regiment,motor_rifle,ru
+2022-05-13,48.656588,38.416698,336th Separate Guards Naval Infantry Brigade,motor_rifle,ru
 2022-05-13,47.452290,36.876321,155th Separate Guards Naval Infantry Brigade,motor_rifle,ru
 2022-05-20,49.268344,36.984468,64th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-05-20,49.199990,36.969115,38th Separate Motorized Rifle Brigade,motor_rifle,ru
@@ -928,11 +928,11 @@ date,lat,lng,unit,type_of_btg,country
 2022-05-27,49.026796,38.109591,2nd Guards Combined Arms Army,motor_rifle,ru
 2022-05-27,48.956664,38.143471,55th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-05-27,49.077759,37.865113,201st Military Base,motor_rifle,ru
-2022-05-27,49.118883,37.766193,201st Military Base,motor_rifle,ru
 2022-05-27,47.160230,36.027490,177th Naval Infantry Regiment,motor_rifle,ru
+2022-05-27,49.118883,37.766193,201st Military Base,motor_rifle,ru
 2022-05-27,50.220316,36.418076,200th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-05-27,49.143699,37.282816,5th Separate Guards Tank Brigade,tank,ru
-2022-05-27,48.628240,38.498979,163rd Tank Regiment,tank,ru
+2022-05-27,47.797954,36.815563,70th Guards Motorized Rifle Regiment,motor_rifle,ru
 2022-05-27,49.524540,36.851077,68th Army Corps,motor_rifle,ru
 2022-05-27,49.493086,36.973429,68th Army Corps,motor_rifle,ru
 2022-05-27,46.802838,32.536749,56th Guards Air Assault Regiment,vdv,ru
@@ -946,7 +946,7 @@ date,lat,lng,unit,type_of_btg,country
 2022-05-27,47.922578,37.570451,136th Separate Guards Motorized Rifle Brigade,motor_rifle,ru
 2022-05-27,47.551045,36.254753,71st Guards Motorized Rifle Regiment,motor_rifle,ru
 2022-05-27,47.568228,36.672481,291st Guards Motorized Rifle Regiment,motor_rifle,ru
-2022-05-27,47.797954,36.815563,70th Guards Motorized Rifle Regiment,motor_rifle,ru
+2022-05-27,48.628240,38.498979,163rd Tank Regiment,tank,ru
 2022-05-27,48.183604,37.961840,11th Separate Guards Motorized Rifle Regiment (DPR),motor_rifle,ru
 2022-05-27,48.656084,38.524342,102nd Motorized Rifle Regiment,motor_rifle,ru
 2022-05-27,47.532478,35.363826,503rd Motorized Rifle Regiment,motor_rifle,ru
@@ -965,33 +965,31 @@ date,lat,lng,unit,type_of_btg,country
 2022-05-27,48.837989,38.600552,127th Motorized Rifle Division,motor_rifle,ru
 2022-05-27,47.153992,37.592831,1st Army Corps (Donetsk),motor_rifle,ru
 2022-05-27,47.747239,37.216379,155th Separate Guards Naval Infantry Brigade,motor_rifle,ru
-2022-06-05,50.529674,36.619805,11th Army Corps,motor_rifle,ru
-2022-06-05,48.985262,37.802004,80th Tank Regiment,tank,ru
 2022-06-05,50.514579,36.445783,11th Army Corps,tank,ru
+2022-06-05,47.706177,37.593418,1st Separate Motorized Rifle Brigade (DPR),motor_rifle,ru
 2022-06-05,48.954987,37.899338,228th Motorized Rifle Regiment,motor_rifle,ru
 2022-06-05,48.935459,38.547865,7th Separate Motorized Rifle Brigade (LPR),motor_rifle,ru
-2022-06-05,47.706177,37.593418,1st Separate Motorized Rifle Brigade (DPR),motor_rifle,ru
-2022-06-05,48.966377,38.500640,2nd Separate Motorized Rifle Brigade (LPR),motor_rifle,ru
-2022-06-05,48.034732,37.718638,5th Separate Motorized Rifle Brigade (DPR),motor_rifle,ru
+2022-06-05,48.985262,37.802004,80th Tank Regiment,tank,ru
+2022-06-05,48.073953,37.778140,100th Separate Motorized Rifle Brigade (DPR),motor_rifle,ru
+2022-06-05,48.688745,38.594338,4th Separate Motorized Rifle Brigade (LPR),motor_rifle,ru
 2022-06-05,48.196735,37.980218,11th Separate Guards Motorized Rifle Regiment (DPR),motor_rifle,ru
 2022-06-05,48.367023,38.020945,3rd Separate Motorized Rifle Brigade (DPR),motor_rifle,ru
 2022-06-05,48.440170,38.291406,7th Separate Motorized Rifle Brigade (DPR),motor_rifle,ru
 2022-06-05,48.498422,38.296997,6th Separate Motorized Rifle Regiment (LPR),motor_rifle,ru
-2022-06-05,48.688745,38.594338,4th Separate Motorized Rifle Brigade (LPR),motor_rifle,ru
-2022-06-05,50.526707,36.809019,11th Army Corps,motor_rifle,ru
-2022-06-05,48.073953,37.778140,100th Separate Motorized Rifle Brigade (DPR),motor_rifle,ru
-2022-06-05,49.118392,37.590766,201st Military Base,motor_rifle,ru
-2022-06-05,49.085325,37.408991,20th Guards Combined Arms Army,motor_rifle,ru
-2022-06-05,48.956664,38.143471,55th Separate Motorized Rifle Brigade,motor_rifle,ru
-2022-06-05,47.160230,36.027490,177th Naval Infantry Regiment,motor_rifle,ru
-2022-06-05,47.251151,36.058990,810th Separate Naval Infantry Brigade,motor_rifle,ru
+2022-06-05,48.966377,38.500640,2nd Separate Motorized Rifle Brigade (LPR),motor_rifle,ru
 2022-06-05,50.235463,38.055880,37th Separate Guards Motorized Rifle Brigade,motor_rifle,ru
-2022-06-05,48.577428,38.359399,61st Separate Naval Infantry Brigade,motor_rifle,ru
+2022-06-05,50.529674,36.619805,11th Army Corps,motor_rifle,ru
+2022-06-05,48.034732,37.718638,5th Separate Motorized Rifle Brigade (DPR),motor_rifle,ru
+2022-06-05,50.526707,36.809019,11th Army Corps,motor_rifle,ru
 2022-06-05,49.133018,37.141794,106th Guards Airborne Division,vdv,ru
+2022-06-05,49.077414,37.678445,201st Military Base,motor_rifle,ru
+2022-06-05,49.085325,37.408991,20th Guards Combined Arms Army,motor_rifle,ru
+2022-06-05,48.577428,38.359399,61st Separate Naval Infantry Brigade,motor_rifle,ru
+2022-06-05,49.268344,36.984468,64th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-06-05,49.122401,37.024808,76th Guards Air Assault Division,vdv,ru
 2022-06-05,49.706476,37.185705,1st Guards Tank Army,motor_rifle,ru
-2022-06-05,49.077414,37.678445,201st Military Base,motor_rifle,ru
 2022-06-05,50.596320,36.610242,1st Guards Tank Army,motor_rifle,ru
+2022-06-05,50.612267,36.543487,1st Guards Tank Army,tank,ru
 2022-06-05,53.205030,34.279368,144th Guards Motorized Rifle Division,motor_rifle,ru
 2022-06-05,50.220316,36.418076,200th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-06-05,50.254750,36.812770,27th Separate Guards Motorized Rifle Brigade,motor_rifle,ru
@@ -999,43 +997,43 @@ date,lat,lng,unit,type_of_btg,country
 2022-06-05,49.050896,38.219285,2nd Guards Combined Arms Army,motor_rifle,ru
 2022-06-05,48.950945,37.845545,15th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-06-05,49.016005,37.761090,30th Separate Motorized Rifle Brigade,motor_rifle,ru
-2022-06-05,50.612267,36.543487,1st Guards Tank Army,tank,ru
-2022-06-05,49.268344,36.984468,64th Separate Motorized Rifle Brigade,motor_rifle,ru
-2022-06-05,48.726385,38.563375,127th Motorized Rifle Division,motor_rifle,ru
-2022-06-05,49.077194,37.332952,5th Separate Guards Tank Brigade,tank,ru
-2022-06-05,47.797954,36.815563,70th Guards Motorized Rifle Regiment,motor_rifle,ru
+2022-06-05,48.956664,38.143471,55th Separate Motorized Rifle Brigade,motor_rifle,ru
+2022-06-05,49.118392,37.590766,201st Military Base,motor_rifle,ru
+2022-06-05,49.199990,36.969115,38th Separate Motorized Rifle Brigade,motor_rifle,ru
+2022-06-05,47.153992,37.592831,1st Army Corps (Donetsk),motor_rifle,ru
+2022-06-05,49.493086,36.973429,68th Army Corps,motor_rifle,ru
 2022-06-05,47.568228,36.672481,291st Guards Motorized Rifle Regiment,motor_rifle,ru
 2022-06-05,47.551045,36.254753,71st Guards Motorized Rifle Regiment,motor_rifle,ru
 2022-06-05,47.922578,37.570451,136th Separate Guards Motorized Rifle Brigade,motor_rifle,ru
 2022-06-05,47.533543,35.473164,429th Motorized Rifle Regiment,motor_rifle,ru
 2022-06-05,47.532478,35.363826,503rd Motorized Rifle Regiment,motor_rifle,ru
-2022-06-05,48.628240,38.498979,163rd Tank Regiment,tank,ru
 2022-06-05,46.854605,33.392236,U/I Reserve Unit,tank,ru
-2022-06-05,47.097108,33.403643,11th Separate Guards Air Assault Brigade,vdv,ru
+2022-06-05,47.797954,36.815563,70th Guards Motorized Rifle Regiment,motor_rifle,ru
+2022-06-05,47.130490,33.150185,126th Separate Guards Coastal Defense Brigade,motor_rifle,ru
 2022-06-05,46.916860,33.086448,205th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-06-05,46.835687,32.751689,34th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-06-05,46.632989,32.383904,10th Separate Special Purpose Brigade,vdv,ru
 2022-06-05,46.711900,32.422485,127th Separate Reconnaissance Brigade,motor_rifle,ru
 2022-06-05,46.802838,32.536749,56th Guards Air Assault Regiment,vdv,ru
-2022-06-05,47.130490,33.150185,126th Separate Guards Coastal Defense Brigade,motor_rifle,ru
-2022-06-05,49.199990,36.969115,38th Separate Motorized Rifle Brigade,motor_rifle,ru
+2022-06-05,47.251151,36.058990,810th Separate Naval Infantry Brigade,motor_rifle,ru
+2022-06-05,47.097108,33.403643,11th Separate Guards Air Assault Brigade,vdv,ru
+2022-06-05,48.628240,38.498979,163rd Tank Regiment,tank,ru
 2022-06-05,48.183604,37.961840,11th Separate Guards Motorized Rifle Regiment (DPR),motor_rifle,ru
-2022-06-05,48.610604,38.269551,336th Separate Guards Naval Infantry Brigade,motor_rifle,ru
-2022-06-05,49.493086,36.973429,68th Army Corps,motor_rifle,ru
+2022-06-05,48.738110,38.313633,102nd Motorized Rifle Regiment,motor_rifle,ru
 2022-06-05,49.524540,36.851077,68th Army Corps,motor_rifle,ru
 2022-06-05,48.126173,37.888412,60th Separate Motorized Rifle Brigade,motor_rifle,ru
 2022-06-05,50.198622,38.102518,3rd Motorized Rifle Division,motor_rifle,ru
 2022-06-05,50.253966,38.024342,237th Tank Regiment,tank,ru
 2022-06-05,48.640949,38.358450,80th Tank Regiment,tank,ru
-2022-06-05,48.738110,38.313633,102nd Motorized Rifle Regiment,motor_rifle,ru
 2022-06-05,48.718883,38.272573,31st Separate Guards Air Assault Brigade,vdv,ru
+2022-06-05,48.673337,38.267362,234th Guards Air Assault Regiment,vdv,ru
 2022-06-05,48.670526,38.377027,40th Separate Naval Infantry Brigade,motor_rifle,ru
 2022-06-05,47.747239,37.216379,155th Separate Guards Naval Infantry Brigade,motor_rifle,ru
 2022-06-05,48.719981,38.384350,57th Separate Guards Motorized Rifle Brigade,motor_rifle,ru
 2022-06-05,48.722024,38.630912,127th Motorized Rifle Division,tank,ru
 2022-06-05,48.770626,38.598278,127th Motorized Rifle Division,motor_rifle,ru
-2022-06-05,47.153992,37.592831,1st Army Corps (Donetsk),motor_rifle,ru
+2022-06-05,48.726385,38.563375,127th Motorized Rifle Division,motor_rifle,ru
 2022-06-05,49.037318,38.950588,68th Tank Regiment,tank,ru
-2022-06-05,48.673337,38.267362,234th Guards Air Assault Regiment,vdv,ru
-2022-06-12,46.802838,32.536749,56th Guards Air Assault Regiment,vdv,ru
-2022-06-12,46.711900,32.422485,127th Separate Reconnaissance Brigade,motor_rifle,ru
+2022-06-05,48.610604,38.269551,336th Separate Guards Naval Infantry Brigade,motor_rifle,ru
+2022-06-05,49.077194,37.332952,5th Separate Guards Tank Brigade,tank,ru
+2022-06-05,47.160230,36.027490,177th Naval Infantry Regiment,motor_rifle,ru
