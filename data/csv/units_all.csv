@@ -1570,3 +1570,24 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-05,49.8,36.7,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,92nd Separate Mechanized Brigade,92,Operational Command East,ua,False,SNGPUCIZ---H---
 2022-06-05,49.5,36.5,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,93rd Separate Mechanized Brigade,93,Operational Command East,ua,False,SNGPUCIZ---H---
 2022-06-05,48.9,38.0,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,95th Air Assault Brigade,95,Assault Forces,ua,False,SNGPUCIS---H---
+2022-06-12,47.435114,33.606978,SSGPUCRA---H,Special Purpose,Brigade,0,0.0,10th Separate Special Purpose Brigade,10,Southern Military District,ru,True,SSGPUCRA---H---
+2022-06-12,47.031912,33.009348,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,1,1.0,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False,SHGPUCIA---H---
+2022-06-12,47.056043,33.282324,SHGPUCIN---H,"Motorized Rifle (BMP-2/BTR-80, T-72B3)",Brigade,1,1.0,126th Separate Guards Coastal Defense Brigade,126,49th Combined Arms Army,ru,False,SHGPUCIN---H---
+2022-06-12,47.015733,33.003799,SSGPUCR----H,Recon,Brigade,1,1.0,127th Separate Reconnaissance Brigade,127,22nd Army Corps,ru,False,SSGPUCR----H---
+2022-06-12,47.692182,37.208366,SSGPUCIN---H,"Naval Infantry (BTR-80, T-80BV)",Brigade,1,1.0,155th Separate Guards Naval Infantry Brigade,155?,Pacific Fleet,ru,False,SSGPUCIN---H---
+2022-06-12,47.204916,36.221653,SSGPUCIN---G,Naval Infantry,Regiment,1,1.0,177th Naval Infantry Regiment,177?,Caspian Flotilla,ru,True,SSGPUCIN---G---
+2022-06-12,46.652536,32.611332,SHGPUCIZ--AI,Headquarters,Division,2,2.0,20th Guards Motorized Rifle Division,20,22nd Army Corps,ru,False,SHGPUCIZ--AI---
+2022-06-12,47.435114,33.606978,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,205th Separate Motorized Rifle Brigade,205,22nd Army Corps,ru,True,SHGPUCIZ---H---
+2022-06-12,48.651039,38.497315,SSGPUCA----G,Armor,Regiment,1,1.0,218th Tank Regiment,218,127th Motorized Rifle Division,ru,False,SSGPUCA----G---
+2022-06-12,46.755083,33.364644,SHGPUCIZ--AJ,Headquarters,Corps,1,1.0,22nd Army Corps,22,Black Sea Fleet,ru,True,SHGPUCIZ--AJ---
+2022-06-12,47.285526,33.561676,SSGPUCF----H,Artillery,Brigade,0,0.0,227th Artillery Brigade,227,49th Combined Arms Army,ru,False,SSGPUCF----H---
+2022-06-12,46.691617,32.517521,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,1,1.0,255th Guards Motorized Rifle Regiment,255,20th Guards Motorized Rifle Division,ru,True,SHGPUCIZ---G---
+2022-06-12,50.288821,36.930181,SSGPUCIZ---H,"Motorized Rifle (BTR-82A/BMP-3, T-90A)",Brigade,1,1.0,27th Separate Guards Motorized Rifle Brigade,27?,1st Guards Tank Army,ru,False,SSGPUCIZ---H---
+2022-06-12,46.691617,32.517521,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,1,1.0,33rd Guards Motorized Rifle Regiment,33,20th Guards Motorized Rifle Division,ru,True,SHGPUCIZ---G---
+2022-06-12,48.648611,38.259973,SSGPUCIN---H,Naval Infantry,Brigade,1,1.0,336th Separate Guards Naval Infantry Brigade,336?,Baltic Fleet,ru,True,SSGPUCIN---H---
+2022-06-12,47.435114,33.606978,SHGPUCIZ---H,Motorized Rifle (MTLB/MT-LBM),Brigade,1,1.0,34th Separate Motorized Rifle Brigade,34,22nd Army Corps,ru,True,SHGPUCIZ---H---
+2022-06-12,48.648611,38.259973,SHGPUCIN---H,Naval Infantry,Brigade,1,1.0,40th Separate Naval Infantry Brigade,40,Pacific Fleet,ru,True,SHGPUCIN---H---
+2022-06-12,46.755083,33.364644,SHGPUCIZ--AK,Headquarters,Army,2,2.0,49th Combined Arms Army,49,Southern Military District,ru,True,SHGPUCIZ--AK---
+2022-06-12,47.187463,33.419626,SHGPUCIA--AI,Headquarters,Division,2,2.0,7th Guards Air Assault Division,7,22nd Army Corps,ru,False,SHGPUCIA--AI---
+2022-06-12,47.486886,36.250927,SHGPUCIZ---G,Motorized Rifle,Regiment,2,2.0,71st Guards Motorized Rifle Regiment,71,42nd Guards Motorized Rifle Division,ru,False,SHGPUCIZ---G---
+2022-06-12,47.204916,36.221653,SHGPUCIN---H,Naval Infantry,Brigade,1,1.0,810th Separate Naval Infantry Brigade,810?,58th Combined Arms Army,ru,True,SHGPUCIN---H---
