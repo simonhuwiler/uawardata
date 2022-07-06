@@ -1725,3 +1725,15 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-13,49.8,36.7,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,92nd Separate Mechanized Brigade,92,Operational Command East,ua,False,SNGPUCIZ---H---
 2022-06-13,49.5,36.5,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,93rd Separate Mechanized Brigade,93,Operational Command East,ua,False,SNGPUCIZ---H---
 2022-06-13,48.9,38.0,SNGPUCIS---H,Airborne,Brigade,n/a,0.0,95th Air Assault Brigade,95,Assault Forces,ua,False,SNGPUCIS---H---
+2022-07-05,47.015733,33.003799,SHGPUCIA---H,"VDV (BMD-2, BMP-2)",Brigade,2,2.0,11th Separate Guards Air Assault Brigade,11,49th Combined Arms Army,ru,False,SHGPUCIA---H---
+2022-07-05,46.691617,32.517521,SSGPUCR----H,Recon,Brigade,1,1.0,127th Separate Reconnaissance Brigade,127,22nd Army Corps,ru,True,SSGPUCR----H---
+2022-07-05,47.604821,37.160456,SHGPUCIZ---H,Motorized Rifle (BMP-3),Brigade,1,1.0,136th Separate Guards Motorized Rifle Brigade,136,58th Combined Arms Army,ru,True,SHGPUCIZ---H---
+2022-07-05,47.604821,37.160456,SSGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,1,1.0,163rd Tank Regiment,163?,150th Motorized Rifle Division,ru,True,SSGPUCA----G---
+2022-07-05,47.336893,33.594144,SHGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,205th Separate Motorized Rifle Brigade,205,22nd Army Corps,ru,False,SHGPUCIZ---H---
+2022-07-05,46.691617,32.517521,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,1,1.0,255th Guards Motorized Rifle Regiment,255,20th Guards Motorized Rifle Division,ru,True,SHGPUCIZ---G---
+2022-07-05,47.771655,36.851391,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,291st Guards Motorized Rifle Regiment,291,42nd Guards Motorized Rifle Division,ru,True,SSGPUCIZ---G---
+2022-07-05,46.691617,32.517521,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,1,1.0,33rd Guards Motorized Rifle Regiment,33,20th Guards Motorized Rifle Division,ru,True,SHGPUCIZ---G---
+2022-07-05,46.685954,33.005199,SSGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,429th Motorized Rifle Regiment,429,19th Motorized Rifle Division,ru,False,SSGPUCIZ---G---
+2022-07-05,47.486801,36.238509,SHGPUCIZ---G,Mechanized Infantry,Regiment,1,1.0,503rd Motorized Rifle Regiment,503,19th Motorized Rifle Division,ru,False,SHGPUCIZ---G---
+2022-07-05,47.771655,36.851391,SHGPUCIZ---G,Motorized Rifle,Regiment,1,1.0,71st Guards Motorized Rifle Regiment,71,42nd Guards Motorized Rifle Division,ru,True,SHGPUCIZ---G---
+2022-07-05,47.479825,35.548309,SHGPUCIA---H,VDV,Brigade,2,2.0,83rd Separate Guards Air Assault Brigade,83?,Russian Airborne Forces,ru,False,SHGPUCIA---H---
