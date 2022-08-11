@@ -26,6 +26,8 @@ def export_repo(CONSTS):
     # Fill nas
     df['subordinate_to'] = df['subordinate_to'].fillna('')
     df['unit'] = df['unit'].fillna('')
+    df['sources_url'] = df['sources_url'].fillna('')
+    df['sources_date'] = df['sources_date'].fillna('')
     df['strength_in_btg_number']  = df['strength_in_btg_number'].fillna(0)
     df['strength_in_btg_text']  = df['strength_in_btg_text'].fillna('n/a')
 
@@ -42,7 +44,7 @@ def export_repo(CONSTS):
     except:
         raise ValueError("🤬 Could not convert 'Location? into Lat Lng. Probably empty or invalid input")
 
-    df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg_text', 'strength_in_btg_number', 'unit', 'unitnumber', 'subordinate_to']]
+    df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg_text', 'strength_in_btg_number', 'unit', 'unitnumber', 'subordinate_to', 'sources_url', 'sources_date']]
 
     # Add country
     df['country'] = df['icon'].apply(country_from_icon)
@@ -77,6 +79,8 @@ def export_repo(CONSTS):
                     "unit": row['unit'].strip(),
                     "unitnumber": row['unitnumber'] if pd.notna(row['unitnumber']) else None,
                     "subordinate_to": row['subordinate_to'].strip(),
+                    "sources_url": row['sources_url'].strip(),
+                    "sources_date": row['sources_date'].strip(),
                     "stacked": row['stacked']
                 },
                 "geometry": {
@@ -128,6 +132,8 @@ def export_website(CONSTS):
     df['unit'] = df['unit'].fillna('')
     df['strength_in_btg_number']  = df['strength_in_btg_number'].fillna(0)
     df['strength_in_btg_text']  = df['strength_in_btg_text'].fillna('n/a')
+    df['sources_url'] = df['sources_url'].fillna('')
+    df['sources_date'] = df['sources_date'].fillna('')
 
     # Convert date
     try:
@@ -161,6 +167,18 @@ def export_website(CONSTS):
 
             for j, row in new_df.sort_values('sort', ascending=True).iterrows():
 
+                # Generate Source Array
+                sources_url = row['sources_url'].replace(' ', '').split(',')
+                sources_date = row['sources_date'].replace(' ', '').split(',')
+
+                if len(sources_url) != len(sources_date):
+                    raise ValueError('🤬 source_url and source_date do not have the same length. Look at this row: %s' % row)
+
+                sources = []
+                if row['sources_url'] != '':
+                    for i in range(0, len(sources_url)):
+                        sources.append({'url': sources_url[i], 'date': sources_date[i]})
+
                 units.append({
                         "icon": row['icon'],
                         "type": row['type'],
@@ -169,6 +187,7 @@ def export_website(CONSTS):
                         "strength_in_btg_text": row['strength_in_btg_text'],
                         "unit": row['unit'].strip(),
                         "subordinate_to": row['subordinate_to'].strip(),
+                        "sources": sources,
                     })
 
                 if len(new_df) > 1:
@@ -218,7 +237,7 @@ def export_website(CONSTS):
             print("🥵 Something wroing in row %s in Sheet troops" % (i + 1))
             print(list(row))
             print("ℹ️ Errormessage: %s" % e)
-            pass
+            #pass
             break
             
     # Export website
