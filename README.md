@@ -34,6 +34,8 @@ The **Unit**-files contains the units and where approximately their headquarters
 |unit|*str*|Name of the unit|
 |unitnumber|*str*|Name of the unit|
 |subordinate_to|*str*|Subordinates to which unit|
+|sources_url|*str*|Comma separated list with URL to Sources|
+|sources_date|*str*|Comma separated list with date of source. Corresponds with `sources_url`|
 |country|*enum*|Country where the unit is from. One of these: `ru`, `ua`, `na`|
 |stacked|*bool*|`True` if more than one feature/unit is at this exact location|
 
@@ -54,6 +56,9 @@ The **BTGs**-files contains the position of each individual unit (brigades, divi
 |country|*enum*|Country where the unit is from. One of these: `ru` (Russia), `ua` (Ukraine), `na` (unknow)|
 
 ## Data Structure Changes
+**`2022-08-12` Added Sources**  
+Added the columns `sources_url` and `sources_date`
+
 **`2022-05-17` Added icon15 für ArcGIS-Users**  
 Added column `icon15`. The MIL-STD-2525C-Symbol will have a length of 15 chars. Filled from the right with `-`.
 
