@@ -1655,8 +1655,8 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-06-13,48.367727,38.151885,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,3rd Separate Motorized Rifle Brigade (DPR),3,1st Army Corps (Donetsk),,,ru,False,SSGPUCIZ---H---
 2022-06-13,48.9,37.0,SNGPUCA----H,Armor,Brigade,n/a,0.0,3rd Separate Tank Brigade (Reserve),3,Operational Command East,,,ua,False,SNGPUCA----H---
 2022-06-13,49.020016,37.802044,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,30th Separate Motorized Rifle Brigade,30,2nd Guards Combined Arms Army,,,ru,True,SSGPUCIZ---H---
+2022-06-13,49.131170,37.234111,SSGPUCF----H,Artillery,Brigade,0,0.0,30th Artillery Brigade,30,36th Combined Arms Army,,,ru,True,SSGPUCF----H---
 2022-06-13,48.5,38.2,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,30th Separate Mechanized Brigade,30,Operational Command North,,,ua,False,SNGPUCIZ---H---
-2022-06-13,49.131170,37.234111,SSGPUCF----H,Artillery,Brigade,0,0.0,30th Artillery Brigade,30?,36th Combined Arms Army,,,ru,True,SSGPUCF----H---
 2022-06-13,48.721386,38.307633,SHGPUCIA---H,VDV,Brigade,1,1.0,31st Separate Guards Air Assault Brigade,31,Russian Airborne Forces,,,ru,True,SHGPUCIA---H---
 2022-06-13,46.691617,32.517521,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,1,1.0,33rd Guards Motorized Rifle Regiment,33,20th Guards Motorized Rifle Division,,,ru,True,SHGPUCIZ---G---
 2022-06-13,48.651039,38.497315,SSGPUCIN---H,Naval Infantry,Brigade,1,1.0,336th Separate Guards Naval Infantry Brigade,336?,Baltic Fleet,,,ru,True,SSGPUCIN---H---
@@ -1811,8 +1811,8 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-07-05,49.101935,37.314256,SHGPUCIZ--AI,Headquarters,Division,1,1.0,3rd Motorized Rifle Division,3,20th Guards Combined Arms Army,,,ru,True,SHGPUCIZ--AI---
 2022-07-05,48.9,37.0,SNGPUCA----H,Armor,Brigade,n/a,0.0,3rd Separate Tank Brigade (Reserve),3,Operational Command East,,,ua,False,SNGPUCA----H---
 2022-07-05,49.020016,37.802044,SSGPUCIZ---H,Motorized Rifle,Brigade,1,1.0,30th Separate Motorized Rifle Brigade,30,2nd Guards Combined Arms Army,,,ru,True,SSGPUCIZ---H---
+2022-07-05,49.131170,37.234111,SSGPUCF----H,Artillery,Brigade,0,0.0,30th Artillery Brigade,30,36th Combined Arms Army,,,ru,True,SSGPUCF----H---
 2022-07-05,48.5,37.9,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,30th Separate Mechanized Brigade,30,Operational Command North,,,ua,False,SNGPUCIZ---H---
-2022-07-05,49.131170,37.234111,SSGPUCF----H,Artillery,Brigade,0,0.0,30th Artillery Brigade,30?,36th Combined Arms Army,,,ru,True,SSGPUCF----H---
 2022-07-05,46.691617,32.517521,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,1,1.0,33rd Guards Motorized Rifle Regiment,33,20th Guards Motorized Rifle Division,,,ru,True,SHGPUCIZ---G---
 2022-07-05,47.209649,33.457040,SHGPUCIZ---H,Motorized Rifle (MTLB/MT-LBM),Brigade,1,1.0,34th Separate Motorized Rifle Brigade,34,22nd Army Corps,,,ru,True,SHGPUCIZ---H---
 2022-07-05,48.977516,38.130406,SSGPUCIZ---H,"Motorized Rifle (BMP-1, T-72BM)",Brigade,<1,1.0,35th Separate Guards Motorized Rifle Brigade,35,41st Combined Arms Army,,,ru,True,SSGPUCIZ---H---
@@ -1894,13 +1894,14 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-08-19,47.209649,33.457040,SSGPUCF----H,Artillery,Brigade,n/a,0.0,227th Artillery Brigade,227,49th Combined Arms Army,,,ru,True,SSGPUCF----H---
 2022-08-19,46.713095,32.414388,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,n/a,0.0,255th Guards Motorized Rifle Regiment,255,20th Guards Motorized Rifle Division,,,ru,True,SHGPUCIZ---G---
 2022-08-19,48.606841,38.244552,SSGPUCIZ---H,Motorized Rifle,Brigade,n/a,0.0,2nd Separate Motorized Rifle Brigade (LPR),2?,2nd Army Corps (Luhansk),https://www.facebook.com/ahmenid/posts/pfbid0WScM673ozoBg7yi6KQRPPcZ65Kt6Bo2jweT4g4oPHsmJjkgnTdgABvuAENbjCP9sl,20.08.2022,ru,True,SSGPUCIZ---H---
-2022-08-19,48.854099,38.288154,SSGPUCIZ---H,Motorized Rifle,Brigade,n/a,0.0,2nd Separate Motorized Rifle Brigade (LPR),2?,2nd Army Corps (Luhansk),,,ru,True,SSGPUCIZ---H---
 2022-08-19,48.513754,38.178930,SSGPUCIZ---H,Motorized Rifle,Brigade,n/a,0.0,3rd Separate Motorized Rifle Brigade (DPR),3,1st Army Corps (Donetsk),https://t.me/boris_rozhin/60930,20.08.2022,ru,False,SSGPUCIZ---H---
+2022-08-19,48.809712,38.421684,SSGPUCF----H,Artillery,Brigade,n/a,0.0,30th Artillery Brigade,30,36th Combined Arms Army,,,ru,False,SSGPUCF----H---
+2022-08-19,48.920350,38.339930,SSGPUCF----H,Artillery,Brigade,n/a,0.0,305th Artillery Brigade,305,5th Combined Arms Army,,,ru,False,SSGPUCF----H---
 2022-08-19,46.713095,32.414388,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,n/a,0.0,33rd Guards Motorized Rifle Regiment,33,20th Guards Motorized Rifle Division,,,ru,True,SHGPUCIZ---G---
 2022-08-19,47.209649,33.457040,SHGPUCIZ---H,Motorized Rifle (MTLB/MT-LBM),Brigade,n/a,0.0,34th Separate Motorized Rifle Brigade,34,22nd Army Corps,,,ru,True,SHGPUCIZ---H---
 2022-08-19,46.849707,35.376471,SHGPUCIZ--AK,Headquarters,Army,n/a,0.0,35th Combined Arms Army,35,Eastern Military District,https://twitter.com/TheStudyofWar/status/1559259365428936704TKp4l,15.08.2022,ru,True,SHGPUCIZ--AK---
 2022-08-19,48.638755,38.418966,SSGPUCIZ---H,"Motorized Rifle (BMP-1, T-72BM)",Brigade,n/a,0.0,35th Separate Guards Motorized Rifle Brigade,35,41st Combined Arms Army,https://www.facebook.com/ahmenid/posts/pfbid0WScM673ozoBg7yi6KQRPPcZ65Kt6Bo2jweT4g4oPHsmJjkgnTdgABvuAENbjCP9sl,20.08.2022,ru,True,SSGPUCIZ---H---
-2022-08-19,48.854099,38.288154,SSGPUCIZ---H,"Motorized Rifle (BMP-1, T-72BM)",Brigade,n/a,0.0,35th Separate Guards Motorized Rifle Brigade,35,41st Combined Arms Army,,,ru,True,SSGPUCIZ---H---
+2022-08-19,48.853930,38.240925,SSGPUCIZ---H,"Motorized Rifle (BMP-1, T-72BM)",Brigade,n/a,0.0,35th Separate Guards Motorized Rifle Brigade,35,41st Combined Arms Army,,,ru,True,SSGPUCIZ---H---
 2022-08-19,46.849707,35.376471,SSGPUCIZ--AK,Headquarters,Army,n/a,0.0,36th Combined Arms Army,36,Eastern Military District,"https://twitter.com/TheStudyofWar/status/1559259365428936704, https://www.facebook.com/ahmenid/posts/pfbid02RvWDSvHgS9UP5MrHmquvJK48g463Z5ZhNnFpdPa4gsm5WYMvKctpVVkK48qcTKp4l","15.08.2022, 13.08.2022",ru,True,SSGPUCIZ--AK---
 2022-08-19,49.224191,37.272689,SHGPUCA---AI,Headquarters,Division,n/a,0.0,4th Guards Tank Division,4,1st Guards Tank Army,https://twitter.com/Danspiun/status/1554963429055684610,03.08.2022,ru,True,SHGPUCA---AI---
 2022-08-19,48.757215,38.270848,SSGPUCIZ---H,Motorized Rifle,Brigade,n/a,0.0,4th Separate Motorized Rifle Brigade (LPR),4,2nd Army Corps (Luhansk),https://www.facebook.com/ahmenid/posts/pfbid0WScM673ozoBg7yi6KQRPPcZ65Kt6Bo2jweT4g4oPHsmJjkgnTdgABvuAENbjCP9sl,20.08.2022,ru,False,SSGPUCIZ---H---
@@ -1908,9 +1909,10 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-08-19,46.616310,32.727302,SSGPUCFRMS-H,Rocket Artillery,Brigade,n/a,0.0,439th Guards Rocket Artillery Brigade,439,Southern Military District,https://www.facebook.com/watch/?v=995006067836432,10.08.2022,ru,False,SSGPUCFRMS-H---
 2022-08-19,46.770590,33.377298,SHGPUCIZ--AK,Headquarters,Army,n/a,0.0,49th Combined Arms Army,49,Southern Military District,,,ru,True,SHGPUCIZ--AK---
 2022-08-19,46.886085,33.176573,SSGPUCIZ--AK,Headquarters,Army,n/a,0.0,5th Combined Arms Army,5,Eastern Military District,https://www.facebook.com/ahmenid/posts/pfbid02qpi3PP92EJNWHGnjdovBpzcgD3CSNH3Rdut48wRPDhZCbmcJqotKJfriwnsMeGU8l,17.08.2022,ru,True,SSGPUCIZ--AK---
-2022-08-19,48.854099,38.288154,SSGPUCIZ---H,Motorized Rifle,Brigade,n/a,0.0,55th Separate Motorized Rifle Brigade,55,41st Combined Arms Army,,,ru,True,SSGPUCIZ---H---
+2022-08-19,48.853930,38.240925,SSGPUCIZ---H,Motorized Rifle,Brigade,n/a,0.0,55th Separate Motorized Rifle Brigade,55,41st Combined Arms Army,,,ru,True,SSGPUCIZ---H---
 2022-08-19,46.849707,35.376471,SHGPUCIZ--AK,Headquarters,Army,n/a,0.0,58th Combined Arms Army,58,Southern Military District,,,ru,True,SHGPUCIZ--AK---
 2022-08-19,47.111795,33.023388,SSGPUCIZ---H,"Motorized Rifle (T-80BVM/T-72B3, BMP-2)",Brigade,n/a,0.0,64th Separate Motorized Rifle Brigade,64?,35th Combined Arms Army,https://www.facebook.com/ahmenid/posts/pfbid02k2LkMAZArErundjVvNnaeZ4BAyRcbJkKNjYbFjUjPBwhNtDdk1CPwx3dSP4ed9SLl,16.08.2022,ru,True,SSGPUCIZ---H---
 2022-08-19,46.652536,32.611332,SHGPUCIA--AI,Headquarters,Division,n/a,0.0,7th Guards Air Assault Division,7,22nd Army Corps,,,ru,True,SHGPUCIA--AI---
 2022-08-19,48.638755,38.418966,SSGPUCIZ---H,"Motorized Rifle (BMP-2, T-72B3)",Brigade,n/a,0.0,74th Separate Guards Motorized Rifle Brigade,74,41st Combined Arms Army,https://www.facebook.com/ahmenid/posts/pfbid0WScM673ozoBg7yi6KQRPPcZ65Kt6Bo2jweT4g4oPHsmJjkgnTdgABvuAENbjCP9sl,20.08.2022,ru,True,SSGPUCIZ---H---
 2022-08-19,46.770590,33.377298,SSGPUCIA--AI,Headquarters,Division,n/a,0.0,76th Guards Air Assault Division,76,Russian Airborne Forces,"https://twitter.com/TheStudyofWar/status/1559259365428936704, https://twitter.com/GirkinGirkin/status/1553012667467579396","15.08.2022, 29.07.2022",ru,True,SSGPUCIA--AI---
+2022-08-19,48.914794,38.435376,SSGPUCA---AI,Headquarters,Division,n/a,0.0,90th Guards Tank Division,90,Central Military District,,,ru,False,SSGPUCA---AI---
