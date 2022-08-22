@@ -12,6 +12,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-08-20,48.050593,37.701795,SSGPUCIZ---G,Motorized Rifle,Regiment,n/a,0.0,11th Separate Guards Motorized Rifle Regiment (DPR),11,1st Army Corps (Donetsk),"https://t.me/boris_rozhin/61070, https://t.me/wargonzo/7809","21.08.2022, 10.08.2022",ru,True,SSGPUCIZ---G---
 2022-08-20,47.056043,33.282324,SHGPUCIN---H,"Motorized Rifle (BMP-2/BTR-80, T-72B3)",Brigade,n/a,0.0,126th Separate Guards Coastal Defense Brigade,126,49th Combined Arms Army,,,ru,False,SHGPUCIN---H---
 2022-08-20,46.886085,33.176573,SHGPUCIZ--AI,Headquarters,Division,n/a,0.0,127th Motorized Rifle Division,127?,5th Combined Arms Army,https://www.facebook.com/ahmenid/posts/pfbid0dc3ciHhbMVUyuvJcPCWwFuby4fUqtnmvnGGVrd4MhfXinEEE4Y931Av3FijnBzs1l,21.08.2022,ru,True,SHGPUCIZ--AI---
+2022-08-20,47.7,36.1,SNGPUCIO---H,Infantry,Brigade,n/a,0.0,128th Separate Mountain Brigade,128,Operational Command West,https://militaryland.net/maps/deployment-map/,22.08.2022,ua,False,SNGPUCIO---H---
 2022-08-20,47.750654,36.843617,SHGPUCI----G,Infantry,Regiment,n/a,0.0,131st Reserve Regiment (DPR),131,1st Army Corps (Donetsk),https://t.me/wargonzo/7798,09.08.2022,ru,True,SHGPUCI----G---
 2022-08-20,47.604821,37.160456,SHGPUCIZ---H,Motorized Rifle (BMP-3),Brigade,n/a,0.0,136th Separate Guards Motorized Rifle Brigade,136,58th Combined Arms Army,,,ru,True,SHGPUCIZ---H---
 2022-08-20,50.303509,36.721292,SHGPUCIZ---H,"Motorized Rifle (MT-LBV, T-72B3)",Brigade,n/a,0.0,138th Separate Guards Motorized Rifle Brigade,138,6th Combined Arms Army,,,ru,False,SHGPUCIZ---H---
@@ -22,7 +23,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-08-20,47.604821,37.160456,SSGPUCIN---H,"Naval Infantry (BTR-80, T-80BV)",Brigade,n/a,0.0,155th Separate Guards Naval Infantry Brigade,155?,Pacific Fleet,,,ru,True,SSGPUCIN---H---
 2022-08-20,49.005635,37.791705,SSGPUCIZ---H,"Motorized Rifle (BTR-82A, T-72BM)",Brigade,n/a,0.0,15th Separate Motorized Rifle Brigade,15?,2nd Guards Combined Arms Army,,,ru,True,SSGPUCIZ---H---
 2022-08-20,47.914572,37.668465,SSGPUCA----G,"Armor (T-72B3, BMP-3)",Regiment,n/a,0.0,163rd Tank Regiment,163?,150th Motorized Rifle Division,,,ru,True,SSGPUCA----G---
-2022-08-20,47.8,32.2,SNGPUCA----H,Armor,Brigade,n/a,0.0,17th Separate Tank Brigade,17,Operational Command East,https://militaryland.net/maps/deployment-map/,22.08.2022,ua,False,SNGPUCA----H---
+2022-08-20,47.8,33.2,SNGPUCA----H,Armor,Brigade,n/a,0.0,17th Separate Tank Brigade,17,Operational Command East,https://militaryland.net/maps/deployment-map/,22.08.2022,ua,False,SNGPUCA----H---
 2022-08-20,50.588388,36.585965,SSGPUCIZ---I,Motorized Rifle,Division,n/a,0.0,18th Guards Motorized Rifle Division,18?,11th Army Corps,,,ru,True,SSGPUCIZ---I---
 2022-08-20,47.254796,35.712459,SHGPUCIZ--AI,Headquarters,Division,n/a,0.0,19th Motorized Rifle Division,19,58th Combined Arms Army,,,ru,True,SHGPUCIZ--AI---
 2022-08-20,49.224191,37.272689,SHGPUCIZ--AI,Headquarters,Division,n/a,0.0,2nd Guards Motorized Rifle Division,2,1st Guards Tank Army,https://twitter.com/Danspiun/status/1559507432887435267,16.08.2022,ru,True,SHGPUCIZ--AI---
@@ -66,7 +67,9 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-08-20,48.667107,38.155638,SSGPUCIZ---G,Motorized Rifle,Regiment,n/a,0.0,6th Separate Motorized Rifle Regiment (LPR),6,2nd Army Corps (Luhansk),https://t.me/boris_rozhin/61070,21.08.2022,ru,False,SSGPUCIZ---G---
 2022-08-20,50.588388,36.585965,SHGPUCIZ--AK,Headquarters,Army,n/a,0.0,6th Combined Arms Army,6,Western Military District,,,ru,True,SHGPUCIZ--AK---
 2022-08-20,47.111795,33.023388,SSGPUCIZ---H,"Motorized Rifle (T-80BVM/T-72B3, BMP-2)",Brigade,n/a,0.0,64th Separate Motorized Rifle Brigade,64?,35th Combined Arms Army,https://www.facebook.com/ahmenid/posts/pfbid02k2LkMAZArErundjVvNnaeZ4BAyRcbJkKNjYbFjUjPBwhNtDdk1CPwx3dSP4ed9SLl,16.08.2022,ru,True,SSGPUCIZ---H---
+2022-08-20,48.0,37.4,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,66th Mechanized Brigade,66,Reserve Corps,https://militaryland.net/maps/deployment-map/,22.08.2022,ua,False,SNGPUCIZ---H---
 2022-08-20,49.697319,37.181520,SHGPUCIZ--AJ,Headquarters,Corps,n/a,0.0,68th Army Corps,68,Eastern Military District,,,ru,True,SHGPUCIZ--AJ---
+2022-08-20,47.8,37.1,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,68th Jager Brigade,68,Reserve Corps,https://militaryland.net/maps/deployment-map/,22.08.2022,ua,False,SNGPUCIL---H---
 2022-08-20,46.652536,32.611332,SHGPUCIA--AI,Headquarters,Division,n/a,0.0,7th Guards Air Assault Division,7,22nd Army Corps,,,ru,True,SHGPUCIA--AI---
 2022-08-20,48.293978,38.109638,SSGPUCIZ---H,Motorized Rifle,Brigade,n/a,0.0,7th Separate Motorized Rifle Brigade (DPR),7,1st Army Corps (Donetsk),,,ru,False,SSGPUCIZ---H---
 2022-08-20,47.750654,36.843617,SHGPUCIZ---G,Motorized Rifle,Regiment,n/a,0.0,71st Guards Motorized Rifle Regiment,71,42nd Guards Motorized Rifle Division,,,ru,True,SHGPUCIZ---G---
