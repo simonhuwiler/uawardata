@@ -36,6 +36,7 @@ The **Unit**-files contains the units and where approximately their headquarters
 |subordinate_to|*str*|Subordinates to which unit|
 |sources_url|*str*|Comma separated list with URLs to Sources|
 |sources_date|*str*|Comma separated list with dates of sources. Corresponds with `sources_url`|
+|notes|*str*|Information about the sources|
 |country|*enum*|Country where the unit is from. One of these: `ru`, `ua`, `na`|
 |stacked|*bool*|`True` if more than one feature/unit is at this exact location|
 

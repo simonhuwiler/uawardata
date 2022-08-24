@@ -28,6 +28,7 @@ def export_repo(CONSTS):
     df['unit'] = df['unit'].fillna('')
     df['sources_url'] = df['sources_url'].fillna('')
     df['sources_date'] = df['sources_date'].fillna('')
+    df['notes'] = df['notes'].fillna('')
     df['strength_in_btg_number']  = df['strength_in_btg_number'].fillna(0)
     df['strength_in_btg_text']  = df['strength_in_btg_text'].fillna('n/a')
 
@@ -44,7 +45,7 @@ def export_repo(CONSTS):
     except:
         raise ValueError("🤬 Could not convert 'Location? into Lat Lng. Probably empty or invalid input")
 
-    df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg_text', 'strength_in_btg_number', 'unit', 'unitnumber', 'subordinate_to', 'sources_url', 'sources_date']]
+    df = df[['date', 'lat', 'lng', 'icon', 'type', 'strength', 'strength_in_btg_text', 'strength_in_btg_number', 'unit', 'unitnumber', 'subordinate_to', 'sources_url', 'sources_date', 'notes']]
 
     # Add country
     df['country'] = df['icon'].apply(country_from_icon)
@@ -81,6 +82,7 @@ def export_repo(CONSTS):
                     "subordinate_to": row['subordinate_to'].strip(),
                     "sources_url": row['sources_url'].strip(),
                     "sources_date": row['sources_date'].strip(),
+                    "notes": row['notes'].strip(),
                     "stacked": row['stacked']
                 },
                 "geometry": {
@@ -117,7 +119,7 @@ def export_website(CONSTS):
         raise ValueError("🤬 Unit Position withouth corresponding Unit in 'units_description'")
 
     # Sort values
-    df['sort'] = df['unitnumber'].apply(lambda x: re.sub("[^0-9a-zA-Z]+", "", x))
+    df['sort'] = df['unitnumber'].fillna("0").apply(lambda x: re.sub("[^0-9a-zA-Z]+", "", x))
     df['sort'] =  df['sort'].fillna('0')
     df['sort'] = pd.to_numeric(df['sort'])
     df = df.sort_values(['date', 'sort']).reset_index(drop=True)
@@ -134,6 +136,8 @@ def export_website(CONSTS):
     df['strength_in_btg_text']  = df['strength_in_btg_text'].fillna('n/a')
     df['sources_url'] = df['sources_url'].fillna('')
     df['sources_date'] = df['sources_date'].fillna('')
+    df['notes'] = df['notes'].fillna('')
+    df['unitnumber'] = df['unitnumber'].fillna("")
 
     # Convert date
     try:
@@ -188,6 +192,7 @@ def export_website(CONSTS):
                         "unit": row['unit'].strip(),
                         "subordinate_to": row['subordinate_to'].strip(),
                         "sources": sources,
+                        "notes": row['notes'].strip()
                     })
 
                 if len(new_df) > 1:
