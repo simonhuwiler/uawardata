@@ -1988,3 +1988,5 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-08-20,47.5,35.8,SNGPUCI----F,Infantry,Battalion,n/a,0.0,98th Azov Battalion,98,108th Defense Brigade,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCI----F---
 2022-08-20,47.102210,32.746420,SHGPUCI-----,Infantry,Unknown,n/a,0.0,U/I Wagner Element,,PMC Wagner,https://twitter.com/GeoConfirmed/status/1557046016548954112,09.08.2022,,ru,False,SHGPUCI--------
 2022-08-20,48.606841,38.244552,SHGPUCI-----,Infantry,Unknown,n/a,0.0,U/I Wagner Element,,PMC Wagner,https://www.facebook.com/ahmenid/posts/pfbid0WScM673ozoBg7yi6KQRPPcZ65Kt6Bo2jweT4g4oPHsmJjkgnTdgABvuAENbjCP9sl,20.08.2022,,ru,True,SHGPUCI--------
+2022-08-20,48.8,37.9,SNGPUCIL---G,Light Infantry,Regiment,n/a,0.0,Foreign Legion,,Ukraine Ministry of Defense,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIL---G---
+2022-08-20,48.9,37.8,SNGPUCI----F,Infantry,Battalion,n/a,0.0,Azov Battalion,,Azov Regiment,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCI----F---
