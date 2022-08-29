@@ -2,6 +2,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-08-20,49.224191,37.272689,SSGPUCA---AK,Headquarters,Army,n/a,0.0,1st Guards Tank Army,1,Western Military District,,,Elements know to be in the Izium area as of mid-August.,ru,True,SSGPUCA---AK---
 2022-08-20,48.040553,37.968152,SHGPUCIZ--AJ,Headquarters,Corps,n/a,0.0,1st Army Corps (Donetsk),1,Southern Military District,,,,ru,True,SHGPUCIZ--AJ---
 2022-08-20,47.9,36.7,SNGPUCA----F,Armor,Battalion,n/a,0.0,1st Tank Battalion,1,1st Separate Tank Brigade,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCA----F---
+2022-08-20,48.6,37.7,SNGPUCA----H,Armor,Brigade,n/a,0.0,1st Separate Tank Brigade,1,Operational Command North,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCA----H---
 2022-08-20,47.336893,33.594144,SSGPUCRA---H,Special Purpose,Brigade,n/a,0.0,10th Separate Special Purpose Brigade,10,Southern Military District,,,,ru,True,SSGPUCRA---H---
 2022-08-20,47.914572,37.668465,SSGPUCIZ---H,Motorized Rifle,Brigade,n/a,0.0,100th Separate Motorized Rifle Brigade (DPR),100,1st Army Corps (Donetsk),https://t.me/boris_rozhin/60898,19.08.2022,,ru,True,SSGPUCIZ---H---
 2022-08-20,48.7,38.0,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,102nd Territorial Defense Brigade,102,Operational Command West,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIL---H---
@@ -14,6 +15,8 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-08-20,48.050593,37.701795,SHGPUCIZ---G,Motorized Rifle,Regiment,n/a,0.0,11th Separate Guards Motorized Rifle Regiment (DPR),11,1st Army Corps (Donetsk),"https://t.me/boris_rozhin/61070, https://t.me/wargonzo/7809","21.08.2022, 10.08.2022",,ru,True,SHGPUCIZ---G---
 2022-08-20,48.050593,37.701795,SSGPUCIZ---G,Motorized Rifle,Regiment,n/a,0.0,11th Separate Guards Motorized Rifle Regiment (DPR),11,1st Army Corps (Donetsk),"https://t.me/boris_rozhin/61070, https://t.me/wargonzo/7809","21.08.2022, 10.08.2022",,ru,True,SSGPUCIZ---G---
 2022-08-20,48.3,37.7,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,110th Territorial Defense Brigade,110,Operational Command East,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIL---H---
+2022-08-20,48.6,37.8,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,111th Territorial Defense Brigade,111,Operational Command East,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIL---H---
+2022-08-20,48.6,37.9,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,112th Territorial Defense Brigade,112,Operational Command North,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIL---H---
 2022-08-20,48.8,38.1,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,114th Territorial Defense Brigade,114,Operational Command North,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIL---H---
 2022-08-20,48.9,38.1,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,115th Separate Mechanized Brigade,115,Reserve Corps,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIZ---H---
 2022-08-20,48.7,37.9,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,118th Territorial Defense Brigade,118,Operational Command North,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIL---H---
@@ -27,6 +30,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-08-20,50.303509,36.721292,SHGPUCIZ---H,"Motorized Rifle (MT-LBV, T-72B3)",Brigade,n/a,0.0,138th Separate Guards Motorized Rifle Brigade,138,6th Combined Arms Army,,,,ru,False,SHGPUCIZ---H---
 2022-08-20,50.588388,36.585965,SSGPUCIZ--AJ,Headquarters,Corps,n/a,0.0,14th Army Corps,14,Northern Fleet,,,,ru,True,SSGPUCIZ--AJ---
 2022-08-20,47.3,32.7,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,14th Separate Mechanized Brigade,14,Operational Command West,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIZ---H---
+2022-08-20,48.7,37.8,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,14th Separate Mechanized Brigade,14,Operational Command West,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIZ---H---
 2022-08-20,47.265538,33.877053,SHGPUCF----G,Artillery,Regiment,n/a,0.0,140th Artillery Regiment,140,46th Separate Operational Brigade,https://www.facebook.com/ahmenid/posts/pfbid02qpi3PP92EJNWHGnjdovBpzcgD3CSNH3Rdut48wRPDhZCbmcJqotKJfriwnsMeGU8l,17.08.2022,,ru,False,SHGPUCF----G---
 2022-08-20,47.437426,35.292807,SSGPUCA----F,Armor (T-90A/T-90M),Battalion,n/a,0.0,141st Separate Guards Tank Battalion,141,19th Motorized Rifle Division,"https://twitter.com/tom_bullock_/status/1560274643830710272, https://t.me/marzoev_oleg/954","18.08.2022, 10.07.2022",,ru,True,SSGPUCA----F---
 2022-08-20,48.8,38.0,SNGPUCIL---G,Light Infantry,Regiment,n/a,0.0,15th National Guard Regiment,15,National Guard,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIL---G---
@@ -55,6 +59,7 @@ date,lat,lng,icon,type,strength,strength_in_btg_text,strength_in_btg_number,unit
 2022-08-20,50.385034,36.285336,SHGPUCIZ---H,"Motorized Rifle (T-72B3, MTLB)",Brigade,n/a,0.0,25th Separate Guards Motorized Rifle Brigade,25,6th Combined Arms Army,,,,ru,False,SHGPUCIZ---H---
 2022-08-20,48.2,37.7,SNGPUCIA---H,Airborne,Brigade,n/a,0.0,25th Airborne Brigade,25,Assault Forces,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIA---H---
 2022-08-20,46.713095,32.414388,SHGPUCIZ---G,"Motorized Rifle (BMP-3, T-90A)",Regiment,n/a,0.0,255th Guards Motorized Rifle Regiment,255,20th Guards Motorized Rifle Division,,,"Personal assessment. Based on older information, elements may have relocated to Kherson Oblast.",ru,True,SHGPUCIZ---G---
+2022-08-20,48.7,37.7,SNGPUCIL---H,Light Infantry,Brigade,n/a,0.0,27th National Guard Brigade,27,National Guard,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIL---H---
 2022-08-20,50.288821,36.930181,SSGPUCIZ---H,"Motorized Rifle (BTR-82A/BMP-3, T-90A)",Brigade,n/a,0.0,27th Separate Guards Motorized Rifle Brigade,27?,1st Guards Tank Army,,,,ru,False,SSGPUCIZ---H---
 2022-08-20,47.0,32.4,SNGPUCIZ---H,Mechanized Infantry,Brigade,n/a,0.0,28th Separate Mechanized Brigade,28,Operational Command South,https://militaryland.net/maps/deployment-map/,22.08.2022,,ua,False,SNGPUCIZ---H---
 2022-08-20,47.750654,36.843617,SSGPUCIZ---G,Motorized Rifle,Regiment,n/a,0.0,291st Guards Motorized Rifle Regiment,291,42nd Guards Motorized Rifle Division,,,,ru,True,SSGPUCIZ---G---
